@@ -1,6 +1,4 @@
 import { useEffect } from "react";
-import { motion } from "framer-motion";
-import { Bot, MessageCircle } from "lucide-react";
 
 export default function Chat() {
   useEffect(() => {
@@ -15,41 +13,28 @@ export default function Chat() {
   }, []);
 
   return (
-    <div className="min-h-screen flex flex-col bg-white">
-      {/* Header */}
-      <header className="chat-gradient-bg text-white py-4 px-4 sm:px-6 shadow-md">
-        <div className="max-w-7xl mx-auto flex items-center justify-between">
-          <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white/20 backdrop-blur rounded-lg flex items-center justify-center">
-              <Bot className="w-6 h-6" />
-            </div>
-            <div>
-              <h1 className="text-lg sm:text-xl font-bold">AI Assistant</h1>
-              <p className="text-xs text-white/80 hidden sm:block">Powered by Pickaxe</p>
-            </div>
-          </div>
-          <div className="flex items-center gap-2">
-            <span className="hidden sm:flex items-center gap-2 text-sm bg-white/10 px-3 py-1.5 rounded-full">
-              <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
-              Online
-            </span>
-          </div>
+    <div className="min-h-screen w-full bg-gradient-to-br from-blue-50 via-white to-indigo-50">
+      <div className="container mx-auto px-4 py-6 h-screen flex flex-col max-w-7xl">
+        {/* Header */}
+        <div className="mb-6">
+          <h1 className="text-3xl sm:text-4xl font-bold bg-gradient-to-r from-blue-600 to-indigo-600 bg-clip-text text-transparent">
+            AI Assistant
+          </h1>
+          <p className="text-gray-600 mt-2 text-sm sm:text-base">Your intelligent companion, powered by advanced AI</p>
         </div>
-      </header>
-
-      {/* Main Content - Full Screen Pickaxe */}
-      <main className="flex-1 flex flex-col overflow-hidden">
-        <motion.div 
-          className="flex-1 w-full"
-          initial={{ opacity: 0 }}
-          animate={{ opacity: 1 }}
-          transition={{ duration: 0.3 }}
-        >
-          <div className="h-full w-full">
-            <div id="deployment-db3907fd-d283-4eb4-b96b-0a777b753af5" className="h-full"></div>
-          </div>
-        </motion.div>
-      </main>
+        
+        {/* Chat Container */}
+        <div className="flex-1 bg-white rounded-3xl shadow-2xl overflow-hidden border border-gray-100">
+          <div id="deployment-db3907fd-d283-4eb4-b96b-0a777b753af5" className="w-full h-full"></div>
+        </div>
+        
+        {/* Footer */}
+        <div className="mt-4 text-center">
+          <p className="text-xs sm:text-sm text-gray-500">
+            Powered by Pickaxe AI • Secure & Private
+          </p>
+        </div>
+      </div>
     </div>
   );
 }

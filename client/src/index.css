@@ -183,3 +183,42 @@
     opacity: 1;
   }
 }
+
+/* Pickaxe responsive styles */
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 {
+  width: 100% !important;
+  height: 100% !important;
+  max-width: 100% !important;
+}
+
+/* Ensure Pickaxe iframe is responsive */
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 iframe {
+  width: 100% !important;
+  height: 100% !important;
+  border: none !important;
+}
+
+/* Responsive input field styling */
+@media (max-width: 640px) {
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 input,
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 textarea {
+    font-size: 16px !important; /* Prevents zoom on iOS */
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 641px) and (max-width: 1024px) {
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 input,
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 textarea {
+    font-size: 16px !important;
+    max-width: 100% !important;
+  }
+}
+
+@media (min-width: 1025px) {
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 input,
+  #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 textarea {
+    font-size: 16px !important;
+    max-width: 100% !important;
+  }
+}
