@@ -8,8 +8,39 @@ export default function Chat() {
     script.defer = true;
     document.body.appendChild(script);
     
+    // Hide Pickaxe header after embed loads
+    const hideHeader = setInterval(() => {
+      const pickaxeContainer = document.getElementById('deployment-db3907fd-d283-4eb4-b96b-0a777b753af5');
+      if (pickaxeContainer) {
+        const headers = pickaxeContainer.querySelectorAll('header, [class*="header"], [class*="Header"]');
+        headers.forEach(header => {
+          (header as HTMLElement).style.display = 'none';
+        });
+        
+        // Try to access iframe content (may be blocked by CORS)
+        const iframe = pickaxeContainer.querySelector('iframe');
+        if (iframe) {
+          try {
+            const iframeDoc = iframe.contentDocument || iframe.contentWindow?.document;
+            if (iframeDoc) {
+              const iframeHeaders = iframeDoc.querySelectorAll('header, [class*="header"], [class*="Header"]');
+              iframeHeaders.forEach(header => {
+                (header as HTMLElement).style.display = 'none';
+              });
+            }
+          } catch (e) {
+            // CORS restriction, can't access iframe content
+          }
+        }
+      }
+    }, 500);
+    
+    // Clear interval after 10 seconds
+    setTimeout(() => clearInterval(hideHeader), 10000);
+    
     return () => {
       document.body.removeChild(script);
+      clearInterval(hideHeader);
     };
   }, []);
 

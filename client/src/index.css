@@ -198,6 +198,14 @@
   border: none !important;
 }
 
+/* Hide Pickaxe header */
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 header,
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 [class*="header"],
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 [class*="Header"],
+#deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 [data-testid*="header"] {
+  display: none !important;
+}
+
 /* Responsive input field styling */
 @media (max-width: 640px) {
   #deployment-db3907fd-d283-4eb4-b96b-0a777b753af5 input,
