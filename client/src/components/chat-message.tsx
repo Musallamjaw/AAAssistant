@@ -1,6 +1,8 @@
 import { motion } from "framer-motion";
 import { Bot, User } from "lucide-react";
 import { ChatMessage } from "@shared/schema";
+import ReactMarkdown from "react-markdown";
+import remarkGfm from "remark-gfm";
 
 interface ChatMessageProps {
   message: ChatMessage;
@@ -36,19 +38,28 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
               : 'bg-white rounded-2xl rounded-tl-md'
           } shadow-sm px-4 py-3 max-w-md sm:max-w-lg`}
         >
-          <p className={`text-sm sm:text-base ${isUser ? 'text-white' : 'text-foreground'}`}>
-            {message.content}
-          </p>
-          
-          {/* Handle lists in bot messages */}
-          {!isUser && message.content.includes('•') && (
-            <div className="mt-2 space-y-1 text-sm sm:text-base">
-              {message.content.split('\n').filter(line => line.includes('•')).map((item, index) => (
-                <div key={index} className="flex items-center gap-2">
-                  <span className="w-1.5 h-1.5 bg-blue-500 rounded-full flex-shrink-0"></span>
-                  <span>{item.replace('• ', '').trim()}</span>
-                </div>
-              ))}
+          {isUser ? (
+            <p className="text-sm sm:text-base text-white whitespace-pre-wrap">
+              {message.content}
+            </p>
+          ) : (
+            <div className="text-sm sm:text-base text-foreground markdown-content">
+              <ReactMarkdown 
+                remarkPlugins={[remarkGfm]}
+                components={{
+                  p: ({children}) => <p className="mb-3 last:mb-0">{children}</p>,
+                  strong: ({children}) => <strong className="font-bold text-blue-600">{children}</strong>,
+                  ul: ({children}) => <ul className="space-y-1.5 my-2">{children}</ul>,
+                  ol: ({children}) => <ol className="space-y-1.5 my-2 list-decimal list-inside">{children}</ol>,
+                  li: ({children}) => <li className="leading-relaxed">{children}</li>,
+                  h1: ({children}) => <h1 className="text-xl font-bold mb-2 mt-3 first:mt-0">{children}</h1>,
+                  h2: ({children}) => <h2 className="text-lg font-bold mb-2 mt-3 first:mt-0">{children}</h2>,
+                  h3: ({children}) => <h3 className="text-base font-bold mb-2 mt-2 first:mt-0">{children}</h3>,
+                  hr: () => <hr className="my-3 border-gray-200" />,
+                }}
+              >
+                {message.content}
+              </ReactMarkdown>
             </div>
           )}
         </div>
