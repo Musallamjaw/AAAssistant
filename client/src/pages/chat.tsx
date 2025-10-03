@@ -32,10 +32,28 @@ export default function Chat() {
       queryClient.invalidateQueries({ queryKey: ["/api/chat/messages"] });
       setIsTyping(true);
       
-      // Simulate bot typing delay
-      setTimeout(() => {
-        setIsTyping(false);
+      // Poll for bot response every 2 seconds for up to 30 seconds
+      let pollCount = 0;
+      const maxPolls = 15; // 15 * 2 seconds = 30 seconds max wait
+      const pollInterval = setInterval(() => {
+        pollCount++;
         queryClient.invalidateQueries({ queryKey: ["/api/chat/messages"] });
+        
+        // Stop polling after max attempts
+        if (pollCount >= maxPolls) {
+          clearInterval(pollInterval);
+          setIsTyping(false);
+        }
+        
+        // Check if we got a bot response
+        const currentMessages = queryClient.getQueryData<ChatMessage[]>(["/api/chat/messages"]);
+        if (currentMessages && currentMessages.length > 0) {
+          const lastMessage = currentMessages[currentMessages.length - 1];
+          if (!lastMessage.isUser) {
+            clearInterval(pollInterval);
+            setIsTyping(false);
+          }
+        }
       }, 2000);
     },
   });
