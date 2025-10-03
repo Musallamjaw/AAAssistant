@@ -10,6 +10,16 @@ import ChatMessageComponent from "@/components/chat-message";
 import TypingIndicator from "@/components/typing-indicator";
 
 export default function Chat() {
+  useEffect(() => {
+    const script = document.createElement('script');
+    script.src = 'https://studio.pickaxe.co/api/embed/bundle.js';
+    script.defer = true;
+    document.body.appendChild(script);
+    
+    return () => {
+      document.body.removeChild(script);
+    };
+  }, []);
   const [message, setMessage] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
@@ -143,6 +153,11 @@ export default function Chat() {
       {/* Main Chat Container */}
       <main className="flex-1 flex flex-col overflow-hidden">
         <div className="max-w-6xl w-full mx-auto flex-1 flex flex-col px-4 sm:px-6 lg:px-8 py-6">
+          
+          {/* Pickaxe Embed */}
+          <div className="mb-6">
+            <div id="deployment-db3907fd-d283-4eb4-b96b-0a777b753af5"></div>
+          </div>
           
           {/* Welcome Section */}
           {messages.length === 0 && !isLoading && (
