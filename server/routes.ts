@@ -5,14 +5,17 @@ import { insertChatMessageSchema } from "@shared/schema";
 import { z } from "zod";
 import OpenAI from "openai";
 
-// Initialize OpenAI client if API key is available
+// Initialize OpenAI client with OpenRouter if API key is available
 let openaiClient: OpenAI | null = null;
 const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
 if (OPENAI_API_KEY) {
   try {
-    openaiClient = new OpenAI({ apiKey: OPENAI_API_KEY });
-    console.log("OpenAI client initialized successfully");
+    openaiClient = new OpenAI({ 
+      apiKey: OPENAI_API_KEY,
+      baseURL: "https://openrouter.ai/api/v1"
+    });
+    console.log("OpenAI client initialized successfully with OpenRouter");
   } catch (error) {
     console.error("Failed to initialize OpenAI client:", error);
   }
@@ -23,7 +26,6 @@ if (OPENAI_API_KEY) {
 // Track chat session to prevent stale bot responses after clear
 let currentChatSession = 0;
 
-// the newest OpenAI model is "gpt-5" which was released August 7, 2025. do not change this unless explicitly requested by the user
 async function getBotResponse(userMessage: string): Promise<string> {
   if (!openaiClient) {
     return "I'm currently in demo mode. Please configure the OPENAI_API_KEY environment variable to enable AI responses.";
@@ -31,7 +33,7 @@ async function getBotResponse(userMessage: string): Promise<string> {
 
   try {
     const response = await openaiClient.chat.completions.create({
-      model: "gpt-5",
+      model: "openai/chatgpt-4o-latest",
       messages: [
         {
           role: "system",
@@ -42,7 +44,7 @@ async function getBotResponse(userMessage: string): Promise<string> {
           content: userMessage
         }
       ],
-      max_completion_tokens: 2048,
+      max_tokens: 2048,
     });
 
     return response.choices[0].message.content || "I couldn't generate a response. Please try again.";
