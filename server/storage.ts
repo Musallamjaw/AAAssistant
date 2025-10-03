@@ -7,6 +7,7 @@ export interface IStorage {
   createUser(user: InsertUser): Promise<User>;
   getChatMessages(): Promise<ChatMessage[]>;
   createChatMessage(message: InsertChatMessage): Promise<ChatMessage>;
+  clearChatMessages(): Promise<void>;
 }
 
 export class MemStorage implements IStorage {
@@ -51,6 +52,10 @@ export class MemStorage implements IStorage {
     };
     this.chatMessages.set(id, message);
     return message;
+  }
+
+  async clearChatMessages(): Promise<void> {
+    this.chatMessages.clear();
   }
 }
 

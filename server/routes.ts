@@ -32,6 +32,9 @@ if (BOTPRESS_API_KEY) {
 // Simple in-memory storage for conversation/user IDs per session
 const sessionConversations = new Map<string, { conversationId: string; userId: string }>();
 
+// Track chat session to prevent stale bot responses after clear
+let currentChatSession = 0;
+
 async function getBotResponse(userMessage: string, sessionId: string = 'default'): Promise<string> {
   if (!botpressClient) {
     return "I'm currently in demo mode. Please configure BOTPRESS_API_KEY and BOTPRESS_BOT_ID environment variables to enable AI responses.";
@@ -112,12 +115,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
       
       // Get bot response using Botpress
       if (messageData.isUser) {
+        // Capture the current session ID to check later
+        const sessionAtRequest = currentChatSession;
+        
         // Get bot response asynchronously
         getBotResponse(messageData.content).then(async (botResponse) => {
-          await storage.createChatMessage({
-            content: botResponse,
-            isUser: false,
-          });
+          // Only store bot response if chat hasn't been cleared since request
+          if (sessionAtRequest === currentChatSession) {
+            await storage.createChatMessage({
+              content: botResponse,
+              isUser: false,
+            });
+          }
         }).catch((error) => {
           console.error("Failed to get bot response:", error);
         });
@@ -130,6 +139,18 @@ export async function registerRoutes(app: Express): Promise<Server> {
       } else {
         res.status(500).json({ error: "Failed to create message" });
       }
+    }
+  });
+
+  // Clear all chat messages
+  app.delete("/api/chat/messages", async (req, res) => {
+    try {
+      await storage.clearChatMessages();
+      // Increment session to invalidate any pending bot responses
+      currentChatSession++;
+      res.json({ success: true, message: "All messages cleared" });
+    } catch (error) {
+      res.status(500).json({ error: "Failed to clear messages" });
     }
   });
 

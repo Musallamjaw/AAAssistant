@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Lightbulb, HelpCircle, Star } from "lucide-react";
+import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Lightbulb, HelpCircle, Star, RotateCcw } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { apiRequest } from "@/lib/queryClient";
@@ -37,6 +37,18 @@ export default function Chat() {
         setIsTyping(false);
         queryClient.invalidateQueries({ queryKey: ["/api/chat/messages"] });
       }, 2000);
+    },
+  });
+
+  const clearMessagesMutation = useMutation({
+    mutationFn: async () => {
+      const response = await apiRequest("DELETE", "/api/chat/messages");
+      return response.json();
+    },
+    onSuccess: () => {
+      queryClient.setQueryData(["/api/chat/messages"], []);
+      setIsTyping(false);
+      setMessage("");
     },
   });
 
@@ -100,11 +112,22 @@ export default function Chat() {
               <p className="text-xs text-white/80">Always here to help</p>
             </div>
           </div>
-          <div className="flex items-center gap-4">
+          <div className="flex items-center gap-2 sm:gap-4">
             <span className="hidden sm:flex items-center gap-2 text-sm bg-white/10 px-3 py-1.5 rounded-full">
               <span className="w-2 h-2 bg-green-400 rounded-full animate-pulse"></span>
               Online
             </span>
+            <Button
+              variant="ghost"
+              size="icon"
+              onClick={() => clearMessagesMutation.mutate()}
+              disabled={clearMessagesMutation.isPending || messages.length === 0}
+              className="w-9 h-9 bg-white/10 hover:bg-white/20 text-white disabled:opacity-50 disabled:cursor-not-allowed"
+              data-testid="restart-chat-button"
+              title="Restart chat"
+            >
+              <RotateCcw className="w-4 h-4" />
+            </Button>
             <Button
               variant="ghost"
               size="icon"
