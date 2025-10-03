@@ -3,95 +3,51 @@ import { createServer, type Server } from "http";
 import { storage } from "./storage";
 import { insertChatMessageSchema } from "@shared/schema";
 import { z } from "zod";
-import { Client } from "@botpress/client";
-import { nanoid } from "nanoid";
+import OpenAI from "openai";
 
-// Initialize Botpress client if API key is available
-let botpressClient: Client | null = null;
-const BOTPRESS_API_KEY = process.env.BOTPRESS_API_KEY;
-const BOTPRESS_BOT_ID = process.env.BOTPRESS_BOT_ID;
+// Initialize OpenAI client if API key is available
+let openaiClient: OpenAI | null = null;
+const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
 
-if (BOTPRESS_API_KEY) {
+if (OPENAI_API_KEY) {
   try {
-    const clientConfig: any = { token: BOTPRESS_API_KEY };
-    if (BOTPRESS_BOT_ID) {
-      clientConfig.botId = BOTPRESS_BOT_ID;
-    }
-    botpressClient = new Client(clientConfig);
-    console.log("Botpress client initialized with BAK");
-    if (!BOTPRESS_BOT_ID) {
-      console.log("Note: BOTPRESS_BOT_ID not set - some operations may be limited");
-    }
+    openaiClient = new OpenAI({ apiKey: OPENAI_API_KEY });
+    console.log("OpenAI client initialized successfully");
   } catch (error) {
-    console.error("Failed to initialize Botpress client:", error);
+    console.error("Failed to initialize OpenAI client:", error);
   }
 } else {
-  console.log("Botpress not configured - BOTPRESS_API_KEY not set");
+  console.log("OpenAI not configured - OPENAI_API_KEY not set");
 }
-
-// Simple in-memory storage for conversation/user IDs per session
-const sessionConversations = new Map<string, { conversationId: string; userId: string }>();
 
 // Track chat session to prevent stale bot responses after clear
 let currentChatSession = 0;
 
-async function getBotResponse(userMessage: string, sessionId: string = 'default'): Promise<string> {
-  if (!botpressClient) {
-    return "I'm currently in demo mode. Please configure BOTPRESS_API_KEY and BOTPRESS_BOT_ID environment variables to enable AI responses.";
+// the newest OpenAI model is "gpt-5" which was released August 7, 2025. do not change this unless explicitly requested by the user
+async function getBotResponse(userMessage: string): Promise<string> {
+  if (!openaiClient) {
+    return "I'm currently in demo mode. Please configure the OPENAI_API_KEY environment variable to enable AI responses.";
   }
 
   try {
-    // Get or create conversation and user IDs for this session
-    let session = sessionConversations.get(sessionId);
-    
-    if (!session) {
-      // Create a new conversation and user
-      const userId = `user-${nanoid()}`;
-      
-      const { user } = await botpressClient.getOrCreateUser({ tags: { id: userId } });
-      const { conversation } = await botpressClient.getOrCreateConversation({
-        channel: 'channel',
-        tags: { id: `conv-${nanoid()}` },
-      });
-
-      session = {
-        conversationId: conversation.id,
-        userId: user.id,
-      };
-      sessionConversations.set(sessionId, session);
-    }
-
-    // Send user message to Botpress
-    await botpressClient.createMessage({
-      conversationId: session.conversationId,
-      userId: session.userId,
-      type: 'text',
-      payload: {
-        text: userMessage,
-      },
-      tags: {},
+    const response = await openaiClient.chat.completions.create({
+      model: "gpt-5",
+      messages: [
+        {
+          role: "system",
+          content: "You are a helpful and friendly AI assistant. Provide clear, concise, and helpful responses to user questions."
+        },
+        {
+          role: "user",
+          content: userMessage
+        }
+      ],
+      max_completion_tokens: 2048,
     });
 
-    // Wait a moment for the bot to process and respond
-    await new Promise(resolve => setTimeout(resolve, 1500));
-
-    // Get the latest messages from the conversation
-    const { messages } = await botpressClient.listMessages({
-      conversationId: session.conversationId,
-    });
-
-    // Find the most recent bot message
-    const botMessages = messages
-      .filter(msg => msg.direction === 'outgoing' && msg.type === 'text')
-      .sort((a, b) => new Date(b.createdAt).getTime() - new Date(a.createdAt).getTime());
-
-    if (botMessages.length > 0 && botMessages[0].payload.text) {
-      return botMessages[0].payload.text;
-    }
-
-    return "I received your message but couldn't generate a response. Please try again.";
+    return response.choices[0].message.content || "I couldn't generate a response. Please try again.";
   } catch (error) {
-    console.error("Botpress API error:", error);
+    console.error("OpenAI API error:", error);
     return "I'm having trouble connecting to my AI service right now. Please try again in a moment.";
   }
 }
@@ -113,7 +69,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const messageData = insertChatMessageSchema.parse(req.body);
       const message = await storage.createChatMessage(messageData);
       
-      // Get bot response using Botpress
+      // Get bot response using OpenAI
       if (messageData.isUser) {
         // Capture the current session ID to check later
         const sessionAtRequest = currentChatSession;
