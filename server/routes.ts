@@ -5,22 +5,22 @@ import { insertChatMessageSchema } from "@shared/schema";
 import { z } from "zod";
 import OpenAI from "openai";
 
-// Initialize OpenAI client with OpenRouter if API key is available
+// Initialize OpenAI client with DeepSeek if API key is available
 let openaiClient: OpenAI | null = null;
-const OPENAI_API_KEY = process.env.OPENAI_API_KEY;
+const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 
-if (OPENAI_API_KEY) {
+if (DEEPSEEK_API_KEY) {
   try {
     openaiClient = new OpenAI({ 
-      apiKey: OPENAI_API_KEY,
-      baseURL: "https://openrouter.ai/api/v1"
+      apiKey: DEEPSEEK_API_KEY,
+      baseURL: "https://api.deepseek.com"
     });
-    console.log("OpenAI client initialized successfully with OpenRouter");
+    console.log("OpenAI client initialized successfully with DeepSeek");
   } catch (error) {
-    console.error("Failed to initialize OpenAI client:", error);
+    console.error("Failed to initialize DeepSeek client:", error);
   }
 } else {
-  console.log("OpenAI not configured - OPENAI_API_KEY not set");
+  console.log("DeepSeek not configured - DEEPSEEK_API_KEY not set");
 }
 
 // Track chat session to prevent stale bot responses after clear
@@ -28,12 +28,12 @@ let currentChatSession = 0;
 
 async function getBotResponse(userMessage: string): Promise<string> {
   if (!openaiClient) {
-    return "I'm currently in demo mode. Please configure the OPENAI_API_KEY environment variable to enable AI responses.";
+    return "I'm currently in demo mode. Please configure the DEEPSEEK_API_KEY environment variable to enable AI responses.";
   }
 
   try {
     const response = await openaiClient.chat.completions.create({
-      model: "openai/chatgpt-4o-latest",
+      model: "deepseek-chat",
       messages: [
         {
           role: "system",
