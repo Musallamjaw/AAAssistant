@@ -11,14 +11,22 @@ let botpressClient: Client | null = null;
 const BOTPRESS_API_KEY = process.env.BOTPRESS_API_KEY;
 const BOTPRESS_BOT_ID = process.env.BOTPRESS_BOT_ID;
 
-if (BOTPRESS_API_KEY && BOTPRESS_BOT_ID) {
-  botpressClient = new Client({
-    token: BOTPRESS_API_KEY,
-    botId: BOTPRESS_BOT_ID,
-  });
-  console.log("Botpress client initialized successfully");
+if (BOTPRESS_API_KEY) {
+  try {
+    const clientConfig: any = { token: BOTPRESS_API_KEY };
+    if (BOTPRESS_BOT_ID) {
+      clientConfig.botId = BOTPRESS_BOT_ID;
+    }
+    botpressClient = new Client(clientConfig);
+    console.log("Botpress client initialized with BAK");
+    if (!BOTPRESS_BOT_ID) {
+      console.log("Note: BOTPRESS_BOT_ID not set - some operations may be limited");
+    }
+  } catch (error) {
+    console.error("Failed to initialize Botpress client:", error);
+  }
 } else {
-  console.log("Botpress not configured - missing API key or Bot ID");
+  console.log("Botpress not configured - BOTPRESS_API_KEY not set");
 }
 
 // Simple in-memory storage for conversation/user IDs per session
