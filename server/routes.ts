@@ -10,6 +10,7 @@ import { nanoid } from "nanoid";
 let botpressClient: Client | null = null;
 const BOTPRESS_API_KEY = process.env.BOTPRESS_API_KEY;
 const BOTPRESS_BOT_ID = process.env.BOTPRESS_BOT_ID;
+const BOTPRESS_WORKSPACE_ID = process.env.BOTPRESS_WORKSPACE_ID;
 
 if (BOTPRESS_API_KEY) {
   try {
@@ -17,10 +18,16 @@ if (BOTPRESS_API_KEY) {
     if (BOTPRESS_BOT_ID) {
       clientConfig.botId = BOTPRESS_BOT_ID;
     }
+    if (BOTPRESS_WORKSPACE_ID) {
+      clientConfig.workspaceId = BOTPRESS_WORKSPACE_ID;
+    }
     botpressClient = new Client(clientConfig);
-    console.log("Botpress client initialized with BAK");
+    console.log("Botpress client initialized successfully");
     if (!BOTPRESS_BOT_ID) {
-      console.log("Note: BOTPRESS_BOT_ID not set - some operations may be limited");
+      console.log("Warning: BOTPRESS_BOT_ID not set - some operations may be limited");
+    }
+    if (!BOTPRESS_WORKSPACE_ID) {
+      console.log("Warning: BOTPRESS_WORKSPACE_ID not set - some operations may be limited");
     }
   } catch (error) {
     console.error("Failed to initialize Botpress client:", error);
