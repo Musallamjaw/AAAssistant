@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack chat application built with React, Express, and TypeScript. The application provides a real-time chat interface where users can interact with an AI chatbot. The system is designed with a modern tech stack featuring a React frontend with shadcn/ui components, an Express backend with REST API endpoints, and PostgreSQL database integration via Drizzle ORM. The application is currently in demo mode with placeholder for Pickaxe API integration for intelligent bot responses.
+This is a full-stack chat application built with React, Express, and TypeScript. The application provides a real-time chat interface where users can interact with an AI chatbot powered by Botpress. The system features a modern tech stack with a React frontend using shadcn/ui components, an Express backend with REST API endpoints, and in-memory storage for chat messages. The chatbot integrates with Botpress API for intelligent AI responses.
 
 # User Preferences
 
@@ -75,10 +75,20 @@ Preferred communication style: Simple, everyday language.
 
 ## Third-Party Services
 
-**Pickaxe API Integration (Pending)**
+**Botpress API Integration (Active)**
 - **Purpose:** AI-powered chatbot responses
-- **Current Status:** Placeholder comment in code (`TODO: Integrate with Pickaxe API`)
-- **Implementation:** Bot responses currently use demo mode with timeout-based responses
+- **Current Status:** Fully integrated and operational
+- **Implementation:** Uses Botpress Client SDK (@botpress/client) with webchat integration
+- **Configuration:**
+  - API Key: Stored in BOTPRESS_API_KEY secret
+  - Bot ID: Stored in BOTPRESS_BOT_ID secret  
+  - Workspace ID: Stored in BOTPRESS_WORKSPACE_ID secret
+  - Integration: webchat with default 'channel'
+- **Features:** 
+  - Per-session conversation tracking
+  - Asynchronous bot response handling
+  - Race condition prevention for chat restarts
+  - Automatic user and conversation creation
 
 ## Database Services
 

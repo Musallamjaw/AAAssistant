@@ -53,12 +53,14 @@ async function getBotResponse(userMessage: string, sessionId: string = 'default'
     
     if (!session) {
       // Create a new conversation and user
-      const userId = `user-${nanoid()}`;
-      
-      const { user } = await botpressClient.getOrCreateUser({ tags: { id: userId } });
+      const { user } = await botpressClient.getOrCreateUser({ 
+        integrationName: 'webchat',
+        tags: {}
+      });
       const { conversation } = await botpressClient.getOrCreateConversation({
+        integrationName: 'webchat',
         channel: 'channel',
-        tags: { id: `conv-${nanoid()}` },
+        tags: {}
       });
 
       session = {
