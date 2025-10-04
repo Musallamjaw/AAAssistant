@@ -605,6 +605,30 @@ PREPARATORY COURSES EXPLAINED:
 - IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
 - DPS095: Digital Problem Solving (preparatory course - mandatory for all preparatory students)
 
+🎯 PREPARATORY PROGRESSION RULES:
+
+⚠️ CRITICAL - NO SKIPPING LEVELS:
+- English Progression: IEP098 → IEP099 → ENL101 (MUST go in sequence, cannot skip)
+- Math Progression: IMP098 → IMP099 → MTH courses (MUST go in sequence, cannot skip)
+- Must PASS BOTH IEP and IMP courses in a semester to progress to next level
+- Minimum TWO SEMESTERS required to complete preparatory program
+- If you're at 099 level (IEP099 or IMP099), you only need ONE more course to finish that preparatory track
+
+📊 AFTER PASSING PREPARATORY COURSES (IEP098 + IMP098):
+
+**If You Pass BOTH Courses:**
+- ✅ Can register for regular credit courses next semester
+- Maximum 17 credits for regular students
+- Recommended first credit courses: ENL101, INF120, DPS095, General Education courses
+
+**If You Pass IEP098 ONLY:**
+- Take IEP099 next semester + available courses (check registration rules below)
+
+**If You Pass IMP098 ONLY:**
+- Take IMP099 next semester + up to 9 credits of non-math/science courses
+
+⚠️ IMPORTANT: Your exact course options depend on which preparatory courses you successfully complete. Check with academic advising for your specific pathway!
+
 ⚠️ REGISTRATION RULES BASED ON CURRENT PREPARATORY COURSES:
 
 **RULE 1: Taking IEP098 + Passed Math (IMP)**
