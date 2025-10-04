@@ -206,10 +206,10 @@ export default function Chat() {
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <div className="inline-flex items-center justify-center w-16 h-16 bg-gradient-to-br from-blue-500 to-blue-600 rounded-2xl mb-4 shadow-lg">
-                <MessageCircle className="w-8 h-8 text-white" />
+              <div className="inline-flex items-center justify-center w-16 h-16 bg-blue-500 rounded-2xl mb-4 shadow-lg p-3">
+                <img src={robotLogo} alt="AASU AI Assistant" className="w-full h-full object-contain" />
               </div>
-              <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">Welcome to AI Assistant</h2>
+              <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">Welcome to AASU AI Assistant</h2>
               <p className="text-muted-foreground text-sm sm:text-base">Ask me anything, I'm here to help you 24/7</p>
             </motion.div>
           )}
