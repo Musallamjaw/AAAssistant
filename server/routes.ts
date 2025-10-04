@@ -86,6 +86,11 @@ CRITICAL RESPONSE RULES - FOLLOW STRICTLY:
    - For transfer requirements: Show "choose ONE" clearly
    - Use proper course names, not just codes
 
+5. **CONTACT REFERRAL** - For course-related matters:
+   - Any questions about courses, warnings, or course-related issues → Direct students to contact Registration Office
+   - Provide registration email: registration@aasu.edu.kw
+   - Include location: Gate 1 - Building 14KH when relevant
+
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 UNIVERSITY INFORMATION BASE
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
@@ -99,21 +104,6 @@ UNIVERSITY INFORMATION BASE
 
 🤖 **ABOUT THIS BOT:**
 - I was created by Moslem Jawich, a Software Engineering student at the university
-
-📞 **CONTACT INFORMATION:**
-
-**Registration Office:**
-- Email: registration@aasu.edu.kw
-- Location: Abdullah Al Salem University - Khaldiya Campus Gate 1 - Building 14KH
-- Google Maps: https://maps.app.goo.gl/tmprFbbDjzYCSYxP9
-
-**Student Affairs Office:**
-- Email: Studentaffairs@aasu.edu.kw
-- Location: Abdullah Al Salem University - Khaldiya Campus Gate 3 - Building 30KH
-- Google Maps: https://maps.app.goo.gl/4KMgbGjb8fp9sYWAA
-
-**IT Help Desk:**
-- Email: it.helpdesk@aasu.edu.kw
 
 🏛️ **COLLEGES & PROGRAMS:**
 
@@ -539,6 +529,7 @@ TECHNICAL PROGRAMS - COLLEGE OF COMPUTING & SYSTEMS
 - Software Engineering, Cybersecurity Engineering, and Data Science & AI do NOT require Calculus III (MAT201)
 - Discrete Mathematics (MAT120) is now required in FIRST YEAR for all computing programs
 - Discrete Mathematics unlocks programming courses and is critical for progression
+- PHY102 (Physics II) is only required for Computer Systems Engineering
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DATA SCIENCE & ARTIFICIAL INTELLIGENCE (DAI) - 120 Credits
@@ -1026,17 +1017,17 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Computer System Engineering - 132 Credit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **YEAR 1 - FALL:**
-- EN1101 (English for Academic Studies)
+- ENL101 (English for Academic Studies)
 - MAT101 (Calculus I)
 - PHY101 (Physics I) + PHY105 (Lab)
-- MAT110 (Discrete Mathematics)
-- COS100 (Computer & Information Systems)
+- MAT120 (Discrete Mathematics)
+- INF120 (Computer & Information Systems)
 - Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
 - MAT102 (Calculus II)
-- COS130 (Computational Thinking & Programming) + COS131 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
 - CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
 - GEN150 (Professionalism & Ethics)
 
@@ -1044,8 +1035,8 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Computer System Engineering - 132 Credit
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- COS230 (Object-Oriented Design & Programming) + COS231 (Lab)
-- COS209 (Digital Logic & Design)
+- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS200 (Digital Logic & Design)
 - MAT240 (Differential Equations)
 
 **YEAR 2 - SPRING:**
@@ -1083,34 +1074,33 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Computer System Engineering - 132 Credit
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 COMPUTING AND SYSTEMS PROGRAMS (Sample: Cyber Security Engineering - 132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 **YEAR 1 - FALL:**
 - ENL101 (English for Academic Studies)
 - MAT101 (Calculus I)
 - PHY101 (Physics I) + PHY105 (Lab)
-- MAT129 (Discrete Mathematics)
-- CS139 (Computers & Information Systems)
+- MAT120 (Discrete Mathematics)
+- INF120 (Computer & Information Systems)
 - Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
 - MAT102 (Calculus II)
-- CS229 (Computational Thinking & Programming) + CS231 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
 - CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
-- GEN104 (Professionalism & Ethics)
+- GEN150 (Professionalism & Ethics)
 
 **YEAR 2 - FALL:**
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- CCS228 (Object-Oriented Design & Programming) + CCS231 (Lab)
-- CCS209 (Digital Logic & Design)
+- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS200 (Digital Logic & Design)
 - MAT240 (Differential Equations)
 
 **YEAR 2 - SPRING:**
 - ENG304 (Engineering Probability & Statistics)
 - ENG308 (Numerical Methods)
-- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS230 (Fundamentals of Database Systems) + CCS231 (Lab)
 - CCS241 (Fundamentals of Computer Networks)
 - Innovation & Creativity Elective
 - Arts & Humanities Elective II
@@ -1143,19 +1133,18 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Cyber Security Engineering - 132 Credits
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 COMPUTING AND SYSTEMS PROGRAMS (Sample: Software Engineering - 132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
 **YEAR 1 - FALL:**
-- EXL101 (English for Academic Studies)
+- ENL101 (English for Academic Studies)
 - MAT101 (Calculus I)
 - PHY101 (Physics I) + PHY105 (Lab)
 - MAT120 (Discrete Mathematics)
-- SW123 (Computers & Information Systems)
+- INF120 (Computer & Information Systems)
 - Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
 - MAT102 (Calculus II)
-- CCS130 (Computational Thinking & Programming) + CCS131 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
 - CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
 - GEN150 (Professionalism & Ethics)
 
@@ -1163,14 +1152,14 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Software Engineering - 132 Credits)
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- CCS230 (Object-Oriented Design & Programming) + CCS231 (Lab)
-- CCS209 (Digital Logic & Design)
-- MAT210 (Differential Equations)
+- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS200 (Digital Logic & Design)
+- MAT240 (Differential Equations)
 
 **YEAR 2 - SPRING:**
 - ENG304 (Engineering Probability & Statistics)
 - ENG308 (Numerical Methods)
-- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS230 (Fundamentals of Database Systems) + CCS231 (Lab)
 - CCS241 (Fundamentals of Computer Networks)
 - Innovation & Creativity Elective
 - Arts & Humanities Elective II
@@ -1205,31 +1194,31 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Data Science and AI - 120 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **YEAR 1 - FALL:**
-- EN1101 (English for Academic Studies)
+- ENL101 (English for Academic Studies)
 - MAT101 (Calculus I)
 - PHY101 (Physics I) + PHY105 (Lab)
-- MAT129 (Discrete Mathematics)
-- CS139 (Computers & Information Systems)
+- MAT120 (Discrete Mathematics)
+- INF120 (Computers & Information Systems)
 - Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
 - CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
-- CS130 (Computational Thinking & Programming) + CS131 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS120 (Lab)
 - Arts & Humanities Elective II
-- ICT104
+
 
 **YEAR 2 - FALL:**
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - DAI230 (Mathematics for Data Science & AI)
-- CS220 (Object-Oriented Design & Programming) + CS221 (Lab)
+- CCS220 (Object-Oriented Design & Programming) + CCS221 (Lab)
 - GEN130 (Professionalism & Ethics)
 
 **YEAR 2 - SPRING:**
 - HST101 (Islamic Culture & Values)
 - ENG304 (Engineering Probability & Statistics)
-- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS230 (Fundamentals of Database Systems) + CCS231 (Lab)
 - Innovation & Creativity Elective
 - Arts & Humanities Elective III
 
