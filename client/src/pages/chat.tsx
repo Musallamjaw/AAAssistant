@@ -9,6 +9,7 @@ import { ChatMessage } from "@shared/schema";
 import ChatMessageComponent from "@/components/chat-message";
 import TypingIndicator from "@/components/typing-indicator";
 import { nanoid } from "nanoid";
+import aasuLogo from "@assets/image_1759588573040.png";
 
 // Helper function to get or create session ID
 function getSessionId(): string {
@@ -156,11 +157,11 @@ export default function Chat() {
       <header className="chat-gradient-bg text-white py-4 px-6 shadow-lg">
         <div className="max-w-6xl mx-auto flex items-center justify-between">
           <div className="flex items-center gap-3">
-            <div className="w-10 h-10 bg-white/20 backdrop-blur rounded-lg flex items-center justify-center">
-              <Bot className="w-6 h-6" />
+            <div className="w-12 h-12 bg-white rounded-lg flex items-center justify-center p-1">
+              <img src={aasuLogo} alt="AASU Logo" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h1 className="text-xl font-bold">AI Assistant</h1>
+              <h1 className="text-xl font-bold">AASU AI Assistant</h1>
               <p className="text-xs text-white/80">Always here to help</p>
             </div>
           </div>
