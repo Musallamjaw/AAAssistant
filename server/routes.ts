@@ -376,14 +376,16 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Update job response
       await storage.updatePickaxeJobResponse(id, response);
       
-      // Find the job to get the message ID
-      const jobs = await storage.getPendingPickaxeJobs();
-      const allJobs = Array.from((storage as any).pickaxeJobs.values());
-      const job = allJobs.find((j: any) => j.id === id);
-      
-      if (job) {
-        // Update the chat message with Pickaxe response
-        await storage.updateChatMessagePickaxeResponse(job.messageId, response);
+      // Find the job to get the message ID - need to access the private map
+      const memStorage = storage as any;
+      if (memStorage.pickaxeJobs) {
+        const allJobs = Array.from(memStorage.pickaxeJobs.values());
+        const job = allJobs.find((j: any) => j.id === id);
+        
+        if (job && job.messageId) {
+          // Update the chat message with Pickaxe response
+          await storage.updateChatMessagePickaxeResponse(job.messageId, response);
+        }
       }
 
       res.json({ success: true });

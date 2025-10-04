@@ -5,11 +5,13 @@ import { Toaster } from "@/components/ui/toaster";
 import { TooltipProvider } from "@/components/ui/tooltip";
 import NotFound from "@/pages/not-found";
 import Chat from "@/pages/chat";
+import PickaxeRunner from "@/pages/pickaxe-runner";
 
 function Router() {
   return (
     <Switch>
       <Route path="/" component={Chat} />
+      <Route path="/internal/pickaxe-runner" component={PickaxeRunner} />
       <Route component={NotFound} />
     </Switch>
   );
