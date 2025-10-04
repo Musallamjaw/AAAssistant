@@ -201,13 +201,15 @@ export default function Chat() {
           {/* Welcome Section */}
           {messages.length === 0 && !isLoading && (
             <motion.div 
-              className="mb-6 text-center"
+              className="flex-1 flex items-center justify-center text-center"
               initial={{ opacity: 0, y: 20 }}
               animate={{ opacity: 1, y: 0 }}
               transition={{ duration: 0.5 }}
             >
-              <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">Welcome to AASU AI Assistant</h2>
-              <p className="text-muted-foreground text-sm sm:text-base">Ask me anything, I'm here to help you 24/7</p>
+              <div>
+                <h2 className="text-2xl sm:text-3xl font-bold text-foreground mb-2">Welcome to AASU AI Assistant</h2>
+                <p className="text-muted-foreground text-sm sm:text-base">Ask me anything, I'm here to help you 24/7</p>
+              </div>
             </motion.div>
           )}
 
