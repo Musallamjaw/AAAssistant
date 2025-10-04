@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertChatMessageSchema } from "@shared/schema";
+import { insertChatMessageSchema, insertPickaxeJobSchema } from "@shared/schema";
 import { z } from "zod";
 import OpenAI from "openai";
 
@@ -314,9 +314,15 @@ export async function registerRoutes(app: Express): Promise<Server> {
         getBotResponse(messageData.content).then(async (botResponse) => {
           // Only store bot response if chat hasn't been cleared since request
           if (sessionAtRequest === currentChatSession) {
-            await storage.createChatMessage({
+            const botMessage = await storage.createChatMessage({
               content: botResponse,
               isUser: false,
+            });
+            
+            // Also create a Pickaxe job for comparison
+            await storage.createPickaxeJob({
+              messageId: botMessage.id,
+              question: messageData.content,
             });
           }
         }).catch((error) => {
@@ -343,6 +349,47 @@ export async function registerRoutes(app: Express): Promise<Server> {
       res.json({ success: true, message: "All messages cleared" });
     } catch (error) {
       res.status(500).json({ error: "Failed to clear messages" });
+    }
+  });
+
+  // Pickaxe worker endpoints
+  // Get pending Pickaxe jobs
+  app.get("/api/pickaxe/jobs", async (req, res) => {
+    try {
+      const jobs = await storage.getPendingPickaxeJobs();
+      res.json(jobs);
+    } catch (error) {
+      res.status(500).json({ error: "Failed to fetch pending jobs" });
+    }
+  });
+
+  // Submit response for a Pickaxe job
+  app.post("/api/pickaxe/jobs/:id/response", async (req, res) => {
+    try {
+      const { id } = req.params;
+      const { response } = req.body;
+
+      if (!response || typeof response !== "string") {
+        return res.status(400).json({ error: "Response is required" });
+      }
+
+      // Update job response
+      await storage.updatePickaxeJobResponse(id, response);
+      
+      // Find the job to get the message ID
+      const jobs = await storage.getPendingPickaxeJobs();
+      const allJobs = Array.from((storage as any).pickaxeJobs.values());
+      const job = allJobs.find((j: any) => j.id === id);
+      
+      if (job) {
+        // Update the chat message with Pickaxe response
+        await storage.updateChatMessagePickaxeResponse(job.messageId, response);
+      }
+
+      res.json({ success: true });
+    } catch (error) {
+      console.error("Failed to update Pickaxe job response:", error);
+      res.status(500).json({ error: "Failed to update job response" });
     }
   });
 
