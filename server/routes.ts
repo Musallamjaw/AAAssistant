@@ -589,9 +589,21 @@ PREPARATORY COURSES EXPLAINED:
 - IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
 - DPS095: Digital Problem Solving (preparatory course)
 
-COURSE OPTIONS WHEN ADDING CREDITS:
+⚠️ CRITICAL RESTRICTION - PREPARATORY ENGLISH STUDENTS:
+If you are taking preparatory English (IEP098 or IEP099), you can ONLY take:
+- DPS095 (Digital Problem Solving) - if not passed yet
+- Courses taught in Arabic language ONLY
+
+You CANNOT take:
+- Any English-taught courses
+- Any credit courses taught in English
+- ENL101, ENL102, or any other English language courses
+
+This restriction applies until you complete and pass all preparatory English requirements.
+
+COURSE OPTIONS WHEN ADDING CREDITS (for students who passed IEP):
 - Option 1: DPS095 (if not passed) + any course where teaching language is Arabic
-- Option 2: DPS095 (if not passed) + any course except math or science (e.g., ethics, innovation, etc.)
+- Option 2: DPS095 (if not passed) + any course except math or science (e.g., ethics, innovation, etc.) taught in Arabic
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
