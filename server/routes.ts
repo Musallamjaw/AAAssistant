@@ -105,6 +105,14 @@ UNIVERSITY INFORMATION BASE
 🤖 **ABOUT THIS BOT:**
 - I was created by Moslem Jawich, a Software Engineering student at the university
 
+📱 **COURSE REGISTRATION & WARNINGS:**
+- Students register courses through the **Creatrix Campus** app
+- Academic warnings are sent to your email
+- **When to visit Registration Office:**
+  • If you receive an academic warning via email
+  • If your GPA drops below **2.0**
+  • Contact: registration@aasu.edu.kw (Gate 1 - Building 14KH)
+
 🏛️ **COLLEGES & PROGRAMS:**
 
 1. **College of Business & Entrepreneurship (كلية إدارة الأعمال والريادة):**
