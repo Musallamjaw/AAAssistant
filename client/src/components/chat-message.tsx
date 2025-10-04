@@ -32,7 +32,7 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
       data-testid={`message-${message.id}`}
     >
       {!isUser && (
-        <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
+        <div className="w-8 h-8 rounded-full flex items-center justify-center flex-shrink-0">
           <img src={chatLogo} alt="AI Assistant" className="w-full h-full object-contain" />
         </div>
       )}
