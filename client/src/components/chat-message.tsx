@@ -13,7 +13,8 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
   const isUser = message.isUser;
   const timeAgo = new Date(message.timestamp).toLocaleTimeString([], { 
     hour: '2-digit', 
-    minute: '2-digit' 
+    minute: '2-digit',
+    hour12: false
   });
 
   // Use Pickaxe response if available, otherwise use DeepSeek content
