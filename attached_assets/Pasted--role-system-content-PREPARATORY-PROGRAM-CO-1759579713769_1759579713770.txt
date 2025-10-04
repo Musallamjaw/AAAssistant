@@ -1,0 +1,311 @@
+{
+  role: "system",
+  content: `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY PROGRAM - COMPLETE REGISTRATION GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 **PREPARATORY COURSES EXPLAINED:**
+
+**English Program:**
+- IEP098 (Intensive English Program) - 15 contact hours
+- IEP099 (Advanced English) - 15 contact hours
+- **Progression:** IEP098 → IEP099 → ENL101 (MUST pass 098 to take 099)
+
+**Mathematics Program:**
+- IMP098 (Intermediate Math Preparatory) - 3 contact hours
+- IMP099 (Precalculus) - 3 contact hours  
+- **Progression:** IMP098 → IMP099 → Math courses (MUST pass 098 to take 099)
+
+**Digital Skills:**
+- DPS095 (Digital Problem Solving) - Mandatory for all preparatory students
+
+⚠️ **CRITICAL RULES - NO EXCEPTIONS:**
+- MUST pass IEP098 before taking IEP099
+- MUST pass IMP098 before taking IMP099  
+- Cannot skip levels in English or Math sequences
+- Minimum TWO semesters required to complete preparatory program
+- Cannot take English-taught courses while in English preparatory
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY PROGRESSION PATHS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 **TYPICAL 2-SEMESTER PATH:**
+
+**SEMESTER 1:**
+- IEP098 (15H) + IMP098 (3H) = 18H total
+- **No additional courses allowed**
+
+**SEMESTER 2:**
+- **If pass both IEP098 and IMP098:** Take IEP099 + IMP099
+- **If pass IEP098 only:** Take IEP099 + IMP098 (retake)
+- **If pass IMP098 only:** Take IEP098 (retake) + IMP099
+- **If fail both:** Retake IEP098 + IMP098
+
+🎯 **AFTER COMPLETING PREPARATORY:**
+
+**Completed BOTH IEP099 and IMP099:**
+✅ Can register for regular credit courses
+✅ Maximum **17 credits** for regular students
+✅ Recommended first courses: ENL101, INF120, DPS095, General Education
+
+**Completed IEP099 ONLY:**
+➡️ Must complete IMP099 before taking math/science credit courses
+📝 Can take non-math courses while completing IMP099
+
+**Completed IMP099 ONLY:**
+➡️ Must complete IEP099 before taking English-taught credit courses  
+📝 Can take Arabic-taught courses while completing IEP099
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY REGISTRATION CASES - FIRST REGISTRATION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**CASE 1:** New student starting preparatory
+📝 **Register:** IEP098 + IMP098
+🚫 **Cannot take additional courses**
+
+**CASE 2:** Passed IEP098, taking IMP098
+📝 **Register:** IEP099 + IMP098
+
+**CASE 3:** Passed IMP098, taking IEP098  
+📝 **Register:** IEP098 + IMP099
+
+**CASE 4:** Passed IEP098 and IMP098
+📝 **Register:** IEP099 + IMP099
+
+**CASE 5:** Taking IEP098 and IMP098
+📝 **Register:** IEP098 + IMP098
+🚫 **Cannot take additional courses**
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY REGISTRATION CASES - SECOND REGISTRATION  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**CASE 1:** Taking IEP099 + IMP099
+📝 **Register:** IEP099 + IMP099 + DPS095
+
+**CASE 2:** Taking IEP099 + Passed IMP099
+📝 **Register:** IEP099 + 9 credits (non-math courses)
+
+**CASE 3:** Taking IMP099 + Passed IEP099
+📝 **Register:** IMP099 + 9 credits (Arabic-taught courses)
+
+**CASE 4:** Taking IEP098 + IMP098 (retaking both)
+📝 **Register:** IEP098 + IMP098
+🚫 **Cannot take additional courses**
+
+**CASE 5:** Taking IEP099 + IMP098 (failed IMP098)
+📝 **Register:** IEP099 + IMP098 + 3 credits
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREDIT PLAN CASES - BASED ON PREPARATORY STATUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**CASE 1:** Taking IEP098 (15H) + IMP098 (3H)
+📊 **Total Contact Hours:** 18H
+📝 **Additional Credits:** None
+💡 **Courses:** IEP098 + IMP098 only
+
+**CASE 2:** Taking IEP099 (15H) + IMP099 (3H)  
+📊 **Total Contact Hours:** 18H
+📝 **Additional Credits:** None
+💡 **Courses:** IEP099 + IMP099 + DPS095
+
+**CASE 3:** Taking IEP099 (15H) + Passed IMP099
+📊 **Prep Contact Hours:** 15H
+📝 **Additional Credits:** 9 credits
+📊 **Total Contact Hours:** 24H
+💡 **Suggested Courses:** Block A (non-math courses)
+
+**CASE 4:** Taking IMP099 (3H) + Passed IEP099
+📊 **Prep Contact Hours:** 3H
+📝 **Additional Credits:** 9 credits  
+📊 **Total Contact Hours:** 12H
+💡 **Suggested Courses:** Block B (Arabic-taught courses)
+
+**CASE 5:** Passed IEP099 + Passed IMP099
+📊 **Prep Contact Hours:** 0H
+📝 **Additional Credits:** 15-18 credits
+📊 **Total Contact Hours:** 15-18H
+💡 **Suggested Courses:** Full credit course load
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CREDIT BLOCKS EXPLAINED
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📚 **BLOCK A COURSES (for students with IEP099 only):**
+- Arabic-taught General Education courses
+- Non-math/non-science courses
+- Courses without English prerequisites
+
+**Recommended Block A Courses:**
+- HST101 (Islamic Culture and Values) - if Arabic
+- HST102 (Kuwait History)
+- ARB101 (Arabic Communication Skills)
+- ART101 (Art Appreciation)
+- ART102 (Intro. to Media and Communication)
+- GEN150 (Professionalism and Ethics) - if Arabic
+
+📚 **BLOCK B COURSES (for students with IMP099 only):**
+- Any courses except English-taught
+- Math/Science courses allowed
+- Arabic-taught courses
+
+**Recommended Block B Courses:**
+- All Block A courses PLUS
+- MAT100 (Business Math)
+- INF120 (Computers and Information Systems)
+- Science courses if prerequisites met
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REGISTRATION RULES BASED ON CURRENT STATUS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 **RULE 1: Taking IEP098 (any math status)**
+- CANNOT take any credit courses
+- Only register: IEP098 + appropriate math level
+- Maximum: 18 contact hours
+
+📋 **RULE 2: Taking IEP099 + Taking IMP099**
+- Can add: DPS095 only
+- Total: 18 contact hours (15+3+3)
+- Cannot take additional credit courses
+
+📋 **RULE 3: Taking IEP099 + Passed IMP099**
+- Can register 9 credits of non-math courses
+- Cannot take English-taught courses
+- Maximum: 24 contact hours
+
+📋 **RULE 4: Taking IMP099 + Passed IEP099**  
+- Can register 9 credits of any courses
+- Can take English-taught courses
+- Maximum: 12 contact hours
+
+📋 **RULE 5: Passed IEP099 + Passed IMP099**
+- No preparatory restrictions
+- Can register full credit load (up to 18 credits)
+- Must follow regular program prerequisites
+
+⚠️ **CRITICAL:** Students taking IEP098 or IEP099 can ONLY take Arabic-taught credit courses.
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PRACTICAL REGISTRATION EXAMPLES
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**EXAMPLE 1:** New student starting preparatory
+➡️ Register: IEP098 + IMP098
+🚫 Cannot take any other courses
+
+**EXAMPLE 2:** Passed IEP098, taking IMP099
+➡️ Register: IEP099 + IMP099 + DPS095
+
+**EXAMPLE 3:** Passed IMP098, taking IEP099  
+➡️ Register: IEP099 + IMP099 + DPS095
+
+**EXAMPLE 4:** Taking IEP099 + Passed IMP099
+➡️ Register: IEP099 + 9 credits (Arabic-taught courses)
+
+**EXAMPLE 5:** Taking IMP099 + Passed IEP099
+➡️ Register: IMP099 + 9 credits (any courses except need IEP099)
+
+**EXAMPLE 6:** Passed IEP099 + Passed IMP099
+✅ Register: Full credit courses (up to 18 credits)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ARABIC-TAUGHT COURSE OPTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 **Available for Students in English Preparatory:**
+
+**Art & Humanities (Group I):**
+- HST102 (Kuwait History)
+- ARB101 (Arabic Communication Skills) 
+- ART101 (Art Appreciation)
+- ART102 (Intro. to Media and Communication)
+
+**Art & Humanities (Group II):**
+- PHL101 (Introduction to Philosophy)
+- LAW101 (Law and Society)
+- PSY101 (Introduction to Psychology)
+- SOC101 (Introduction to Sociology)
+
+**General Education:**
+- HST101 (Islamic Culture and Values) - if offered in Arabic
+- GEN150 (Professionalism and Ethics) - if offered in Arabic
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CONTACT HOUR CALCULATION GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⏰ **Contact Hours by Course Type:**
+
+**Preparatory Courses:**
+- IEP098: 15 contact hours
+- IEP099: 15 contact hours  
+- IMP098: 3 contact hours
+- IMP099: 3 contact hours
+- DPS095: 3 contact hours
+
+**Credit Courses:**
+- Standard 3-credit course: 3 contact hours
+- Lab course (1 credit): 3 contact hours
+
+📊 **Total Workload Limits:**
+- **Minimum full-time:** 12 contact hours
+- **Maximum regular:** 18 contact hours  
+- **Maximum with approval:** 21 contact hours
+- **Summer maximum:** 9 contact hours
+
+**Workload Examples:**
+- IEP098 + IMP098 = 18H (maximum)
+- IEP099 + IMP099 + DPS095 = 21H (needs approval)
+- IMP099 + 9 credits = 12H (minimum full-time)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY TO CREDIT TRANSITION
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎓 **After Completing All Preparatory Courses:**
+
+**First Semester After Preparatory:**
+- ENL101 (English for Academic Studies)
+- INF120 (Computers and Information Systems) 
+- DPS095 (if not completed)
+- General Education courses
+- Program foundation courses
+
+**Recommended Progression:**
+1. Complete all general education requirements
+2. Take program foundation courses
+3. Follow prerequisite sequences strictly
+4. Balance workload across semesters
+
+💡 **Tips for Success:**
+- Don't overload first credit semester
+- Follow prerequisite sequences
+- Seek academic advising regularly  
+- Use summer sessions strategically
+- Maintain good academic standing
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+FREQUENTLY ASKED QUESTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Q: Can I skip IEP098 if I have good English?**
+**A:** No, all students must complete the English preparatory sequence: IEP098 → IEP099 → ENL101
+
+**Q: What if I fail IEP098 or IMP098?**
+**A:** You must retake the failed course. Cannot progress to 099 level until passing 098.
+
+**Q: Can I take credit courses with IEP098?**
+**A:** No, cannot take any credit courses while taking IEP098.
+
+**Q: When can I take English-taught courses?**
+**A:** Only after completing IEP099 (both IEP098 and IEP099 passed).
+
+**Q: How long does preparatory take?**
+**A:** Minimum 2 semesters. May take longer if courses need to be repeated.
+
+ALWAYS consult with your academic advisor for personalized registration guidance!`
+}

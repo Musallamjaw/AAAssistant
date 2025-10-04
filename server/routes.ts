@@ -916,81 +916,273 @@ IMPORTANT LAB COURSE RULES
 Must complete **96 credit hours** → Capstone Design 1 → Capstone Design 2
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PREPARATORY COURSE REGISTRATION GUIDE
+4-YEAR STUDY PLANS FOR ALL MAJORS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**PREPARATORY COURSES EXPLAINED:**
-- IEP098, IEP099: Intensive English Program (15 contact hours each)
-- IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
-- DPS095: Digital Problem Solving (mandatory for all preparatory students)
+📅 **IMPORTANT NOTES:**
+- All plans assume **15 credits per semester** for balanced workload
+- **Prerequisites must be followed strictly** - cannot take courses out of sequence
+- **Summer courses** can accelerate graduation or reduce semester load
+- **Lab courses** must be taken with corresponding theory courses
+- Always consult with academic advisor before registration
 
-🎯 **PREPARATORY PROGRESSION RULES:**
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUSINESS PROGRAMS (120 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-⚠️ **CRITICAL - NO SKIPPING LEVELS:**
-- English Progression: IEP098 → IEP099 → ENL101 (MUST go in sequence, cannot skip)
-- Math Progression: IMP098 → IMP099 → MTH courses (MUST go in sequence, cannot skip)
-- Must PASS BOTH IEP and IMP courses in a semester to progress to next level
-- Minimum TWO SEMESTERS required to complete preparatory program
+🎯 **ALL BUSINESS MAJORS - Standard First Two Years:**
 
-📊 **AFTER PASSING PREPARATORY COURSES (IEP098 + IMP098):**
+**YEAR 1 - FALL SEMESTER:**
+ENL101, MAT100, BUS100, GEN150, HST101
 
-**If You Pass BOTH Courses:**
-- ✅ Can register for regular credit courses next semester
-- Maximum **17 credits** for regular students
-- Recommended first credit courses: ENL101, INF120, DPS095, General Education courses
+**YEAR 1 - SPRING SEMESTER:**
+ENL102, ACC101, FIN102, Art/Humanities Elective 1, Innovation & Creativity Elective
 
-**If You Pass IEP098 ONLY:**
-- Take IEP099 next semester + available courses
+**YEAR 2 - FALL SEMESTER:**
+ENL201, MRK103, INF120, BUS200, Global Citizen Elective
 
-**If You Pass IMP098 ONLY:**
-- Take IMP099 next semester + up to **9 credits** of non-math/science courses
+**YEAR 2 - SPRING SEMESTER:**
+BUS220, MIS300, MGT310, Art/Humanities Elective 2, Program Core 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DIGITAL MARKETING MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+DMK210, DMK220, DMK225, MGT340, BUS345
+
+**YEAR 3 - SPRING SEMESTER:**
+DMK230, DMK310, DMK315, MGT420, Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+DMK325, DMK330, DMK400, DMK440, Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+DMK420, DMK460, DMK475, DMK490, Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENTREPRENEURSHIP & INNOVATION MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+EN1200, EN1210, EN1215, MGT340, BUS345
+
+**YEAR 3 - SPRING SEMESTER:**
+EN1220, EN1225, EN1315, MGT420, Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+EN1320, EN1400, EN1405, EN1415, Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+EN1410, EN1435, EN1455, EN1490, Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUPPLY CHAIN & LOGISTICS MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+SCL200, SCL201, SCL202, SCL203, MGT340
+
+**YEAR 3 - SPRING SEMESTER:**
+SCL310, SCL315, SCL320, MGT420, Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+SCL340, SCL400, SCL401, SCL402, Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+SCL410, SCL415, SCL490, BUS345, Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DATA SCIENCE & AI (120 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+ENL101, MAT101, PHY101, GEN150, HST101
+
+**YEAR 1 - SPRING:**
+ENL102, PHY105, MAT102, BIO101/CHM101, BIO105/CHM105
+
+**YEAR 2 - FALL:**
+ENL201, MAT120, MAT202, CCS120, CCS121
+
+**YEAR 2 - SPRING:**
+ENG304, CCS220, CCS221, CCS230, CCS231
+
+**YEAR 3 - FALL:**
+DAI230, DAI250, DAI251, CCS270, CCS271
+
+**YEAR 3 - SPRING:**
+DAI310, DAI311, DAI330, DAI331, CCS342
+
+**YEAR 4 - FALL:**
+DAI351, DAI352, DAI421, DAI440, Program Elective 1
+
+**YEAR 4 - SPRING:**
+DAI374, DAI430, DAI431, DAI490, DAI491
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENGINEERING & COMPUTING (132 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 **ALL ENGINEERING/COMPUTING - Standard First Two Years:**
+
+**YEAR 1 - FALL:**
+ENL101, MAT101, PHY101, GEN150, HST101
+
+**YEAR 1 - SPRING:**
+ENL102, PHY105, MAT102, CHM101, CHM105
+
+**YEAR 2 - FALL:**
+ENL201, MAT201, PHY102, PHY107, INF120
+
+**YEAR 2 - SPRING:**
+MAT202, MAT240, ENG205, ENG206, Art/Humanities Elective 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPUTER SYSTEMS ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL:**
+ENG207, ENG209, ENG304, CCS200, CCS241
+
+**YEAR 3 - SPRING:**
+ENG308, ENG309, CCS270, CCS271, CME220
+
+**YEAR 4 - FALL:**
+CME310, CME311, CME341, CME360, Program Elective 1
+
+**YEAR 4 - SPRING:**
+CME410, CME411, CME420, CME421, CME490, CME491
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SOFTWARE ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL:**
+ENG207, ENG304, CCS220, CCS221, CCS230, CCS231
+
+**YEAR 3 - SPRING:**
+ENG308, ENG309, CCS270, CCS271, CCS320
+
+**YEAR 4 - FALL:**
+SWE301, SWE305, SWE306, SWE340, SWE341
+
+**YEAR 4 - SPRING:**
+SWE310, SWE311, SWE420, SWE421, SWE490, SWE491
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CYBERSECURITY ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL:**
+ENG207, ENG304, CCS220, CCS221, CCS241
+
+**YEAR 3 - SPRING:**
+ENG308, ENG309, CCS270, CCS271, CCS320
+
+**YEAR 4 - FALL:**
+CSE210, CSE310, CSE311, CSE341, CSE360
+
+**YEAR 4 - SPRING:**
+CSE325, CSE326, CSE410, CSE411, CSE490, CSE491
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY PROGRAM - COMPLETE REGISTRATION GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 **PREPARATORY COURSES EXPLAINED:**
+
+**English Program:**
+- IEP098 (Intensive English Program) - 15 contact hours
+- IEP099 (Advanced English) - 15 contact hours
+- **Progression:** IEP098 → IEP099 → ENL101 (MUST pass 098 to take 099)
+
+**Mathematics Program:**
+- IMP098 (Intermediate Math Preparatory) - 3 contact hours
+- IMP099 (Precalculus) - 3 contact hours
+- **Progression:** IMP098 → IMP099 → Math courses (MUST pass 098 to take 099)
+
+**Digital Skills:**
+- DPS095 (Digital Problem Solving) - Mandatory for all preparatory students
+
+⚠️ **CRITICAL RULES - NO EXCEPTIONS:**
+- MUST pass IEP098 before taking IEP099
+- MUST pass IMP098 before taking IMP099
+- Cannot skip levels in English or Math sequences
+- Minimum TWO semesters required to complete preparatory program
+- Cannot take English-taught courses while in English preparatory
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PREPARATORY REGISTRATION CASES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**FIRST REGISTRATION CASES:**
+📋 **REGISTRATION RULES BY STATUS:**
 
-**Case 1:** IEP098 and pass all IMP → Register: IEP098
-**Case 2:** IEP098 and IMP098 → Register: IEP098 and IMP098
-**Case 3:** IEP098 and IMP099 → Register: IEP098 and IMP099
-**Case 4:** IEP098 and pass all IMP → Register: IEP098
-**Case 5:** IEP098 and IMP098 → Register: IEP098 and IMP099
-**Case 6:** IEP098 and IMP099 → Register: IEP098 and IMP099
-**Case 7:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
-**Case 8:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
-**Case 9:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
-**Case 10:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
+**RULE 1: Taking IEP098 (any math status)**
+- CANNOT take any credit courses
+- Only register: IEP098 + appropriate math level
+- Maximum: 18 contact hours
 
-**SECOND REGISTRATION CASES:**
+**RULE 2: Taking IEP099 + Taking IMP099**
+- Can add: DPS095 only
+- Total: 18 contact hours (15+3+3)
+- Cannot take additional credit courses
 
-**Case 1:** IEP098 and DPS and pass all IMP → Register: IEP098 + DPS
-**Case 2:** IEP098 and pass DPS and all IMP → Register: IEP098 + 3 credits
-**Case 3:** IEP098 and IMP098 → Register: IEP098 and IMP098
-**Case 4:** IEP098 and IMP099 → Register: IEP098 and IMP099
-**Case 5:** IEP098 and DPS and pass all IMP → Register: IEP098 + DPS + 6 credits
-**Case 6:** IEP098 and pass DPS and all IMP → Register: IEP098 + 9 credits
-**Case 7:** IEP098 and IMP098 → Register: IEP098 and IMP098 + 3 credits
-**Case 8:** IEP098 and IMP098 and DPS → Register: IEP098 and IMP098 and DPS
-**Case 9:** IEP098 and IMP099 → Register: IEP098 and IMP099 + 3 credits
-**Case 10:** IEP098 and IMP098 and DPS → Register: IEP098 and IMP098 and DPS
-**Case 11:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
-**Case 12:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
-**Case 13:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
-**Case 14:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
+**RULE 3: Taking IEP099 + Passed IMP099**
+- Can register 9 credits of non-math courses
+- Cannot take English-taught courses
+- Maximum: 24 contact hours
+
+**RULE 4: Taking IMP099 + Passed IEP099**
+- Can register 9 credits of any courses
+- Can take English-taught courses
+- Maximum: 12 contact hours
+
+**RULE 5: Passed IEP099 + Passed IMP099**
+- No preparatory restrictions
+- Can register full credit load (up to 18 credits)
+- Must follow regular program prerequisites
+
+⚠️ **CRITICAL:** Students taking IEP098 or IEP099 can ONLY take Arabic-taught credit courses.
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CREDIT PLAN CASES
+PRACTICAL REGISTRATION EXAMPLES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-**Case 1:** Taking IEP098 (15H) + Passed IEP099 + Taking IMP098 (3H) → Total: 15H
-**Case 2:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 15H prep + 9 credits = 18H total → Block A
-**Case 3:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 3H prep + 9 credits = 24H total → Block A
-**Case 4:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 3H prep + 9 credits = 12H total → Block B
-**Case 5:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 18H prep + 0 credits = 18H total → NONE
-**Case 6:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 18H prep + 0 credits = 18H total → NONE
-**Case 7:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 18H prep + 3 credits = 21H total → Block A
-**Case 8:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 18H prep + 3 credits = 21H total → Block A
+**EXAMPLE 1:** New student starting preparatory
+➡️ Register: IEP098 + IMP098
+🚫 Cannot take any other courses
+
+**EXAMPLE 2:** Passed IEP098, taking IMP099
+➡️ Register: IEP099 + IMP099 + DPS095
+
+**EXAMPLE 3:** Passed IMP098, taking IEP099
+➡️ Register: IEP099 + IMP099 + DPS095
+
+**EXAMPLE 4:** Taking IEP099 + Passed IMP099
+➡️ Register: IEP099 + 9 credits (Arabic-taught courses)
+
+**EXAMPLE 5:** Taking IMP099 + Passed IEP099
+➡️ Register: IMP099 + 9 credits (any courses)
+
+**EXAMPLE 6:** Passed IEP099 + Passed IMP099
+✅ Register: Full credit courses (up to 18 credits)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ARABIC-TAUGHT COURSE OPTIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📖 **Available for Students in English Preparatory:**
+- HST102 (Kuwait History)
+- ARB101 (Arabic Communication Skills)
+- ART101 (Art Appreciation)
+- ART102 (Intro. to Media and Communication)
+- PHL101 (Introduction to Philosophy)
+- LAW101 (Law and Society)
+- PSY101 (Introduction to Psychology)
+- SOC101 (Introduction to Sociology)
+- HST101 (Islamic Culture and Values) - if offered in Arabic
+- GEN150 (Professionalism and Ethics) - if offered in Arabic
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 FREQUENTLY ASKED QUESTIONS (FAQs)
