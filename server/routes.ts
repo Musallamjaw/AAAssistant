@@ -287,92 +287,217 @@ Business Foundation (College Requirements):
 • MAT100 prerequisite for: ACC101, FIN102, MAT210
 • MAT210 (Statistics) prerequisite for: BUS200, BUS220
 
-DIGITAL MARKETING MAJOR - Complete Course Details:
-Foundation Level (Requires MRK103):
-• DMK210 (Digital Marketing Fundamentals) - Requires: MRK103
-• DMK220 (International Marketing Management) - Requires: MRK103
-• DMK225 (Market Planning and Research) - Requires: MRK103
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUSINESS PROGRAMS (120 CREDITS TOTAL)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-200-Level Courses (Require DMK210):
-• DMK230 (Content Marketing) - Requires: DMK210
-• DMK310 (Social Media Marketing) - Requires: DMK210
-• DMK315 (E-commerce Marketing) - Requires: DMK210
+All Business Programs - Credit Distribution:
+• General Education: 36 credits
+• College Requirements: 33 credits (BUS100, ACC101, FIN102, MRK103, BUS200, BUS220, MIS300, MGT310, MGT340, BUS345, MGT420)
+• Program Requirements: 42 credits (major-specific courses)
+• Program Electives: 9 credits
 
-300-Level Courses:
-• DMK320 (Emerging Trends in Digital Marketing) - Requires: DMK225
-• DMK325 (Digital Marketing Strategy) - Requires: DMK225
-• DMK330 (Customer Relations and Consumer Behavior) - Requires: DMK220, MGT340
-• DMK340 (Influencer Marketing) - Requires: DMK230
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-400-Level Core Courses:
-• DMK400 (Internship in Marketing) - Requires: DMK230, DMK310, DMK210, DMK315, MIS300
-• DMK420 (Mobile Applications Marketing) - Requires: DMK210, DMK310, DMK315, MIS300
-• DMK435 (Designing Brand Identity) - Requires: DMK325
-• DMK440 (Social Media and Web Analytics) - Requires: DMK310, DMK315
-• DMK445 (Advanced Social Media Advertising) - Requires: DMK310
-• DMK450 (Web Design and Development) - Requires: MIS300, DMK440
-• DMK460 (Digital Advertising Campaign Management) - Requires: DMK310, DMK315
-• DMK465 (Services Marketing Strategy) - Requires: DMK225
-• DMK470 (Advanced Web Analytics Tools) - Requires: DMK440
-• DMK475 (Legal and Ethical Issues in Digital Marketing) - Requires: BUS345, DMK310, DMK315
-• DMK480 (Internship) - Requires: Program Approval
-• DMK490 (Capstone Design) - Requires: Program Approval
-• DMK495 (Special Topics) - Requires: Program Approval
+DIGITAL MARKETING MAJOR (DMK) - 120 Credits:
 
-ENTREPRENEURSHIP & INNOVATION MAJOR - Complete Course Details:
-Foundation Level (Requires BUS101):
-• ENI210 (Entrepreneurial Thinking) - Requires: BUS101
-• ENI220 (Innovation and Creativity) - Requires: BUS101
-• ENI225 (Business Model Innovation) - Requires: BUS101
+Program Requirements (14 courses - 42 credits):
+• DMK210, DMK220, DMK225, DMK230, DMK310, DMK315, DMK325, DMK330, DMK400, DMK420, DMK440, DMK460, DMK475, DMK490
 
-200-Level Courses:
-• ENI230 (New Venture Creation) - Requires: ENI210
-• ENI310 (Social Entrepreneurship) - Requires: ENI210
-• ENI315 (Corporate Innovation) - Requires: ENI210, ENI220
+Program Electives (Choose 3 - 9 credits):
+• DMK340, DMK320, DMK435, DMK445, DMK450, DMK465, DMK470, DMK480, DMK495
 
-300-Level Courses:
-• ENI320 (Technology Entrepreneurship) - Requires: ENI225, MIS300
-• ENI325 (Strategic Innovation Management) - Requires: ENI225, MGT340
-• ENI330 (Entrepreneurial Finance) - Requires: ENI230, FIN102
-• ENI340 (Family Business Management) - Requires: ENI210, MGT310
+Prerequisite Chains:
+• MRK103 → DMK210 → DMK230/DMK310/DMK315/DMK420
+• DMK225 → DMK325 → DMK435
+• DMK310/DMK315 → DMK440/DMK460/DMK475
 
-400-Level Courses:
-• ENI400 (Entrepreneurship Internship) - Requires: ENI230, ENI210, ENI220, ENI315
-• ENI420 (Scaling Startups) - Requires: ENI230, ENI330
-• ENI435 (Innovation Ecosystems) - Requires: ENI315, ENI325
-• ENI440 (Venture Capital and Angel Investing) - Requires: ENI330, FIN102
-• ENI445 (Digital Transformation) - Requires: ENI315, MIS300
-• ENI450 (Design Thinking Workshop) - Requires: ENI220, ENI225
-• ENI460 (Innovation Consulting Project) - Requires: ENI325, ENI435
-• ENI475 (Legal Issues in Entrepreneurship) - Requires: BUS345, ENI230
-• ENI480 (Advanced Internship) - Requires: Program Approval, ENI400
-• ENI490 (Capstone Project) - Requires: Program Approval
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-Key Entrepreneurship Course Sequence:
-BUS101 → ENI210/ENI220/ENI225 → ENI230/ENI310/ENI315 → 300-level → 400-level
-ENI210 is the gateway - take it first after BUS101
+ENTREPRENEURSHIP & INNOVATION MAJOR (EN1) - 120 Credits:
 
-KEY COURSE SEQUENCES:
-Mathematics Sequence: MAT100 → MAT210 → BUS200/BUS220
-English Sequence: ENL101 → ENL102 → ENL201
-Business Core: BUS100 → Multiple 200-level courses → 300-level courses
-Digital Marketing: MRK103 → DMK210 → DMK310/DMK315 → Advanced courses
+Program Requirements (14 courses - 42 credits):
+• EN1200, EN1210, EN1215, EN1220, EN1225, EN1315, EN1320, EN1400, EN1405, EN1410, EN1415, EN1435, EN1455, EN1490
 
-IMPORTANT NOTES FOR COURSE PLANNING:
-• Complete General Education (36 credits) early - they open prerequisites
-• MRK103 (Principles of Marketing) is required before any DMK courses
-• DMK210 is the gateway course - take it as soon as you complete MRK103
-• Many 400-level courses require multiple prerequisites - plan ahead
-• MIS300 is required for several advanced DMK courses
-• MGT340 (Operations Management) is needed for DMK330
-• Internship (DMK400) requires completion of core DMK courses
-• Capstone (DMK490) is your final project - take in last semester
+Program Electives (Choose 3 - 9 credits):
+• EN1425, EN1440, EN1445, EN1446, EN1450, EN1460, EN1480, EN1495
 
-SUGGESTED STUDY SEQUENCE:
-Year 1: Focus on General Education + foundational business courses (BUS100, MAT100, ENL courses, INF120)
-Year 2: Complete remaining Gen Ed + College Requirements + Start DMK210, DMK220, DMK225
-Year 3: Complete DMK310, DMK315, DMK325, DMK330 + electives
-Year 4: DMK400 (Internship), advanced electives, DMK490 (Capstone)
+Prerequisite Chains:
+• BUS100/ACC101/FIN102/MRK103 → EN1200
+• EN1200 → EN1220 → EN1435
+• EN1225/EN1400 → EN1410
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SUPPLY CHAIN & LOGISTICS MANAGEMENT MAJOR (SCL) - 120 Credits:
+
+Program Requirements (14 courses - 42 credits):
+• SCL200, SCL201, SCL202, SCL203, SCL310, SCL315, SCL320, SCL340, SCL400, SCL401, SCL402, SCL410, SCL415, SCL490
+
+Program Electives (Choose 3 - 9 credits):
+• SCL325, SCL420, SCL430, SCL435, SCL440, SCL445, SCL450, SCL455, SCL460, SCL480, SCL495
+
+Prerequisite Chains:
+• SCL200 → SCL201/SCL203 → SCL315/SCL320 → SCL340 → SCL410/SCL415
+• BUS200 → SCL310
+• MIS300/MGT340/SCL315 → SCL401/SCL402
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+TECHNICAL PROGRAMS (DATA SCIENCE 120 CREDITS, ENGINEERING 132 CREDITS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+DATA SCIENCE & ARTIFICIAL INTELLIGENCE (DAI) - 120 Credits:
+
+Credit Distribution:
+• General Education: 36 credits
+• College Requirements: 40 credits (Math/Science: PHY105, MAT102, MAT120, BIO101/CHM101, BIO105/CHM105, MAT202, ENG304; Computing: CCS120, CCS121, CCS220, CCS221, CCS230, CCS231, CCS270, CCS271, CCS342, CCS330, CCS331)
+• Program Requirements: 38 credits
+• Program Electives: 6 credits
+
+Program Requirements (16 courses):
+• DAI230, DAI250, DAI251, DAI310, DAI311, DAI330, DAI331, DAI351, DAI352, DAI374, DAI421, DAI430, DAI431, DAI440, DAI490, DAI491
+
+Program Electives (Choose 2):
+• DAI480, DAI432, DAI462, DAI463, DAI475, DAI476, DAI495, DAI496
+
+Prerequisite Chains:
+• MAT120 → DAI230 → DAI250 → DAI310 → DAI351
+• CCS230 → DAI330 → DAI430
+• DAI250 → DAI421
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+COMPUTER SYSTEMS ENGINEERING (CME) - 132 Credits:
+
+Credit Distribution:
+• General Education: 36 credits
+• College Requirements: 55 credits (Math/Science + Computing Core)
+• Program Requirements: 35 credits
+• Program Electives: 6 credits
+
+Program Requirements (15 courses):
+• ENG205, ENG206, CME220, CME310, CME311, CME341, CME360, CME410, CME411, CME420, CME421, CME430, CME431, CME490, CME491
+
+Program Electives (Choose 2):
+• CME480, CCS330, CME435, CME440, CME441, CME442, CME443, CME444, CME445, CME446, CME495
+
+Prerequisite Chains:
+• CCS200 → CME220 → CME310 → CME420/CME430
+• ENG205 → CME341 → CME442
+• CCS241 → CME360
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SOFTWARE ENGINEERING (SWE) - 132 Credits:
+
+Program Requirements (15 courses):
+• SWE301, SWE305, SWE306, SWE310, SWE311, SWE340, SWE341, SWE345, SWE420, SWE421, SWE430, SWE431, SWE440, SWE490, SWE491
+
+Program Electives (Choose 2):
+• SWE480, SWE441, SWE442, SWE443, SWE444, SWE445, SWE447, SWE495
+
+Prerequisite Chains:
+• CCS230 → SWE301/SWE305 → SWE340 → SWE420/SWE430 → SWE440
+• SWE301 → SWE310/SWE345
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+CYBERSECURITY ENGINEERING (CSE) - 132 Credits:
+
+Program Requirements (15 courses):
+• CSE210, CSE310, CSE311, CSE325, CSE326, CSE341, CSE360, CSE410, CSE411, CSE420, CSE421, CSE430, CSE431, CSE490, CSE491
+
+Program Electives (Choose 2):
+• CSE480, CSE441, CSE442, CSE443, CSE445, CSE446, CSE495
+
+Prerequisite Chains:
+• MAT202 → CSE210 → CSE310 → CSE410
+• CSE210 → CSE325/CSE360/CSE430
+• CCS241 → CSE341 → CSE441
+• CCS320 → CSE420
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENGINEERING PROGRAMS (ALL 132 CREDITS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+All Engineering Programs - Credit Distribution:
+• General Education: 36 credits
+• College Requirements: 43 credits (Math/Science + Engineering Foundation)
+• Program Requirements: 44 credits
+• Program Electives: 9 credits
+
+Common Engineering Core (All Programs):
+Math/Science: PHY105, MAT102, MAT201, PHY102, PHY107, CHM101, CHM105, MAT202, MAT240
+Engineering Foundation: ENG205, ENG206, ENG207, ENG208, ENG209, ENG304, ENG308, ENG309
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BIORESOURCES & AGRICULTURAL ENGINEERING (BAE):
+
+Program Requirements (17 courses):
+• BIO101, BAE101, BAE102, ESE211, BAE230, BAE231, BAE310, BAE320, BAE330, BAE331, BAE340, BAE341, BAE360, BAE430, BAE450, BAE451, BAE490, BAE491
+
+Program Electives (Choose 3):
+• BAE401, BAE402, BAE423, BAE427, BAE455, BAE461, BAE463, BAE468, BAE471, BAE473, BAE475, BAE480, BAE495, BAE496
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+BIOMEDICAL & INSTRUMENTATION ENGINEERING (BIE):
+
+Program Requirements (17 courses):
+• BIE101, BIE201, BIE202, BIE203, BIE301, BIE302, BIE303, BIE304, BIE350, BIE351, BIE352, BIE353, BIE371, BIE451, BIE452, BIE401, BIE490, BIE491
+
+Program Electives (Choose 3):
+• BIE453, BIE454, BIE460, BIE461, BIE462, BIE466, BIE480, BIE410, BIE411, BIE412, BIE413, BIE414, BIE415, BIE416, BIE495, BIE496
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENERGY SYSTEMS ENGINEERING (ESE):
+
+Program Requirements (17 courses):
+• ESE211, ESE301, ESE302, ESE305, RME304, RME352, RME353, ESE312, ESE313, ESE314, ESE315, ESE321, RME360, ESE401, ESE402, ESE425, ESE490, ESE491
+
+Program Electives (Choose 3):
+• ESE440, ESE441, ESE442, ESE443, ESE450, ESE451, ESE452, ESE453, ESE461, ESE462, ESE480, ESE495
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ENVIRONMENTAL & SUSTAINABILITY ENGINEERING (EES):
+
+Program Requirements (15 courses):
+• BIO101, ESE301, ESE302, ESE305, EES301, EES302, EES303, EES304, EES305, EES306, EES307, EES308, EES401, EES402, EES490, EES491
+
+Program Electives (Choose 3):
+• EES451, EES452, EES453, EES454, EES455, EES461, EES480, EES495, EES496
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+MATERIAL SCIENCE & ENGINEERING (MSE):
+
+Program Requirements (17 courses):
+• MSE211, MSE301, MSE302, MSE303, MSE304, MSE305, MSE306, MSE307, MSE308, MSE309, MSE310, MSE311, MSE400, MSE401, MSE402, MSE403, MSE490, MSE491
+
+Program Electives (Choose 3):
+• MSE382, MSE484, MSE485, MSE486, MSE487, MSE488, MSE480, MSE495
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+ROBOTICS & MECHATRONICS ENGINEERING (RME):
+
+Program Requirements (17 courses):
+• ESE211, RME301, RME302, RME304, RME352, RME353, RME360, RME361, MSE211, RME363, RME401, RME402, RME403, RME430, RME431, RME460, RME490, RME491
+
+Program Electives (Choose 3):
+• RME484, RME481, RME482, RME483, RME480, RME485, ESE312, RME486, RME487, RME495, RME496
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+IMPORTANT LAB COURSE RULES (All Technical & Engineering Programs):
+Lab courses MUST be taken concurrently with their corresponding theory courses.
+Examples: CCS120/CCS121, PHY101/PHY105, ENG205/ENG206, BAE230/BAE231, SWE305/SWE306
+
+CAPSTONE REQUIREMENTS (All Programs):
+Must complete 96 credit hours → Capstone Design 1 → Capstone Design 2
 
 FORMATTING GUIDELINES - MAKE EVERY RESPONSE BEAUTIFUL AND PERFECT:
 

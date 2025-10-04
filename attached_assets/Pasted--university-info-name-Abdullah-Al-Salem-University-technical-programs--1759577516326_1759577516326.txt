@@ -1,0 +1,254 @@
+{
+  "university_info": {
+    "name": "Abdullah Al Salem University",
+    "technical_programs": {
+      "data_science_ai": {
+        "code": "DAI",
+        "degree": "Bachelor of Science in Data Science and Artificial Intelligence",
+        "total_credits": 120,
+        "duration": "4 years"
+      },
+      "computer_systems_engineering": {
+        "code": "CME",
+        "degree": "Bachelor of Science in Computer Systems Engineering",
+        "total_credits": 132,
+        "duration": "4 years"
+      },
+      "software_engineering": {
+        "code": "SWE",
+        "degree": "Bachelor of Science in Software Engineering",
+        "total_credits": 132,
+        "duration": "4 years"
+      },
+      "cybersecurity_engineering": {
+        "code": "CSE",
+        "degree": "Bachelor of Science in Cybersecurity Engineering",
+        "total_credits": 132,
+        "duration": "4 years"
+      }
+    },
+    "credit_distribution": {
+      "data_science_ai": {
+        "general_education": 36,
+        "college_requirements": 40,
+        "program_requirements": 38,
+        "program_electives": 6,
+        "total": 120
+      },
+      "engineering_programs": {
+        "general_education": 36,
+        "college_requirements": 55,
+        "program_requirements": 35,
+        "program_electives": 6,
+        "total": 132
+      }
+    }
+  },
+
+  "preparatory_programs": {
+    "digital_skills": "DPS095 - Digital and Professional Skills",
+    "precalculus": "IMP099 - Precalculus",
+    "english": "IEP099 - English Proficiency"
+  },
+
+  "course_categories": {
+    "general_education": {
+      "communication": ["ENL101", "ENL102", "ENL201"],
+      "innovation_creativity": {
+        "required": ["GEN150"],
+        "electives": ["GEN131", "BUS101", "ENI110", "ENI140", "ENI150", "ENI160"]
+      },
+      "global_citizen": {
+        "required": ["INF120"],
+        "electives": ["GEN201", "GEN202", "BUS201"]
+      },
+      "art_humanities": {
+        "required": ["HST101"],
+        "electives_group1": ["HST102", "ARB101", "ART101", "ART102"],
+        "electives_group2": ["PHL101", "LAW101", "PSY101", "SOC101", "BUS300"]
+      },
+      "math_science": ["MAT101", "PHY101"]
+    },
+
+    "college_requirements": {
+      "math_science_core": {
+        "data_science_ai": ["PHY105", "MAT102", "MAT120", "BIO101/CHM101", "BIO105/CHM105", "MAT202", "ENG304"],
+        "engineering_common": ["PHY105", "PHY102", "PHY107", "MAT102", "MAT221", "MAT120", "BIO101/CHM101", "BIO105/CHM105", "MAT202", "MAT240", "ENG304", "ENG308"]
+      },
+      "computing_core": {
+        "data_science_ai": ["CCS120", "CCS121", "CCS220", "CCS221", "CCS230", "CCS231", "CCS270", "CCS271", "CCS342", "CCS330", "CCS331"],
+        "engineering_common": ["CCS120", "CCS121", "CCS200", "CCS220", "CCS221", "CCS230", "CCS231", "CCS241", "CCS270", "CCS271", "CCS320"]
+      }
+    },
+
+    "program_requirements": {
+      "data_science_ai": [
+        "DAI230", "DAI250", "DAI251", "DAI310", "DAI311", "DAI330", "DAI331",
+        "DAI351", "DAI352", "DAI374", "DAI421", "DAI430", "DAI431", "DAI440", "DAI490", "DAI491"
+      ],
+      "computer_systems_engineering": [
+        "ENG205", "ENG206", "CME220", "CME310", "CME311", "CME341", "CME360",
+        "CME410", "CME411", "CME420", "CME421", "CME430", "CME431", "CME490", "CME491"
+      ],
+      "software_engineering": [
+        "SWE301", "SWE305", "SWE306", "SWE310", "SWE311", "SWE340", "SWE341",
+        "SWE345", "SWE420", "SWE421", "SWE430", "SWE431", "SWE440", "SWE490", "SWE491"
+      ],
+      "cybersecurity_engineering": [
+        "CSE210", "CSE310", "CSE311", "CSE325", "CSE326", "CSE341", "CSE360",
+        "CSE410", "CSE411", "CSE420", "CSE421", "CSE430", "CSE431", "CSE490", "CSE491"
+      ]
+    },
+
+    "program_electives": {
+      "data_science_ai": [
+        "DAI480", "DAI432", "DAI462", "DAI463", "DAI475", "DAI476", "DAI495", "DAI496"
+      ],
+      "computer_systems_engineering": [
+        "CME480", "CCS330", "CME435", "CME440", "CME441", "CME442", "CME443",
+        "CME444", "CME445", "CME446", "CME495"
+      ],
+      "software_engineering": [
+        "SWE480", "SWE441", "SWE442", "SWE443", "SWE444", "SWE445", "SWE447", "SWE495"
+      ],
+      "cybersecurity_engineering": [
+        "CSE480", "CSE441", "CSE442", "CSE443", "CSE445", "CSE446", "CSE495"
+      ]
+    }
+  },
+
+  "prerequisite_chains": {
+    "math_science_sequence": [
+      "IMP099 → MAT101 → MAT102 → MAT202/MAT240/ENG304",
+      "MAT101 → PHY101 → PHY102 (Engineering)",
+      "MAT101 → ENG304 (All)"
+    ],
+    "computing_foundation": [
+      "MAT120 → CCS120 → CCS220 → CCS270 → CCS320",
+      "CCS220 → CCS230 → CCS330",
+      "PHY101 → CCS200 → CCS241 (Engineering)"
+    ],
+    "program_specific_chains": {
+      "data_science_ai": [
+        "MAT120 → DAI230 → DAI250 → DAI310 → DAI351",
+        "CCS230 → DAI330 → DAI430",
+        "DAI250 → DAI421"
+      ],
+      "computer_systems_engineering": [
+        "CCS200 → CME220 → CME310 → CME420/CME430",
+        "ENG205 → CME341 → CME442",
+        "CCS241 → CME360"
+      ],
+      "software_engineering": [
+        "CCS230 → SWE301/SWE305 → SWE340 → SWE420/SWE430 → SWE440",
+        "SWE301 → SWE310/SWE345"
+      ],
+      "cybersecurity_engineering": [
+        "MAT202 → CSE210 → CSE310 → CSE410",
+        "CSE210 → CSE325/CSE360/CSE430",
+        "CCS241 → CSE341 → CSE441",
+        "CCS320 → CSE420"
+      ]
+    },
+    "capstone_requirements": {
+      "all_programs": "Pass 96 CH → Capstone Design 1 → Capstone Design 2"
+    }
+  },
+
+  "four_year_plans": {
+    "data_science_ai": {
+      "year_1_fall": ["ENL101", "MAT101", "PHY101", "GEN150", "HST101"],
+      "year_1_spring": ["ENL102", "PHY105", "MAT102", "BIO101/CHM101", "Art_Humanities_Elective1"],
+      "year_2_fall": ["ENL201", "MAT120", "MAT202", "CCS120", "CCS121"],
+      "year_2_spring": ["ENG304", "CCS220", "CCS221", "CCS230", "CCS231"],
+      "year_3_fall": ["DAI230", "DAI250", "DAI251", "CCS270", "CCS271"],
+      "year_3_spring": ["DAI310", "DAI311", "DAI330", "DAI331", "Global_Citizen_Elective"],
+      "year_4_fall": ["DAI351", "DAI352", "DAI421", "DAI440", "Program_Elective1"],
+      "year_4_spring": ["DAI374", "DAI430", "DAI431", "DAI490", "DAI491"]
+    },
+    
+    "engineering_program_template": {
+      "year_1_fall": ["ENL101", "MAT101", "PHY101", "GEN150", "HST101"],
+      "year_1_spring": ["ENL102", "PHY105", "MAT102", "BIO101/CHM101", "Art_Humanities_Elective1"],
+      "year_2_fall": ["ENL201", "MAT120", "MAT202", "CCS120", "CCS121"],
+      "year_2_spring": ["MAT221", "MAT240", "CCS200", "CCS220", "CCS221"],
+      "year_3_fall": ["ENG304", "CCS230", "CCS231", "CCS241", "CCS270", "CCS271"],
+      "year_3_spring": ["ENG308", "CCS320", "Program_Core1", "Program_Core2", "Program_Core3"],
+      "year_4_fall": ["Program_Core4", "Program_Core5", "Program_Core6", "Program_Core7", "Program_Elective1"],
+      "year_4_spring": ["Program_Core8", "Program_Core9", "Capstone1", "Capstone2", "Program_Elective2"]
+    }
+  },
+
+  "summer_session_guidelines": {
+    "purpose": "Accelerate progress, reduce regular semester load, or retake courses",
+    "recommended_courses": {
+      "general_education": ["GEN150", "HST101", "Art_Humanities_Electives", "Global_Citizen_Electives"],
+      "foundation_courses": ["MAT101", "MAT102", "MAT120", "CCS120"],
+      "prerequisite_courses": ["INF120", "PHY101", "Discrete Mathematics courses"],
+      "avoid_in_summer": ["Capstone courses", "Advanced labs", "Complex project-based courses"]
+    },
+    "planning_scenarios": {
+      "accelerated_graduation": "Take 2-3 general education/foundation courses each summer",
+      "reduced_engineering_load": "Move general education courses to summer for technical focus during regular semesters",
+      "prerequisite_catchup": "Use summer to complete math prerequisites for fall technical courses",
+      "retake_failed_courses": "Summer is ideal for repeating courses without delaying progression"
+    },
+    "maximum_summer_load": 9,
+    "typical_summer_load": 6
+  },
+
+  "elective_recommendations": {
+    "career_path_focused": {
+      "ai_researcher": {
+        "program": "data_science_ai",
+        "electives": ["DAI462", "DAI463", "DAI496"]
+      },
+      "data_engineer": {
+        "program": "data_science_ai", 
+        "electives": ["DAI432", "DAI476", "DAI480"]
+      },
+      "embedded_systems_engineer": {
+        "program": "computer_systems_engineering",
+        "electives": ["CME440", "CME441", "CME442"]
+      },
+      "network_security_specialist": {
+        "program": "cybersecurity_engineering",
+        "electives": ["CSE441", "CSE442", "CSE445"]
+      },
+      "full_stack_developer": {
+        "program": "software_engineering",
+        "electives": ["SWE447", "SWE444", "SWE445"]
+      }
+    },
+    "emerging_technologies": {
+      "ai_ml": ["DAI462", "DAI463", "CME444"],
+      "cloud_computing": ["SWE447", "DAI440"],
+      "cybersecurity": ["CSE441", "CSE445", "DAI432"],
+      "blockchain": ["CME445"],
+      "quantum_computing": ["CME446"]
+    }
+  },
+
+  "lab_course_integration": {
+    "rule": "Lab courses must be taken concurrently with their corresponding theoretical courses",
+    "lab_pairs": {
+      "PHY101/PHY105", "CCS120/CCS121", "CCS220/CCS221", "CCS230/CCS231", 
+      "CCS270/CCS271", "CCS330/CCS331", "DAI250/DAI251", "DAI310/DAI311",
+      "DAI330/DAI331", "DAI351/DAI352", "DAI430/DAI431", "ENG205/ENG206",
+      "CME310/CME311", "CME420/CME421", "CME430/CME431", "SWE305/SWE306",
+      "SWE310/SWE311", "SWE340/SWE341", "SWE420/SWE421", "SWE430/SWE431",
+      "CSE310/CSE311", "CSE325/CSE326", "CSE410/CSE411", "CSE420/CSE421",
+      "CSE430/CSE431"
+    }
+  },
+
+  "academic_policies": {
+    "prerequisite_enforcement": "STRICT - cannot take course without completing prerequisites",
+    "maximum_regular_load": 18,
+    "minimum_full_time": 12,
+    "capstone_requirements": "96 credits completed + program approval",
+    "internship_timing": "Recommended after completing core major courses",
+    "elective_flexibility": "Up to 3 credits from other colleges at 300+ level with approval",
+    "lab_requirements": "Lab courses are mandatory and must be taken with corresponding theory courses"
+  }
+}

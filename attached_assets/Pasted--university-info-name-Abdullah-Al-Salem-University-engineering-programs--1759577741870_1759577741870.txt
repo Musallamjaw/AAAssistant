@@ -1,0 +1,295 @@
+{
+  "university_info": {
+    "name": "Abdullah Al Salem University",
+    "engineering_programs": {
+      "bioresources_agricultural": {
+        "code": "BAE",
+        "degree": "Bachelor of Science in Bioresources and Agricultural Engineering",
+        "total_credits": 132,
+        "specialization": "Agricultural systems, food safety, robotics in agriculture"
+      },
+      "biomedical_instruments": {
+        "code": "BIE",
+        "degree": "Bachelor of Science in Biomedical and Instruments Engineering",
+        "total_credits": 132,
+        "specialization": "Medical devices, instrumentation, biomechanics"
+      },
+      "energy_systems": {
+        "code": "ESE",
+        "degree": "Bachelor of Science in Energy Systems Engineering",
+        "total_credits": 132,
+        "specialization": "Power systems, renewable energy, smart grids"
+      },
+      "environmental_sustainability": {
+        "code": "EES",
+        "degree": "Bachelor of Science in Environmental and Sustainability Engineering",
+        "total_credits": 132,
+        "specialization": "Environmental management, waste treatment, sustainability"
+      },
+      "material_science": {
+        "code": "MSE",
+        "degree": "Bachelor of Science in Material Science and Engineering",
+        "total_credits": 132,
+        "specialization": "Materials characterization, nanomaterials, energy materials"
+      },
+      "robotics_mechatronics": {
+        "code": "RME",
+        "degree": "Bachelor of Science in Robotics and Mechatronics Engineering",
+        "total_credits": 132,
+        "specialization": "Robotics, automation, control systems"
+      }
+    },
+    "engineering_credit_structure": {
+      "general_education": 36,
+      "college_requirements": 43,
+      "program_requirements": 44,
+      "program_electives": 9,
+      "total": 132
+    }
+  },
+
+  "preparatory_programs": {
+    "digital_skills": "DPS095 - Digital and Professional Skills",
+    "precalculus": "IMP099 - Precalculus",
+    "english": "IEP099 - English Proficiency"
+  },
+
+  "common_engineering_core": {
+    "general_education": {
+      "communication": ["ENL101", "ENL102", "ENL201"],
+      "innovation_creativity": {
+        "required": ["GEN150"],
+        "electives": ["GEN131", "BUS101", "ENI110", "ENI140", "ENI150", "ENI160"]
+      },
+      "global_citizen": {
+        "required": ["INF120"],
+        "electives": ["GEN201", "GEN202", "BUS201"]
+      },
+      "art_humanities": {
+        "required": ["HST101"],
+        "electives_group1": ["HST102", "ARB101", "ART101", "ART102"],
+        "electives_group2": ["PHL101", "LAW101", "PSY101", "SOC101"]
+      },
+      "math_science": ["MAT101", "PHY101"]
+    },
+
+    "college_requirements": {
+      "math_science_core": [
+        "PHY105", "MAT102", "MAT201", "PHY102", "PHY107", 
+        "CHM101", "CHM105", "MAT202", "MAT240"
+      ],
+      "engineering_foundation": [
+        "ENG205", "ENG206", "ENG207", "ENG208", "ENG209", 
+        "ENG304", "ENG308", "ENG309"
+      ]
+    }
+  },
+
+  "program_specific_requirements": {
+    "bioresources_agricultural": {
+      "biology_foundation": ["BIO101"],
+      "core_courses": [
+        "BAE101", "BAE102", "ESE211", "BAE230", "BAE231", "BAE310", "BAE320",
+        "BAE330", "BAE331", "BAE340", "BAE341", "BAE360", "BAE430", "BAE450", "BAE451"
+      ],
+      "capstone": ["BAE490", "BAE491"]
+    },
+    "biomedical_instruments": {
+      "biology_chemistry": ["BIE101", "BIE201", "BIE202", "BIE203"],
+      "core_courses": [
+        "BIE301", "BIE302", "BIE303", "BIE304", "BIE350", "BIE351", "BIE352",
+        "BIE353", "BIE371", "BIE451", "BIE452", "BIE401"
+      ],
+      "capstone": ["BIE490", "BIE491"]
+    },
+    "energy_systems": {
+      "electronics_foundation": ["ESE211"],
+      "core_courses": [
+        "ESE301", "ESE302", "ESE305", "RME304", "RME352", "RME353", "ESE312",
+        "ESE313", "ESE314", "ESE315", "ESE321", "RME360", "ESE401", "ESE402", "ESE425"
+      ],
+      "capstone": ["ESE490", "ESE491"]
+    },
+    "environmental_sustainability": {
+      "biology_foundation": ["BIO101"],
+      "core_courses": [
+        "ESE301", "ESE302", "ESE305", "EES301", "EES302", "EES303", "EES304",
+        "EES305", "EES306", "EES307", "EES308", "EES401", "EES402"
+      ],
+      "capstone": ["EES490", "EES491"]
+    },
+    "material_science": {
+      "materials_foundation": ["MSE211"],
+      "core_courses": [
+        "MSE301", "MSE302", "MSE303", "MSE304", "MSE305", "MSE306", "MSE307",
+        "MSE308", "MSE309", "MSE310", "MSE311", "MSE400", "MSE401", "MSE402", "MSE403"
+      ],
+      "capstone": ["MSE490", "MSE491"]
+    },
+    "robotics_mechatronics": {
+      "electronics_foundation": ["ESE211"],
+      "core_courses": [
+        "RME301", "RME302", "RME304", "RME352", "RME353", "RME360", "RME361",
+        "MSE211", "RME363", "RME401", "RME402", "RME403", "RME430", "RME431", "RME460"
+      ],
+      "capstone": ["RME490", "RME491"]
+    }
+  },
+
+  "program_electives": {
+    "bioresources_agricultural": [
+      "BAE401", "BAE402", "BAE423", "BAE427", "BAE455", "BAE461", "BAE463",
+      "BAE468", "BAE471", "BAE473", "BAE475", "BAE480", "BAE495", "BAE496"
+    ],
+    "biomedical_instruments": [
+      "BIE453", "BIE454", "BIE460", "BIE461", "BIE462", "BIE466", "BIE480",
+      "BIE410", "BIE411", "BIE412", "BIE413", "BIE414", "BIE415", "BIE416",
+      "BIE495", "BIE496"
+    ],
+    "energy_systems": [
+      "ESE440", "ESE441", "ESE442", "ESE443", "ESE450", "ESE451", "ESE452",
+      "ESE453", "ESE461", "ESE462", "ESE480", "ESE495"
+    ],
+    "environmental_sustainability": [
+      "EES451", "EES452", "EES453", "EES454", "EES455", "EES461", "EES480",
+      "EES495", "EES496"
+    ],
+    "material_science": [
+      "MSE382", "MSE484", "MSE485", "MSE486", "MSE487", "MSE488", "MSE480", "MSE495"
+    ],
+    "robotics_mechatronics": [
+      "RME484", "RME481", "RME482", "RME483", "RME480", "RME485", "ESE312",
+      "RME486", "RME487", "RME495", "RME496"
+    ]
+  },
+
+  "prerequisite_chains": {
+    "math_science_sequence": [
+      "IMP099 → MAT101 → MAT102 → MAT201/MAT202/MAT240/ENG304",
+      "MAT101 → PHY101 → PHY102 → ENG205/ENG209",
+      "MAT101 → CHM101 → Program-specific chemistry/biology courses"
+    ],
+    "engineering_foundation": [
+      "PHY102 → ENG205 → ESE211/BIE350/RME304",
+      "MAT202 → ENG207 → ENG309/RME352",
+      "ENG205 → ENG206 → RME352/RME353"
+    ],
+    "program_specific_sequences": {
+      "bioresources_agricultural": [
+        "BIO101 → BAE101 → BAE360 → Advanced agricultural courses",
+        "ENG209 → BAE230 → BAE330 → BAE430",
+        "CHM101/BIO101 → BAE340 → Food safety electives"
+      ],
+      "biomedical_instruments": [
+        "BIE101 → BIE201/BIE203 → BIE301/BIE304 → BIE401",
+        "ENG205 → BIE350 → BIE352 → BIE451",
+        "BIE203 → BIE302/BIE304 → Biomechanics electives"
+      ],
+      "energy_systems": [
+        "ENG205 → ESE211 → ESE312 → ESE314 → Power systems electives",
+        "MAT240/PHY102 → ESE301 → ESE302 → Thermal/energy courses",
+        "ESE312/ESE314 → Renewable energy systems"
+      ],
+      "environmental_sustainability": [
+        "CHM101/BIO101 → EES301 → EES306/EES307 → Environmental treatment",
+        "ENG208 → EES302/EES303 → Sustainability courses",
+        "ESE302 → EES304/EES401 → Environmental systems"
+      ],
+      "material_science": [
+        "ENG209 → MSE211 → MSE302/MSE303 → Advanced materials",
+        "MSE211 → MSE305/MSE306 → MSE402 (energy materials)",
+        "MSE302 → MSE308 → MSE403 (characterization progression)"
+      ],
+      "robotics_mechatronics": [
+        "ENG205 → RME301 → RME401 → Robotics electives",
+        "ENG207 → RME352 → RME430 → Signal processing",
+        "MAT201/MAT240 → RME360 → Control systems → Advanced robotics"
+      ]
+    },
+    "capstone_requirements": {
+      "all_programs": "Pass 96 CH → Capstone Design 1 → Capstone Design 2"
+    }
+  },
+
+  "four_year_plan_template": {
+    "engineering_standard_plan": {
+      "year_1_fall": ["ENL101", "MAT101", "PHY101", "GEN150", "HST101"],
+      "year_1_spring": ["ENL102", "PHY105", "MAT102", "CHM101", "CHM105", "Art_Humanities_Elective1"],
+      "year_2_fall": ["ENL201", "MAT201", "PHY102", "PHY107", "INF120"],
+      "year_2_spring": ["MAT202", "MAT240", "ENG205", "ENG206", "Art_Humanities_Elective2"],
+      "year_3_fall": ["ENG207", "ENG209", "ENG304", "Program_Core1", "Program_Core2"],
+      "year_3_spring": ["ENG208", "ENG308", "ENG309", "Program_Core3", "Program_Core4"],
+      "year_4_fall": ["Program_Core5", "Program_Core6", "Program_Core7", "Program_Elective1", "Program_Elective2"],
+      "year_4_spring": ["Program_Core8", "Capstone1", "Capstone2", "Program_Elective3", "Global_Citizen_Elective"]
+    }
+  },
+
+  "summer_session_planning": {
+    "recommended_courses": {
+      "general_education": ["GEN150", "HST101", "Art_Humanities_Electives", "Global_Citizen_Electives"],
+      "foundation_courses": ["MAT101", "MAT102", "CHM101", "CHM105"],
+      "early_engineering": ["INF120", "ENG205", "ENG206"],
+      "avoid_in_summer": ["Capstone courses", "Advanced labs", "Complex project-based courses"]
+    },
+    "acceleration_strategies": {
+      "lighten_regular_semesters": "Move 1-2 general education courses to summer",
+      "prerequisite_management": "Complete math/science prerequisites for fall engineering courses",
+      "elective_advancement": "Take program electives early if prerequisites are met"
+    },
+    "load_guidelines": {
+      "maximum_summer_load": 9,
+      "recommended_summer_load": 6,
+      "minimum_for_progress": 3
+    }
+  },
+
+  "career_aligned_electives": {
+    "agricultural_technology": {
+      "program": "bioresources_agricultural",
+      "electives": ["BAE450", "BAE451", "BAE475", "BAE461"]
+    },
+    "medical_device_design": {
+      "program": "biomedical_instruments",
+      "electives": ["BIE451", "BIE416", "BIE414", "BIE415"]
+    },
+    "renewable_energy_specialist": {
+      "program": "energy_systems",
+      "electives": ["ESE440", "ESE441", "ESE453", "ESE462"]
+    },
+    "environmental_consultant": {
+      "program": "environmental_sustainability",
+      "electives": ["EES451", "EES453", "EES455", "EES461"]
+    },
+    "advanced_materials_engineer": {
+      "program": "material_science",
+      "electives": ["MSE484", "MSE485", "MSE487", "MSE488"]
+    },
+    "robotics_developer": {
+      "program": "robotics_mechatronics",
+      "electives": ["RME484", "RME481", "RME487", "RME482"]
+    }
+  },
+
+  "lab_course_management": {
+    "rule": "Lab courses must be taken concurrently with corresponding theoretical courses",
+    "lab_pairs": {
+      "PHY101/PHY105", "PHY102/PHY107", "CHM101/CHM105", "ENG205/ENG206",
+      "BAE101/BAE102", "BAE230/BAE231", "BAE330/BAE331", "BAE340/BAE341",
+      "BAE450/BAE451", "BIE201/BIE202", "BIE302/BIE303", "BIE350/BIE351",
+      "BIE352/BIE353", "BIE451/BIE452", "ESE302/ESE305", "ESE312/ESE313",
+      "ESE314/ESE315", "ESE321/ESE425", "RME301/RME302", "RME352/RME353",
+      "RME360/RME361", "RME401/RME402", "RME430/RME431", "EES304/EES305",
+      "MSE302/MSE308", "MSE303/MSE309", "MSE305/MSE310", "MSE306/MSE311"
+    }
+  },
+
+  "academic_policies": {
+    "prerequisite_enforcement": "STRICT - cannot take course without completing prerequisites",
+    "maximum_regular_load": 18,
+    "minimum_full_time": 12,
+    "capstone_requirements": "96 credits completed + program approval",
+    "internship_timing": "Recommended after completing core major courses, typically year 3-4",
+    "elective_flexibility": "Up to 3 credits from other colleges at 300+ level with approval",
+    "lab_safety_requirements": "All lab courses require safety training and concurrent theory enrollment"
+  }
+}

@@ -1,0 +1,182 @@
+{
+  "university_info": {
+    "name": "Abdullah Al Salem University",
+    "programs": ["Entrepreneurship and Innovation", "Digital Marketing", "Supply Chain and Logistics Management"],
+    "degree": "Bachelor of Business",
+    "total_credits_required": 120,
+    "credit_distribution": {
+      "general_education": 36,
+      "college_requirements": 33,
+      "program_requirements": 42,
+      "program_electives": 9
+    },
+    "academic_calendar": {
+      "regular_semesters": ["Fall", "Spring"],
+      "summer_session": "Optional",
+      "credits_per_regular_semester": 15,
+      "max_credits_per_summer": 9
+    }
+  },
+
+  "course_categories": {
+    "general_education": {
+      "communication": ["ENL101", "ENL102", "ENL201"],
+      "innovation_creativity": {
+        "required": ["GEN150"],
+        "electives": ["GEN131", "ENI110/ENH110", "ENI140/ENH140", "ENI150/ENH150", "ENH160"]
+      },
+      "global_citizen": {
+        "required": ["INF120"],
+        "electives": ["GEN201", "GEN202", "BUS201"]
+      },
+      "art_humanities": {
+        "required": ["HST101"],
+        "electives_group1": ["HST102", "ARB101", "ART101", "ART102"],
+        "electives_group2": ["PHL101", "PLS254", "PSY100", "BUS300"]
+      },
+      "math_science": ["MAT100", "MAT210"]
+    },
+    
+    "college_requirements": [
+      "BUS100", "ACC101", "FIN102", "MRK103", "BUS200", 
+      "BUS220", "MIS300", "MGT310", "MGT340", "BUS345", "MGT420"
+    ],
+
+    "program_requirements": {
+      "entrepreneurship_innovation": [
+        "EN1200", "EN1210", "EN1215", "EN1220", "EN1225", "EN1315",
+        "EN1320", "EN1400", "EN1405", "EN1410", "EN1415", "EN1435", "EN1455", "EN1490"
+      ],
+      "digital_marketing": [
+        "DMK210", "DMK220", "DMK225", "DMK230", "DMK310", "DMK315",
+        "DMK325", "DMK330", "DMK400", "DMK420", "DMK440", "DMK460", "DMK475", "DMK490"
+      ],
+      "supply_chain_logistics": [
+        "SCL200", "SCL201", "SCL202", "SCL203", "SCL310", "SCL315", "SCL320",
+        "SCL340", "SCL400", "SCL401", "SCL402", "SCL410", "SCL415", "SCL490"
+      ]
+    },
+
+    "program_electives": {
+      "entrepreneurship_innovation": [
+        "EN1425", "EN1440", "EN1445", "EN1446", "EN1450", "EN1460", "EN1480", "EN1495"
+      ],
+      "digital_marketing": [
+        "DMK340", "DMK320", "DMK435", "DMK445", "DMK450", "DMK465", "DMK470", "DMK480", "DMK495"
+      ],
+      "supply_chain_logistics": [
+        "SCL325", "SCL420", "SCL430", "SCL435", "SCL440", "SCL445", "SCL450", "SCL455", "SCL460", "SCL480", "SCL495"
+      ]
+    }
+  },
+
+  "prerequisite_chains": {
+    "math_sequence": ["MAT100 → MAT210 → BUS200/BUS220"],
+    "english_sequence": ["ENL101 → ENL102 → ENL201"],
+    "business_foundation": ["BUS100 → MRK103/MGT310/BUS345"],
+    "technology_sequence": ["ICT095 → INF120 → MIS300 → MGT420"],
+    "major_specific_chains": {
+      "entrepreneurship": [
+        "EN1200 → EN1220 → EN1435",
+        "BUS100/ACC101/FIN102/MRK103 → EN1200",
+        "EN1225/EN1400 → EN1410"
+      ],
+      "digital_marketing": [
+        "MRK103 → DMK210 → DMK230/DMK310/DMK315/DMK420",
+        "DMK225 → DMK325 → DMK435",
+        "DMK310/DMK315 → DMK440/DMK460/DMK475"
+      ],
+      "supply_chain": [
+        "SCL200 → SCL201/SCL203 → SCL315/SCL320 → SCL340 → SCL410/SCL415",
+        "BUS200 → SCL310",
+        "MIS300/MGT340/SCL315 → SCL401/SCL402"
+      ]
+    }
+  },
+
+  "four_year_plans": {
+    "template": {
+      "year_1_fall": ["ENL101", "MAT100", "BUS100", "GEN150", "HST101"],
+      "year_1_spring": ["ENL102", "MAT210", "ACC101", "FIN102", "Art_Humanities_Elective1"],
+      "year_2_fall": ["ENL201", "MRK103", "INF120", "Program_Core1", "Innovation_Creativity_Elective"],
+      "year_2_spring": ["BUS200", "BUS220", "Program_Core2", "Program_Core3", "Art_Humanities_Elective2"],
+      "year_3_fall": ["MIS300", "MGT310", "Program_Core4", "Program_Core5", "Global_Citizen_Elective"],
+      "year_3_spring": ["MGT340", "BUS345", "Program_Core6", "Program_Core7", "Program_Elective1"],
+      "year_4_fall": ["MGT420", "Program_Core8", "Program_Core9", "Program_Core10", "Program_Elective2"],
+      "year_4_spring": ["Program_Core11", "Program_Core12", "Program_Core13", "Capstone", "Program_Elective3"]
+    },
+
+    "major_specific_placement": {
+      "entrepreneurship_innovation": {
+        "program_core1": "EN1200", "program_core2": "EN1215", "program_core3": "EN1220",
+        "program_core4": "EN1210", "program_core5": "EN1225", "program_core6": "EN1315",
+        "program_core7": "EN1320", "program_core8": "EN1400", "program_core9": "EN1405",
+        "program_core10": "EN1415", "program_core11": "EN1410", "program_core12": "EN1435",
+        "program_core13": "EN1455", "capstone": "EN1490"
+      },
+      "digital_marketing": {
+        "program_core1": "DMK210", "program_core2": "DMK220", "program_core3": "DMK225",
+        "program_core4": "DMK230", "program_core5": "DMK310", "program_core6": "DMK315",
+        "program_core7": "DMK325", "program_core8": "DMK330", "program_core9": "DMK400",
+        "program_core10": "DMK440", "program_core11": "DMK420", "program_core12": "DMK460",
+        "program_core13": "DMK475", "capstone": "DMK490"
+      },
+      "supply_chain_logistics": {
+        "program_core1": "SCL200", "program_core2": "SCL201", "program_core3": "SCL202",
+        "program_core4": "SCL203", "program_core5": "SCL310", "program_core6": "SCL315",
+        "program_core7": "SCL320", "program_core8": "SCL340", "program_core9": "SCL400",
+        "program_core10": "SCL401", "program_core11": "SCL410", "program_core12": "SCL415",
+        "program_core13": "SCL402", "capstone": "SCL490"
+      }
+    }
+  },
+
+  "summer_session_guidelines": {
+    "purpose": "Accelerate progress, reduce regular semester load, or retake courses",
+    "recommended_courses": {
+      "general_education": ["GEN150", "HST101", "Art_Humanities_Electives", "Global_Citizen_Electives"],
+      "foundation_courses": ["MAT100", "MAT210", "BUS100"],
+      "prerequisite_courses": ["INF120", "ACC101", "FIN102"],
+      "avoid_in_summer": ["Capstone courses", "Internships", "Advanced courses with complex prerequisites"]
+    },
+    "planning_scenarios": {
+      "accelerated_graduation": "Take 2-3 general education courses each summer to graduate early",
+      "reduced_load": "Move 1-2 lighter courses to summer for more focus during regular semesters",
+      "prerequisite_catchup": "Use summer to complete prerequisites for fall advanced courses",
+      "retake_failed_courses": "Summer is ideal for repeating courses without delaying progression"
+    },
+    "maximum_summer_load": 9,
+    "typical_summer_load": 6
+  },
+
+  "elective_recommendations": {
+    "career_path_guided": {
+      "tech_startup_founder": {
+        "majors": ["entrepreneurship_innovation"],
+        "electives": ["EN1455", "EN1440", "EN1460", "Technical_Elective_from_CS"]
+      },
+      "social_media_manager": {
+        "majors": ["digital_marketing"], 
+        "electives": ["DMK340", "DMK445", "DMK470", "ART102"]
+      },
+      "supply_chain_analyst": {
+        "majors": ["supply_chain_logistics"],
+        "electives": ["SCL430", "SCL450", "SCL460", "BUS200"]
+      }
+    },
+    "skill_based_recommendations": {
+      "analytical_skills": ["BUS200", "SCL310", "DMK440", "EN1210"],
+      "creative_skills": ["GEN131", "ENI140/ENH140", "DMK435", "ART101"],
+      "leadership_skills": ["EN1215", "MGT310", "BUS300", "SCL415"]
+    }
+  },
+
+  "academic_advising_rules": {
+    "prerequisite_enforcement": "STRICT - cannot take course without completing prerequisites",
+    "maximum_course_load": 18,
+    "minimum_full_time": 12,
+    "internship_timing": "Recommended in final year after completing core major courses",
+    "capstone_requirements": "Program approval required, typically taken in final semester",
+    "elective_flexibility": "Up to 3 credits can be technical electives from other programs"
+  }
+}

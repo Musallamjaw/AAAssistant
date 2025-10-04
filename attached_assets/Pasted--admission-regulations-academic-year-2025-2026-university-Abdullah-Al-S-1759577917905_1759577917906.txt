@@ -1,0 +1,214 @@
+{
+  "admission_regulations": {
+    "academic_year": "2025/2026",
+    "university": "Abdullah Al Salem University",
+    "overview": "Admission regulations for freshman students based on high school graduation, considering university capacity, labor market needs, and academic excellence.",
+    "last_updated": "2025"
+  },
+
+  "general_conditions": {
+    "eligibility_years": ["2023/2024", "2024/2025"],
+    "kuwaiti_students": "Defined as Kuwaiti nationals only.",
+    "non_kuwaiti_students": "Other categories permitted according to specific rules.",
+    "program_restrictions": {
+      "engineering_computer_colleges": "Exclusively for high school Science track graduates.",
+      "business_innovation_college": {
+        "science_track": "All specializations.",
+        "arts_track": "Only Business Entrepreneurship & Innovation and Digital Marketing."
+      }
+    },
+    "application_process": {
+      "major_selection": "Students must prioritize their major choices during application; no modifications allowed after deadline.",
+      "conditional_acceptance": "Application or meeting minimum requirements does not guarantee admission.",
+      "result_announcement": "Results announced via communication channels and newspapers; minimum acceptance scores for Kuwaitis are published.",
+      "acceptance_revocation": "University may revoke acceptance if application data is found incorrect.",
+      "reapplication_restriction": "Students who previously studied at AASU, were dismissed, graduated, or were dismissed from another accredited university for disciplinary reasons cannot apply as freshmen."
+    },
+    "post_acceptance_rules": {
+      "withdrawal": "Freshmen can withdraw within the first week of classes; courses are dropped, and they may reapply under current conditions.",
+      "deferral": "Acceptance is conditional on course registration; one-time deferral to the next semester is permitted by submitting a request to the Dean of Student Affairs.",
+      "category_change": "After acceptance, students cannot change their admission category."
+    },
+    "non_degree_credits": {
+      "eligibility": "High school graduates can be exempt from courses taken post-graduation before joining AASU.",
+      "conditions": [
+        "Grade of at least C (2.0 GPA) or Pass (P) in preparatory courses.",
+        "Courses from an institution accredited by the National Authority at the time of application.",
+        "Credits exempted after course equivalency is approved by AASU.",
+        "Grades from these courses are not included in the student's GPA."
+      ]
+    },
+    "fees": {
+      "application_fee": "10 KD (non-refundable).",
+      "cancellation_fee": "10 KD if canceling acceptance after results or withdrawing within first 6 weeks of the semester."
+    },
+    "document_retention": "Admission and Registration Department is not obligated to return student documents upon rejection, withdrawal, or graduation."
+  },
+
+  "college_specific_requirements": {
+    "engineering_energy_computer_systems": {
+      "high_school_track": "Science Track only.",
+      "minimum_score": "80% for Science Track graduates.",
+      "priority_criteria": "Based on highest differential average calculated as:",
+      "differential_calculation": {
+        "high_school_score": "65% weight",
+        "national_test_english": "15% weight",
+        "national_test_math": "20% weight"
+      }
+    },
+    "business_innovation": {
+      "minimum_score": {
+        "science_track": "80%",
+        "arts_track": "85%"
+      },
+      "priority_criteria": "Based on highest differential average calculated as:",
+      "differential_calculation": {
+        "high_school_score": "70% weight",
+        "national_test_english": "15% weight",
+        "national_test_math": "15% weight"
+      }
+    }
+  },
+
+  "accepted_high_school_certificates": {
+    "kuwaiti_unified": {
+      "tracks": ["Science", "Arts"],
+      "restrictions": "Holders of Religious Institute and Industrial High School diplomas are not accepted."
+    },
+    "international_certificates": {
+      "general_rule": "Must be recognized and equated to the Kuwaiti General Secondary Certificate by the Ministry of Education.",
+      "kuwaiti_students_abroad": "Must have studied all secondary years in one country, except for official envoys or scholarship students.",
+      "specific_certificates": {
+        "british_gcse_igcse_gce": {
+          "minimum_courses": "8 courses minimum.",
+          "advanced_level": "At least 2 at A/S Level (International) or A Level.",
+          "ordinary_level": "Remaining from IGCSE Ordinary Level.",
+          "minimum_grades": "Grade C or higher in most courses; maximum one D grade allowed.",
+          "time_limit": "All required courses must be passed within 36 months.",
+          "science_track_requirements": [
+            "Mathematics",
+            "Chemistry",
+            "Physics",
+            "Biology",
+            "At least one other scientific subject at A/S or A Level"
+          ],
+          "grade_conversion": {
+            "A*": "100%",
+            "A": "95%",
+            "B": "85%",
+            "C": "75%",
+            "D": "65%"
+          },
+          "advanced_level_bonus": "Add 10 percentage points to the weight of grades from A Level or A/S Level compared to IGCSE.",
+          "final_score_calculation": "Average of the highest eight grades, ensuring inclusion of the five required science subjects. Final score cannot exceed 100%."
+        },
+        "american_diploma": {
+          "study_requirement": "Must have studied all secondary years under this system.",
+          "science_track_requirements": [
+            "Biology (1 credit)",
+            "Chemistry (1 credit)",
+            "Algebra II (1 credit)",
+            "Physics (1 credit)",
+            "Calculus or Pre-Calculus (1 credit)"
+          ],
+          "conditional_acceptance": "Students missing one required subject for Science track classification can be conditionally accepted, pending passing the course at a public university within one semester.",
+          "ap_equivalency": "AP courses with a score of 3 or higher can be equated to 100-level courses at AASU.",
+          "ib_equivalency": {
+            "standard_level": "Score of 6 or higher.",
+            "higher_level": "Score of 5 or higher."
+          },
+          "gpa_cap": "Maximum GPA considered is 4.0 (or 100%)."
+        },
+        "french_baccalaureate": "Accepted (Science and Arts tracks) after equivalency from the Ministry of Education.",
+        "saudi_arabian": "Percentage calculated according to the Saudi system, including Qiyas and Tahseeli exams."
+      }
+    }
+  },
+
+  "admission_categories_timeline": {
+    "first_semester": "Limited to qualified Kuwaiti students.",
+    "second_semester": {
+      "kuwaiti_students": "All qualified Kuwaiti students.",
+      "other_categories": "If vacancies exist after Kuwaiti placements. No transfer to medical colleges.",
+      "eligible_categories": [
+        "GCC citizens",
+        "Cultural Attachés (Scholarships - UNESCO - Ministry of Awqaf - Islamic Charitable Society)",
+        "Children/spouses of faculty, academic staff, language trainers, and university employees",
+        "Top high school graduates",
+        "Children/spouses of diplomats"
+      ],
+      "general_condition": "Most non-Kuwaiti applicants must have completed all secondary years in Kuwait (exceptions for diplomats, faculty children, etc.). Original certificates must be submitted for some categories."
+    }
+  },
+
+  "admission_mechanism": {
+    "seat_allocation": "Based on university capacity and approved numbers for the upcoming year.",
+    "selection_process": {
+      "kuwaiti_students": "Prioritized based on differential averages competing for approved seats.",
+      "non_kuwaiti_students": "Compete based on differential averages in the second semester, unless a college specifies priority for a category."
+    },
+    "seat_redistribution": "University may reallocate seats between programs and categories based on applicant numbers and program capacity.",
+    "minimum_scores": {
+      "general_rule": "Applications accepted from students meeting the announced minimum scores for the academic year.",
+      "students_with_disabilities": {
+        "kuwaiti_special_education_graduates": "Accepted with scores not less than 5 points below the required general secondary and differential average.",
+        "other_school_graduates": "Require medical reports from Kuwait University's Faculty of Medicine proving disability affected academic performance. Must submit valid disability certificate during application."
+      },
+      "non_kuwaiti_students": "Accepted in the second semester after determining minimum scores for Kuwaitis. Their score must not be less than the lowest score of accepted Kuwaitis in the same major."
+    }
+  },
+
+  "transfer_rules": {
+    "general_conditions": {
+      "supervising_body": "Admission and Registration Department.",
+      "required_documents": [
+        "Original or certified copy of transcript (attested by Kuwait Cultural Office if studied abroad).",
+        "Original high school certificate or true copy.",
+        "Equivalency certificate from MoE for certificates from outside Kuwait or private schools in Kuwait.",
+        "Original, valid Civil ID and copy.",
+        "Passport copy.",
+        "Documents proving admission category (for non-Kuwaitis).",
+        "1 recent personal photo.",
+        "10 KD non-refundable application fee."
+      ],
+      "eligible_students": {
+        "kuwaiti": "All qualified Kuwaiti students.",
+        "non_kuwaiti": [
+          "Children/spouses of academic staff",
+          "Children/spouses of faculty, language trainers, university employees",
+          "Children/spouses of diplomats"
+        ]
+      },
+      "restrictions": [
+        "No transfer to Medical Colleges (Medicine, Dentistry, Pharmacy).",
+        "No transfer for students previously graduated, on final academic warning, or dismissed from AASU or any other university for disciplinary/academic reasons.",
+        "Arts track graduates can only transfer to Business Entrepreneurship & Innovation and Digital Marketing in the College of Business and Innovation."
+      ],
+      "academic_standing": "Must not hold a bachelor's degree. Must be regularly enrolled in an accredited 4-year university system. The transferring university and major must be accredited by the National Authority for Academic Accreditation and Education Quality Assurance in Kuwait.",
+      "credits_gpa": {
+        "minimum_credits": "At least 45 credit hours (or equivalent) in a semester system.",
+        "minimum_gpa": "B (2.67/4.0, 80%, or 'Very Good'). Some colleges may require a higher GPA.",
+        "credit_conversion": {
+          "semester_system": "1.0 unit",
+          "trimester_system": "1.25 units",
+          "quarter_system": "1.5 units"
+        }
+      },
+      "break_in_study": "Break in study should not exceed one academic year at application and during university studies."
+    },
+    "course_equivalency": {
+      "timing": "Request must be made immediately after acceptance; equivalency finalized in the first semester of transfer.",
+      "minimum_grade": "Grade of at least C (2.0/4.0, 73%, or P for preparatory courses). Colleges may require a higher grade.",
+      "language_test_exemption": "IELTS or TOEFL scores can substitute for English proficiency tests for preparatory course exemption, submitted within the specified deadline.",
+      "grade_exclusion": "Grades from transferred/equivalent courses are not included in the student's AASU GPA.",
+      "reevaluation": "Equivalency decisions are final unless the college officially reconsiders based on new evidence of course similarity."
+    },
+    "post_acceptance": {
+      "conditional_acceptance": "Fulfilling transfer conditions does not guarantee acceptance.",
+      "deferral": "One-time deferral to the next semester is permitted.",
+      "category_change": "Admission category cannot be changed after acceptance.",
+      "acceptance_revocation": "Acceptance can be revoked for incorrect or incomplete documents.",
+      "delayed_equivalency": "Acceptance to colleges requiring specific course equivalency might be deferred if equivalencies arrive after the semester starts."
+    }
+  }
+}
