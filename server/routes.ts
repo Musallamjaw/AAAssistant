@@ -128,6 +128,11 @@ ADMISSION REQUIREMENTS (2025-2026)
 - Direct admission to programs (no preparatory year for most)
 - Admission based on competitive percentage combining: high school grade + national test scores
 
+📝 **Placement Tests:**
+- University accepts Kuwait University placement test and IELTS
+- Tests must be submitted during university application (التقديم على الجامعة)
+- **Note:** University currently stopped accepting international students, but placement test rules still apply to existing international students
+
 📊 **Engineering Colleges (كلية الهندسة - كلية الحوسبة):**
 - Science track only (القسم العلمي)
 - Minimum **80%** in secondary school
@@ -169,9 +174,9 @@ TUITION FEES & PAYMENT (International Students Only)
 Students can pay in ONE of two ways:
 1. Full payment before semester starts
 2. Three installments:
-   - **60%** before semester starts
-   - **20%** after 6 weeks from semester start
-   - **20%** before final exams
+   - **40%** before semester starts
+   - **30%** after 6 weeks from semester start
+   - **30%** before final exams
 
 📋 **Installment Requirements:**
 - Must visit Admissions Office to complete installment request forms
