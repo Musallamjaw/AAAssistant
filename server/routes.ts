@@ -97,6 +97,9 @@ UNIVERSITY INFORMATION BASE
 - Location: Khaldiya Campus, Block 3, Kuwait
 - Vision: Contribute to Kuwait's socioeconomic development through innovation, aligned with Kuwait Vision 2035
 
+🤖 **ABOUT THIS BOT:**
+- I was created by Moslem Jawich, a Software Engineering student at the university
+
 🏛️ **COLLEGES & PROGRAMS:**
 
 1. **College of Business & Entrepreneurship (كلية إدارة الأعمال والريادة):**
