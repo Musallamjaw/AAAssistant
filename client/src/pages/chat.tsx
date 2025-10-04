@@ -11,6 +11,7 @@ import TypingIndicator from "@/components/typing-indicator";
 import { nanoid } from "nanoid";
 import aasuLogo from "@assets/image_1759588573040.png";
 import robotLogo from "@assets/image_1759588700976.png";
+import Tesseract from "tesseract.js";
 
 // Helper function to get or create session ID
 function getSessionId(): string {
@@ -26,8 +27,10 @@ export default function Chat() {
   const [message, setMessage] = useState("");
   const [isTyping, setIsTyping] = useState(false);
   const [sessionId, setSessionId] = useState(getSessionId());
+  const [isScanning, setIsScanning] = useState(false);
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
+  const fileInputRef = useRef<HTMLInputElement>(null);
   const queryClient = useQueryClient();
 
   const { data: messages = [], isLoading } = useQuery<ChatMessage[]>({
@@ -144,6 +147,52 @@ export default function Chat() {
   const handleSuggestionClick = (suggestion: string) => {
     setMessage(suggestion);
     textareaRef.current?.focus();
+  };
+
+  const handleFileSelect = async (e: React.ChangeEvent<HTMLInputElement>) => {
+    const file = e.target.files?.[0];
+    if (!file) return;
+
+    // Check if file is an image
+    if (!file.type.startsWith('image/')) {
+      alert('Please select an image file (JPG, PNG, etc.)');
+      return;
+    }
+
+    setIsScanning(true);
+    try {
+      // Use Tesseract.js to extract text from the image
+      const result = await Tesseract.recognize(
+        file,
+        'eng+ara', // Support both English and Arabic
+        {
+          logger: (m) => console.log(m), // Log progress
+        }
+      );
+
+      const extractedText = result.data.text.trim();
+      
+      if (extractedText) {
+        // Add extracted text to message input
+        setMessage((prev) => prev ? `${prev}\n\n📄 Scanned text:\n${extractedText}` : `📄 Scanned text:\n${extractedText}`);
+        textareaRef.current?.focus();
+      } else {
+        alert('No text found in the image. Please try a clearer image.');
+      }
+    } catch (error) {
+      console.error('OCR Error:', error);
+      alert('Failed to scan document. Please try again.');
+    } finally {
+      setIsScanning(false);
+      // Reset file input
+      if (fileInputRef.current) {
+        fileInputRef.current.value = '';
+      }
+    }
+  };
+
+  const handleAttachmentClick = () => {
+    fileInputRef.current?.click();
   };
 
   const suggestions = [
@@ -263,15 +312,24 @@ export default function Chat() {
             transition={{ duration: 0.4 }}
           >
             <form onSubmit={handleSubmit} className="flex items-end gap-2 sm:gap-3">
+              <input
+                ref={fileInputRef}
+                type="file"
+                accept="image/*"
+                onChange={handleFileSelect}
+                className="hidden"
+                aria-label="Upload document"
+              />
               <div className="flex-1">
                 <Textarea
                   ref={textareaRef}
                   value={message}
                   onChange={handleInputChange}
                   onKeyDown={handleKeyDown}
-                  placeholder="Type your message here..."
+                  placeholder={isScanning ? "Scanning document..." : "Type your message here..."}
                   className="min-h-[44px] max-h-32 resize-none border-0 bg-transparent text-foreground placeholder-muted-foreground focus:outline-none text-sm sm:text-base focus-visible:ring-2 focus-visible:ring-ring p-2 rounded-lg"
                   data-testid="message-input"
+                  disabled={isScanning}
                 />
               </div>
               <div className="flex items-center gap-2">
@@ -279,10 +337,17 @@ export default function Chat() {
                   type="button"
                   variant="ghost"
                   size="icon"
-                  className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-100 hover:bg-gray-200 text-muted-foreground rounded-xl transition-all hover:scale-105"
+                  onClick={handleAttachmentClick}
+                  disabled={isScanning}
+                  className="w-9 h-9 sm:w-10 sm:h-10 bg-gray-100 hover:bg-gray-200 text-muted-foreground rounded-xl transition-all hover:scale-105 disabled:opacity-50"
                   data-testid="attach-button"
+                  title="Upload and scan document"
                 >
-                  <Paperclip className="w-4 h-4" />
+                  {isScanning ? (
+                    <div className="w-4 h-4 border-2 border-blue-500 border-t-transparent rounded-full animate-spin" />
+                  ) : (
+                    <Paperclip className="w-4 h-4" />
+                  )}
                 </Button>
                 <Button
                   type="submit"
