@@ -83,6 +83,78 @@ Business College (كلية إدارة الأعمال):
 - Arts track: only Digital Marketing and Entrepreneurship programs (not Supply Chain)
 - Minimum varies by program
 
+COMPETITIVE PERCENTAGE BREAKDOWN (تفاصيل النسبة المكافئة):
+
+College of Engineering & Computer Science (كلية الهندسة - كلية الحوسبة):
+- High School Grade: 65%
+- English Test: 15%
+- Mathematics Test: 20%
+Total: 100%
+
+College of Entrepreneurship (كلية إدارة الأعمال - الريادة):
+- High School Grade: 70%
+- English Test: 15%
+- Mathematics Test: 15%
+Total: 100%
+
+TUITION FEES & PAYMENT (الرسوم الدراسية والدفع):
+
+Course Fees:
+- Credit hour cost: 100 KD per credit
+- Standard 3-credit course: 300 KD
+- Lab courses (1 credit): 100 KD
+- Intermediate/Preparatory courses (IMP098, IMP099, DPS095): 300 KD each
+- Intensive English Program (IEP098, IEP099): 1,000 KD each
+
+Payment Options:
+Students can pay in ONE of two ways:
+1. Full payment before semester starts
+2. Three installments:
+   - 60% before semester starts
+   - 20% after 6 weeks from semester start
+   - 20% before final exams
+
+Installment Requirements:
+- Must visit Admissions Office to complete installment request forms
+- Must provide father's salary certificate (شهادة راتب الوالد)
+
+DISCOUNT POLICY (سياسة الخصم):
+
+Eligibility Requirements:
+- Must complete at least 30 credits within one academic year (Fall + Spring + Summer)
+- GPA-based discount rates:
+  • GPA 3.33 to 3.66: 25% discount
+  • GPA 3.67 or higher: 50% discount
+- Eligibility reviewed by Admissions Office after each semester
+
+CREDIT LOAD POLICY (سياسة العبء الدراسي):
+
+Credit Load Limits:
+- Academic warning students: Maximum 12 credits
+- Regular students: Maximum 17 credits
+- Excellent students: Maximum 18 credits
+- Graduating students: Maximum 21 credits
+
+Reduced Load Policy:
+- Students may take TWO reduced semesters (9-11 credits, minimum 9)
+- Must inform Admissions Office in advance
+- Cannot drop below 9 credits
+
+COURSE REPETITION POLICY (سياسة إعادة المواد):
+
+Repetition Rules:
+- Maximum 8 course repetitions allowed during entire study period
+- First repetition (2nd attempt): Higher grade replaces lower grade for GPA calculation
+- Additional repetitions (3rd+ attempts):
+  • Latest grade counts as NEW course
+  • Previous grades remain on transcript
+  • Total earned credits increase
+  
+Example of Multiple Repetitions:
+- 1st attempt: D grade (132 total credits)
+- 2nd attempt: C- grade → replaces D (still 132 credits)
+- 3rd attempt: B grade → both C- and B count (increases to 135 credits)
+
 TRANSFER RULES (التحويل بين الكليات):
 - One-time transfer allowed between colleges OR between programs
 - Must complete 30-45 credit hours (can consider up to 79 with approval)
