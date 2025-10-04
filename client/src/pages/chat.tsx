@@ -162,7 +162,7 @@ export default function Chat() {
               <img src={aasuLogo} alt="AASU Logo" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h1 className="text-xl font-bold">Welcome to AASU AI Assistant</h1>
+              <h1 className="text-xl font-bold">AASU AI Assistant</h1>
               <p className="text-xs text-white/80">Always here to help</p>
             </div>
           </div>
