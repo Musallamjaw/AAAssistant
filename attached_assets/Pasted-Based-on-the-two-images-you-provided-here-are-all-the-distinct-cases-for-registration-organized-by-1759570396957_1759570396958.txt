@@ -1,0 +1,55 @@
+Based on the two images you provided, here are all the distinct cases for registration, organized by the tables they appear in.
+
+From IMG_0369.jpeg (Guide Plan for Adding Credits)
+
+This table outlines 8 cases based on which courses a student is taking or has passed, and suggests how many additional credits to take and from which "Block" of courses.
+
+Case IEP098 IEP099 IMP098 IMP099 Prep Contact H Credits to be added Total (contact H) Suggested Courses
+1 Taking (15H) Passed (●) Taking (3H) - 15 - - -
+2 Passed (●) Passed (●) Passed (●) - 15 9 18 Block A
+3 Passed (●) Passed (●) - Passed (●) 3 9 24 Block A
+4 Passed (●) Passed (●) - Passed (●) 3 9 12 Block B
+5 Passed (●) Passed (●) Passed (●) - 18 0 18 NONE
+6 Passed (●) Passed (●) - Passed (●) 18 0 18 NONE
+7 Passed (●) Passed (●) Passed (●) - 18 3 21 Block A
+8 Passed (●) Passed (●) - Passed (●) 18 3 21 Block A
+
+---
+
+From IMG_0368.jpeg (First Registration)
+
+This table lists the initial registration scenarios for students based on their placement or outstanding courses.
+
+Case Level What to register
+1 IEP098 and pass all IMP IEP098
+2 IEP098 and IMP098 IEP098 and IMP098
+3 IEP098 and IMP099 IEP098 and IMP099
+4 IEP098 and pass all IMP IEP098
+5 IEP098 and IMP098 IEP098 and IMP099
+6 IEP098 and IMP099 IEP098 and IMP099
+7 IMP098 and DPS095 and pass all IEP IMP098 and DPS095 + 6 credits
+8 IMP098 and DPS095 and pass all IEP IMP098 + 9 credits
+9 IMP098 and DPS095 and pass all IEP IMP098 and DPS095 + 6 credits
+10 IMP098 and DPS095 and pass all IEP IMP098 + 9 credits
+
+---
+
+From IMG_0368.jpeg (Second Registration)
+
+This table lists the registration scenarios for students who have already completed one registration period but still have outstanding courses.
+
+Case Level What to register
+1 IEP098 and DPS and pass all IMP IEP098 + DPS
+2 IEP098 and pass DPS and all IMP IEP098 + 3 credits
+3 IEP098 and IMP098 IEP098 and IMP098
+4 IEP098 and IMP099 IEP098 and IMP099
+5 IEP098 and DPS and pass all IMP IEP098 + DPS + 6 credits
+6 IEP098 and pass DPS and all IMP IEP098 + 9 credits
+7 IEP098 and IMP098 IEP098 and IMP098 + 3 credits
+8 IEP098 and IMP098 and DPS IEP098 and IMP098 and DPS
+9 IEP098 and IMP099 IEP098 and IMP099 + 3 credits
+10 IEP098 and IMP098 and DPS IEP098 and IMP098 and DPS
+11 IMP098 and DPS095 and pass all IEP IMP098 and DPS095 + 6 credits
+12 IMP098 and DPS095 and pass all IEP IMP098 + 9 credits
+13 IMP098 and DPS095 and pass all IEP IMP098 and DPS095 + 6 credits
+14 IMP098 and DPS095 and pass all IEP IMP098 + 9 credits

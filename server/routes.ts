@@ -578,6 +578,138 @@ A: Contact IT Helpdesk: it.helpdesk@aasu.edu.kw
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+PREPARATORY COURSE REGISTRATION GUIDE (دليل التسجيل - المواد التمهيدية):
+
+IMPORTANT: When students ask about registration or what courses to take in preparatory, use these detailed cases to help them based on their current status.
+
+PREPARATORY COURSES EXPLAINED:
+- IEP098, IEP099: Intensive English Program (15 contact hours each)
+- IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
+- DPS095: Digital Problem Solving (preparatory course)
+- Block A: First set of credit-bearing courses
+- Block B: Second set of credit-bearing courses
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+GUIDE PLAN FOR ADDING CREDITS (خطة إضافة الساعات):
+
+This guide shows how many additional credits students should take based on completed preparatory courses:
+
+**Case 1:** Taking IEP098 (15H) + Passed IMP + Taking IMP098 (3H)
+→ Total: 15 contact hours | No additional credits needed
+
+**Case 2:** Passed all IEP + Passed IMP098
+→ Prep: 15H | Add: 9 credits from Block A | Total: 18 contact hours
+
+**Case 3:** Passed all IEP + Passed IMP099
+→ Prep: 3H | Add: 9 credits from Block A | Total: 24 contact hours
+
+**Case 4:** Passed all IEP + Passed IMP099
+→ Prep: 3H | Add: 9 credits from Block B | Total: 12 contact hours
+
+**Case 5:** Passed all IEP + Passed IMP098
+→ Prep: 18H | No additional credits | Total: 18 contact hours
+
+**Case 6:** Passed all IEP + Passed IMP099
+→ Prep: 18H | No additional credits | Total: 18 contact hours
+
+**Case 7:** Passed all IEP + Passed IMP098
+→ Prep: 18H | Add: 3 credits from Block A | Total: 21 contact hours
+
+**Case 8:** Passed all IEP + Passed IMP099
+→ Prep: 18H | Add: 3 credits from Block A | Total: 21 contact hours
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+FIRST REGISTRATION SCENARIOS (التسجيل الأول):
+
+**Case 1:** Level: IEP098 and pass all IMP
+→ Register: IEP098
+
+**Case 2:** Level: IEP098 and IMP098
+→ Register: IEP098 + IMP098
+
+**Case 3:** Level: IEP098 and IMP099
+→ Register: IEP098 + IMP099
+
+**Case 4:** Level: IEP098 and pass all IMP
+→ Register: IEP098
+
+**Case 5:** Level: IEP098 and IMP098
+→ Register: IEP098 + IMP099
+
+**Case 6:** Level: IEP098 and IMP099
+→ Register: IEP098 + IMP099
+
+**Case 7:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + DPS095 + 6 credits
+
+**Case 8:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + 9 credits
+
+**Case 9:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + DPS095 + 6 credits
+
+**Case 10:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + 9 credits
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+SECOND REGISTRATION SCENARIOS (التسجيل الثاني):
+
+For students who completed first registration but still have preparatory courses:
+
+**Case 1:** Level: IEP098 + DPS and pass all IMP
+→ Register: IEP098 + DPS
+
+**Case 2:** Level: IEP098 and pass DPS and all IMP
+→ Register: IEP098 + 3 credits
+
+**Case 3:** Level: IEP098 and IMP098
+→ Register: IEP098 + IMP098
+
+**Case 4:** Level: IEP098 and IMP099
+→ Register: IEP098 + IMP099
+
+**Case 5:** Level: IEP098 + DPS and pass all IMP
+→ Register: IEP098 + DPS + 6 credits
+
+**Case 6:** Level: IEP098 and pass DPS and all IMP
+→ Register: IEP098 + 9 credits
+
+**Case 7:** Level: IEP098 and IMP098
+→ Register: IEP098 + IMP098 + 3 credits
+
+**Case 8:** Level: IEP098 + IMP098 + DPS
+→ Register: IEP098 + IMP098 + DPS
+
+**Case 9:** Level: IEP098 and IMP099
+→ Register: IEP098 + IMP099 + 3 credits
+
+**Case 10:** Level: IEP098 + IMP098 + DPS
+→ Register: IEP098 + IMP098 + DPS
+
+**Case 11:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + DPS095 + 6 credits
+
+**Case 12:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + 9 credits
+
+**Case 13:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + DPS095 + 6 credits
+
+**Case 14:** Level: IMP098 + DPS095 and pass all IEP
+→ Register: IMP098 + 9 credits
+
+HOW TO HELP STUDENTS:
+- Ask which preparatory courses they have passed
+- Ask which preparatory courses they are currently taking or need to take
+- Match their situation to the appropriate case above
+- Provide specific registration recommendations
+- Keep answers concise and focused on their specific case
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
 FALLBACK RESPONSE PROTOCOL:
 
 If you're not sure about specific details or the information isn't in your knowledge base:
