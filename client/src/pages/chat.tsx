@@ -10,6 +10,7 @@ import ChatMessageComponent from "@/components/chat-message";
 import TypingIndicator from "@/components/typing-indicator";
 import { nanoid } from "nanoid";
 import aasuLogo from "@assets/image_1759588573040.png";
+import robotLogo from "@assets/image_1759588700976.png";
 
 // Helper function to get or create session ID
 function getSessionId(): string {
@@ -161,7 +162,7 @@ export default function Chat() {
               <img src={aasuLogo} alt="AASU Logo" className="w-full h-full object-contain" />
             </div>
             <div>
-              <h1 className="text-xl font-bold">AASU AI Assistant</h1>
+              <h1 className="text-xl font-bold">Welcome to AASU AI Assistant</h1>
               <p className="text-xs text-white/80">Always here to help</p>
             </div>
           </div>
