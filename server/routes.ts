@@ -1,7 +1,11 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertChatMessageSchema, insertPickaxeJobSchema, type PickaxeJob } from "@shared/schema";
+import {
+  insertChatMessageSchema,
+  insertPickaxeJobSchema,
+  type PickaxeJob,
+} from "@shared/schema";
 import { z } from "zod";
 import OpenAI from "openai";
 
@@ -11,9 +15,9 @@ const DEEPSEEK_API_KEY = process.env.DEEPSEEK_API_KEY;
 
 if (DEEPSEEK_API_KEY) {
   try {
-    openaiClient = new OpenAI({ 
+    openaiClient = new OpenAI({
       apiKey: DEEPSEEK_API_KEY,
-      baseURL: "https://api.deepseek.com"
+      baseURL: "https://api.deepseek.com",
     });
     console.log("✅ OpenAI client initialized successfully with DeepSeek");
   } catch (error) {
@@ -28,16 +32,22 @@ let currentChatSession = 0;
 
 // Response formatting helper
 function formatResponse(content: string): string {
-  return content.replace(/\*\*/g, '**').trim();
+  return content.replace(/\*\*/g, "**").trim();
 }
 
 // Language detection helper
-function detectLanguage(text: string): 'arabic' | 'english' {
+function detectLanguage(text: string): "arabic" | "english" {
   const arabicPattern = /[\u0600-\u06FF]/;
-  return arabicPattern.test(text) ? 'arabic' : 'english';
+  return arabicPattern.test(text) ? "arabic" : "english";
 }
 
-async function getBotResponse(userMessage: string, conversationHistory: Array<{ role: "user" | "assistant", content: string }> = []): Promise<string> {
+async function getBotResponse(
+  userMessage: string,
+  conversationHistory: Array<{
+    role: "user" | "assistant";
+    content: string;
+  }> = [],
+): Promise<string> {
   if (!openaiClient) {
     return "I'm currently in demo mode. Please configure the DEEPSEEK_API_KEY environment variable to enable AI responses.";
   }
@@ -499,8 +509,13 @@ SUPPLY CHAIN & LOGISTICS MANAGEMENT MAJOR (SCL) - 120 Credits
 - MIS300/MGT340/SCL315 → SCL401/SCL402
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TECHNICAL PROGRAMS
+TECHNICAL PROGRAMS - COLLEGE OF COMPUTING & SYSTEMS
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**IMPORTANT UPDATES FOR COMPUTING PROGRAMS:**
+- Software Engineering, Cybersecurity Engineering, and Data Science & AI do NOT require Calculus III (MAT201)
+- Discrete Mathematics (MAT120) is now required in FIRST YEAR for all computing programs
+- Discrete Mathematics unlocks programming courses and is critical for progression
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DATA SCIENCE & ARTIFICIAL INTELLIGENCE (DAI) - 120 Credits
@@ -512,20 +527,28 @@ DATA SCIENCE & ARTIFICIAL INTELLIGENCE (DAI) - 120 Credits
 - Program Requirements: **38 credits**
 - Program Electives: **6 credits**
 
+**College Requirements (Computing Core):**
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab) 
+- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS342 (Database Systems)
+- CCS330 (Web Engineering) + CCS331 (Lab)
+- MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
+- MAT102 (Calculus II)
+- MAT202 (Linear Algebra)
+- PHY105 (Physics Lab I)
+- ENG304 (Probability and Statistics)
+
 **Program Requirements (16 courses):**
 - DAI230 (Mathematics for Data Science & AI)
-- DAI250 (Fundamentals of Data Science & AI)
-- DAI251 (Fundamentals of Data Science & AI Lab)
-- DAI310 (Machine Learning)
-- DAI311 (Machine Learning Lab)
-- DAI330 (Data Warehousing and Data Mining)
-- DAI331 (Data Warehousing and Data Mining Lab)
-- DAI351 (Advanced Machine Learning)
-- DAI352 (Advanced Machine Learning Lab)
+- DAI250 (Fundamentals of Data Science & AI) + DAI251 (Lab)
+- DAI310 (Machine Learning) + DAI311 (Lab)
+- DAI330 (Data Warehousing and Data Mining) + DAI331 (Lab)
+- DAI351 (Advanced Machine Learning) + DAI352 (Lab)
 - DAI374 (Data Ethics, Governance, and Laws)
 - DAI421 (Data Analytics and Visualization)
-- DAI430 (Big Data Systems)
-- DAI431 (Big Data Systems Lab)
+- DAI430 (Big Data Systems) + DAI431 (Lab)
 - DAI440 (Distributed Computing)
 - DAI490 (Capstone Design 1)
 - DAI491 (Capstone Design 2)
@@ -555,20 +578,36 @@ COMPUTER SYSTEMS ENGINEERING (CME) - 132 Credits
 - Program Requirements: **35 credits**
 - Program Electives: **6 credits**
 
+**College Requirements:**
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS200 (Digital Logic Design)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS241 (Computer Networks) 
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS320 (Operating Systems)
+- MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
+- MAT102 (Calculus II)
+- MAT202 (Linear Algebra)
+- MAT201 (Calculus III) - **Required for CME only**
+- MAT240 (Differential Equations)
+- PHY101 (Physics I) + PHY105 (Lab)
+- PHY102 (Physics II) + PHY107 (Lab)
+- CHM101 (Chemistry I) + CHM105 (Lab)
+- ENG205 (Electrical Circuits) + ENG206 (Lab)
+- ENG207 (Electronics) + ENG208 (Lab)
+- ENG209 (Digital Systems) + ENG210 (Lab)
+- ENG304 (Probability and Statistics)
+- ENG308 (Engineering Numerical Methods)
+
 **Program Requirements (15 courses):**
-- ENG205 (Electrical and Electronic Circuits)
-- ENG206 (Electrical and Electronic Circuits Lab)
 - CME220 (Introduction to Computer Systems Engineering)
-- CME310 (Computer Architecture and Organization)
-- CME311 (Computer Architecture and Organization Lab)
+- CME310 (Computer Architecture and Organization) + CME311 (Lab)
 - CME341 (Systems and Signal Processing)
 - CME360 (Network and System Security)
-- CME410 (Programming for Computer Engineering)
-- CME411 (Programming for Computer Engineering Lab)
-- CME420 (Embedded and Microprocessor Systems)
-- CME421 (Embedded and Microprocessor Systems Lab)
-- CME430 (Digital Systems Design)
-- CME431 (Digital Systems Design Lab)
+- CME410 (Programming for Computer Engineering) + CME411 (Lab)
+- CME420 (Embedded and Microprocessor Systems) + CME421 (Lab)
+- CME430 (Digital Systems Design) + CME431 (Lab)
 - CME490 (Capstone Design 1)
 - CME491 (Capstone Design 2)
 
@@ -589,24 +628,33 @@ COMPUTER SYSTEMS ENGINEERING (CME) - 132 Credits
 - CCS200 → CME220 → CME310 → CME420/CME430
 - ENG205 → CME341 → CME442
 - CCS241 → CME360
+- MAT120 → CCS220 → All programming courses
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SOFTWARE ENGINEERING (SWE) - 132 Credits
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+**College Requirements:**
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS320 (Operating Systems)
+- CCS342 (Database Systems)
+- MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
+- MAT102 (Calculus II)
+- MAT202 (Linear Algebra)
+- PHY105 (Physics Lab I)
+- ENG304 (Probability and Statistics)
+
 **Program Requirements (15 courses):**
 - SWE301 (Software Process and Methodologies)
-- SWE305 (Software Requirements Engineering)
-- SWE306 (Software Requirements Engineering Lab)
-- SWE310 (Human-Computer Interaction)
-- SWE311 (Human-Computer Interaction Lab)
-- SWE340 (Software Design and Architecture)
-- SWE341 (Software Design and Architecture Lab)
+- SWE305 (Software Requirements Engineering) + SWE306 (Lab)
+- SWE310 (Human-Computer Interaction) + SWE311 (Lab)
+- SWE340 (Software Design and Architecture) + SWE341 (Lab)
 - SWE345 (Software Modelling and Analysis)
-- SWE420 (Software Construction and Evolution)
-- SWE421 (Software Construction and Evolution Lab)
-- SWE430 (Software Testing and Quality Assurance)
-- SWE431 (Software Testing and Quality Assurance Lab)
+- SWE420 (Software Construction and Evolution) + SWE421 (Lab)
+- SWE430 (Software Testing and Quality Assurance) + SWE431 (Lab)
 - SWE440 (Software Security and Analysis)
 - SWE490 (Capstone Design 1)
 - SWE491 (Capstone Design 2)
@@ -624,25 +672,34 @@ SOFTWARE ENGINEERING (SWE) - 132 Credits
 **Prerequisite Chains:**
 - CCS230 → SWE301/SWE305 → SWE340 → SWE420/SWE430 → SWE440
 - SWE301 → SWE310/SWE345
+- MAT120 → CCS220 → All programming courses
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CYBERSECURITY ENGINEERING (CSE) - 132 Credits
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+**College Requirements:**
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS241 (Computer Networks)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS320 (Operating Systems)
+- MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
+- MAT102 (Calculus II)
+- MAT202 (Linear Algebra)
+- PHY105 (Physics Lab I)
+- ENG304 (Probability and Statistics)
+
 **Program Requirements (15 courses):**
 - CSE210 (Fundamentals of Cyber Security Engineering)
-- CSE310 (Cryptography and Data Security)
-- CSE311 (Cryptography and Data Security Lab)
-- CSE325 (Cybersecurity Risk Management)
-- CSE326 (Cybersecurity Risk Management Lab)
+- CSE310 (Cryptography and Data Security) + CSE311 (Lab)
+- CSE325 (Cybersecurity Risk Management) + CSE326 (Lab)
 - CSE341 (Network Security)
 - CSE360 (Ethical Hacking and Cyber Laws)
-- CSE410 (Digital Forensics)
-- CSE411 (Digital Forensics Lab)
-- CSE420 (Software Security)
-- CSE421 (Software Security Lab)
-- CSE430 (Web Security)
-- CSE431 (Web Security Lab)
+- CSE410 (Digital Forensics) + CSE411 (Lab)
+- CSE420 (Software Security) + CSE421 (Lab)
+- CSE430 (Web Security) + CSE431 (Lab)
 - CSE490 (Capstone Design 1)
 - CSE491 (Capstone Design 2)
 
@@ -660,6 +717,7 @@ CYBERSECURITY ENGINEERING (CSE) - 132 Credits
 - CSE210 → CSE325/CSE360/CSE430
 - CCS241 → CSE341 → CSE441
 - CCS320 → CSE420
+- MAT120 → CCS220 → All programming courses
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENGINEERING PROGRAMS (ALL 132 CREDITS)
@@ -927,164 +985,608 @@ Must complete **96 credit hours** → Capstone Design 1 → Capstone Design 2
 - Always consult with academic advisor before registration
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-BUSINESS PROGRAMS (120 CREDITS - 4 YEARS)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🎯 **ALL BUSINESS MAJORS - Standard First Two Years:**
-
-**YEAR 1 - FALL SEMESTER:**
-ENL101, MAT100, BUS100, GEN150, HST101
-
-**YEAR 1 - SPRING SEMESTER:**
-ENL102, ACC101, FIN102, Art/Humanities Elective 1, Innovation & Creativity Elective
-
-**YEAR 2 - FALL SEMESTER:**
-ENL201, MRK103, INF120, BUS200, Global Citizen Elective
-
-**YEAR 2 - SPRING SEMESTER:**
-BUS220, MIS300, MGT310, Art/Humanities Elective 2, Program Core 1
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DIGITAL MARKETING MAJOR - Years 3-4
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 3 - FALL SEMESTER:**
-DMK210, DMK220, DMK225, MGT340, BUS345
-
-**YEAR 3 - SPRING SEMESTER:**
-DMK230, DMK310, DMK315, MGT420, Program Elective 1
-
-**YEAR 4 - FALL SEMESTER:**
-DMK325, DMK330, DMK400, DMK440, Program Elective 2
-
-**YEAR 4 - SPRING SEMESTER:**
-DMK420, DMK460, DMK475, DMK490, Program Elective 3
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ENTREPRENEURSHIP & INNOVATION MAJOR - Years 3-4
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 3 - FALL SEMESTER:**
-EN1200, EN1210, EN1215, MGT340, BUS345
-
-**YEAR 3 - SPRING SEMESTER:**
-EN1220, EN1225, EN1315, MGT420, Program Elective 1
-
-**YEAR 4 - FALL SEMESTER:**
-EN1320, EN1400, EN1405, EN1415, Program Elective 2
-
-**YEAR 4 - SPRING SEMESTER:**
-EN1410, EN1435, EN1455, EN1490, Program Elective 3
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SUPPLY CHAIN & LOGISTICS MAJOR - Years 3-4
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 3 - FALL SEMESTER:**
-SCL200, SCL201, SCL202, SCL203, MGT340
-
-**YEAR 3 - SPRING SEMESTER:**
-SCL310, SCL315, SCL320, MGT420, Program Elective 1
-
-**YEAR 4 - FALL SEMESTER:**
-SCL340, SCL400, SCL401, SCL402, Program Elective 2
-
-**YEAR 4 - SPRING SEMESTER:**
-SCL410, SCL415, SCL490, BUS345, Program Elective 3
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DATA SCIENCE & AI (120 CREDITS - 4 YEARS)
+DATA SCIENCE & ARTIFICIAL INTELLIGENCE (120 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **YEAR 1 - FALL:**
-ENL101, MAT101, PHY101, GEN150, HST101
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
 
 **YEAR 1 - SPRING:**
-ENL102, PHY105, MAT102, BIO101/CHM101, BIO105/CHM105
+- ENL102 (English Composition)
+- PHY105 (Physics Lab I)
+- MAT102 (Calculus II)
+- BIO101/CHM101 (Biology I/Chemistry I)
+- Art/Humanities Elective 1
 
 **YEAR 2 - FALL:**
-ENL201, MAT120, MAT202, CCS120, CCS121
+- ENL201 (Writing and Research)
+- MAT120 (Discrete Mathematics)
+- MAT202 (Linear Algebra)
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
 
 **YEAR 2 - SPRING:**
-ENG304, CCS220, CCS221, CCS230, CCS231
+- ENG304 (Probability and Statistics)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS342 (Database Systems)
+- Global Citizen Elective
 
 **YEAR 3 - FALL:**
-DAI230, DAI250, DAI251, CCS270, CCS271
+- DAI230 (Mathematics for Data Science & AI)
+- DAI250 (Fundamentals of Data Science & AI) + DAI251 (Lab)
+- CCS330 (Web Engineering) + CCS331 (Lab)
+- DAI310 (Machine Learning) + DAI311 (Lab)
+- Innovation & Creativity Elective
 
 **YEAR 3 - SPRING:**
-DAI310, DAI311, DAI330, DAI331, CCS342
+- DAI330 (Data Warehousing and Data Mining) + DAI331 (Lab)
+- DAI351 (Advanced Machine Learning) + DAI352 (Lab)
+- DAI421 (Data Analytics and Visualization)
+- DAI374 (Data Ethics, Governance, and Laws)
+- Art/Humanities Elective 2
 
 **YEAR 4 - FALL:**
-DAI351, DAI352, DAI421, DAI440, Program Elective 1
+- DAI430 (Big Data Systems) + DAI431 (Lab)
+- DAI440 (Distributed Computing)
+- Program Elective 1
+- General Elective 1
+- DAI490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
-DAI374, DAI430, DAI431, DAI490, DAI491
+- DAI491 (Capstone Design 2)
+- Program Elective 2
+- General Elective 2
+- Free Elective
+- DAI480 (Internship) - Optional
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ENGINEERING & COMPUTING (132 CREDITS - 4 YEARS)
+SOFTWARE ENGINEERING (132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-🎯 **ALL ENGINEERING/COMPUTING - Standard First Two Years:**
 
 **YEAR 1 - FALL:**
-ENL101, MAT101, PHY101, GEN150, HST101
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
 
 **YEAR 1 - SPRING:**
-ENL102, PHY105, MAT102, CHM101, CHM105
+- ENL102 (English Composition)
+- PHY105 (Physics Lab I)
+- MAT102 (Calculus II)
+- BIO101/CHM101 (Biology I/Chemistry I)
+- MAT120 (Discrete Mathematics)
 
 **YEAR 2 - FALL:**
-ENL201, MAT201, PHY102, PHY107, INF120
+- ENL201 (Writing and Research)
+- MAT202 (Linear Algebra)
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- Art/Humanities Elective 1
 
 **YEAR 2 - SPRING:**
-MAT202, MAT240, ENG205, ENG206, Art/Humanities Elective 1
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-COMPUTER SYSTEMS ENGINEERING - Years 3-4
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 3 - FALL:**
-ENG207, ENG209, ENG304, CCS200, CCS241
-
-**YEAR 3 - SPRING:**
-ENG308, ENG309, CCS270, CCS271, CME220
-
-**YEAR 4 - FALL:**
-CME310, CME311, CME341, CME360, Program Elective 1
-
-**YEAR 4 - SPRING:**
-CME410, CME411, CME420, CME421, CME490, CME491
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SOFTWARE ENGINEERING - Years 3-4
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+- ENG304 (Probability and Statistics)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS342 (Database Systems)
+- CCS320 (Operating Systems)
 
 **YEAR 3 - FALL:**
-ENG207, ENG304, CCS220, CCS221, CCS230, CCS231
+- SWE301 (Software Process and Methodologies)
+- SWE305 (Software Requirements Engineering) + SWE306 (Lab)
+- SWE310 (Human-Computer Interaction) + SWE311 (Lab)
+- SWE345 (Software Modelling and Analysis)
+- Global Citizen Elective
 
 **YEAR 3 - SPRING:**
-ENG308, ENG309, CCS270, CCS271, CCS320
+- SWE340 (Software Design and Architecture) + SWE341 (Lab)
+- SWE420 (Software Construction and Evolution) + SWE421 (Lab)
+- SWE430 (Software Testing and Quality Assurance) + SWE431 (Lab)
+- Innovation & Creativity Elective
+- Art/Humanities Elective 2
 
 **YEAR 4 - FALL:**
-SWE301, SWE305, SWE306, SWE340, SWE341
+- SWE440 (Software Security and Analysis)
+- Program Elective 1
+- General Elective 1
+- Free Elective 1
+- SWE490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
-SWE310, SWE311, SWE420, SWE421, SWE490, SWE491
+- SWE491 (Capstone Design 2)
+- Program Elective 2
+- General Elective 2
+- Free Elective 2
+- SWE480 (Internship) - Optional
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CYBERSECURITY ENGINEERING - Years 3-4
+CYBERSECURITY ENGINEERING (132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- PHY105 (Physics Lab I)
+- MAT102 (Calculus II)
+- BIO101/CHM101 (Biology I/Chemistry I)
+- MAT120 (Discrete Mathematics)
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- MAT202 (Linear Algebra)
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- Art/Humanities Elective 1
+
+**YEAR 2 - SPRING:**
+- ENG304 (Probability and Statistics)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS241 (Computer Networks)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS320 (Operating Systems)
 
 **YEAR 3 - FALL:**
-ENG207, ENG304, CCS220, CCS221, CCS241
+- CSE210 (Fundamentals of Cyber Security Engineering)
+- CSE310 (Cryptography and Data Security) + CSE311 (Lab)
+- CSE325 (Cybersecurity Risk Management) + CSE326 (Lab)
+- CSE341 (Network Security)
+- Global Citizen Elective
 
 **YEAR 3 - SPRING:**
-ENG308, ENG309, CCS270, CCS271, CCS320
+- CSE360 (Ethical Hacking and Cyber Laws)
+- CSE410 (Digital Forensics) + CSE411 (Lab)
+- CSE420 (Software Security) + CSE421 (Lab)
+- Innovation & Creativity Elective
+- Art/Humanities Elective 2
 
 **YEAR 4 - FALL:**
-CSE210, CSE310, CSE311, CSE341, CSE360
+- CSE430 (Web Security) + CSE431 (Lab)
+- Program Elective 1
+- General Elective 1
+- Free Elective 1
+- CSE490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
-CSE325, CSE326, CSE410, CSE411, CSE490, CSE491
+- CSE491 (Capstone Design 2)
+- Program Elective 2
+- General Elective 2
+- Free Elective 2
+- CSE480 (Internship) - Optional
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPUTER SYSTEMS ENGINEERING (132 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I) + PHY105 (Lab)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- MAT102 (Calculus II)
+- PHY102 (Physics II) + PHY107 (Lab)
+- CHM101 (Chemistry I) + CHM105 (Lab)
+- MAT120 (Discrete Mathematics)
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- MAT201 (Calculus III)
+- MAT202 (Linear Algebra)
+- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS200 (Digital Logic Design)
+
+**YEAR 2 - SPRING:**
+- MAT240 (Differential Equations)
+- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
+- ENG205 (Electrical Circuits) + ENG206 (Lab)
+- Art/Humanities Elective 1
+
+**YEAR 3 - FALL:**
+- ENG304 (Probability and Statistics)
+- CCS241 (Computer Networks)
+- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- ENG207 (Electronics) + ENG208 (Lab)
+- CME220 (Introduction to Computer Systems Engineering)
+
+**YEAR 3 - SPRING:**
+- ENG308 (Engineering Numerical Methods)
+- ENG209 (Digital Systems) + ENG210 (Lab)
+- CCS320 (Operating Systems)
+- CME310 (Computer Architecture and Organization) + CME311 (Lab)
+- Global Citizen Elective
+
+**YEAR 4 - FALL:**
+- CME341 (Systems and Signal Processing)
+- CME360 (Network and System Security)
+- CME420 (Embedded and Microprocessor Systems) + CME421 (Lab)
+- Program Elective 1
+- CME490 (Capstone Design 1)
+
+**YEAR 4 - SPRING:**
+- CME410 (Programming for Computer Engineering) + CME411 (Lab)
+- CME430 (Digital Systems Design) + CME431 (Lab)
+- CME491 (Capstone Design 2)
+- Program Elective 2
+- Innovation & Creativity Elective
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DIGITAL MARKETING (120 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT100 (Business Math)
+- BUS100 (Introduction to Business Administration)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- INF120 (Computers and Information Systems)
+- ACC101 (Financial Accounting)
+- MRK103 (Principles of Marketing)
+- Art/Humanities Elective 1
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- FIN102 (Principles of Finance)
+- BUS200 (Business Statistics)
+- DMK210 (Digital Marketing Fundamentals)
+- Global Citizen Elective
+
+**YEAR 2 - SPRING:**
+- BUS220 (Business Communication)
+- DMK220 (International Marketing Management)
+- DMK225 (Market Planning and Research)
+- DMK230 (Content Marketing)
+- Innovation & Creativity Elective
+
+**YEAR 3 - FALL:**
+- MIS300 (Management Information Systems)
+- DMK310 (Social Media Marketing)
+- DMK315 (E-commerce Marketing)
+- DMK325 (Digital Marketing Strategy)
+- Art/Humanities Elective 2
+
+**YEAR 3 - SPRING:**
+- MGT310 (Organizational Behavior)
+- DMK330 (Customer Relations and Consumer Behavior)
+- DMK420 (Mobile Applications Marketing)
+- DMK440 (Social Media and Web Analytics)
+- Program Elective 1
+
+**YEAR 4 - FALL:**
+- MGT340 (Operations Management)
+- DMK460 (Digital Advertising Campaign Management)
+- DMK475 (Legal and Ethical Issues in Digital Marketing)
+- Program Elective 2
+- DMK490 (Capstone Design)
+
+**YEAR 4 - SPRING:**
+- BUS345 (Business Research Methods)
+- MGT420 (Strategic Management)
+- DMK400 (Internship in Marketing)
+- Program Elective 3
+- Free Elective
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENTREPRENEURSHIP & INNOVATION (120 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT100 (Business Math)
+- BUS100 (Introduction to Business Administration)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- INF120 (Computers and Information Systems)
+- ACC101 (Financial Accounting)
+- MRK103 (Principles of Marketing)
+- Art/Humanities Elective 1
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- FIN102 (Principles of Finance)
+- BUS200 (Business Statistics)
+- EN1200 (Foundations of Management and Entrepreneurship 1)
+- Global Citizen Elective
+
+**YEAR 2 - SPRING:**
+- BUS220 (Business Communication)
+- EN1210 (Foundations of Business Analytics)
+- EN1215 (Entrepreneurship Leadership)
+- EN1220 (Foundations of Management and Entrepreneurship 2)
+- Innovation & Creativity Elective
+
+**YEAR 3 - FALL:**
+- MIS300 (Management Information Systems)
+- EN1225 (Socio-Ecological Systems)
+- EN1315 (Strategic Problem Solving)
+- EN1320 (Commercialization and Pitching)
+- Art/Humanities Elective 2
+
+**YEAR 3 - SPRING:**
+- MGT310 (Organizational Behavior)
+- EN1405 (Business Models and Plan)
+- EN1410 (Innovation and Sustainability)
+- EN1415 (Entrepreneurship and E-commerce)
+- Program Elective 1
+
+**YEAR 4 - FALL:**
+- MGT340 (Operations Management)
+- EN1435 (Entrepreneurial Marketing)
+- EN1455 (Entrepreneurship and Managing Technology Innovation)
+- Program Elective 2
+- EN1490 (Capstone Design)
+
+**YEAR 4 - SPRING:**
+- BUS345 (Business Research Methods)
+- MGT420 (Strategic Management)
+- EN1400 (Internship in Entrepreneurship and Innovation)
+- Program Elective 3
+- Free Elective
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUPPLY CHAIN & LOGISTICS MANAGEMENT (120 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT100 (Business Math)
+- BUS100 (Introduction to Business Administration)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- INF120 (Computers and Information Systems)
+- ACC101 (Financial Accounting)
+- MRK103 (Principles of Marketing)
+- Art/Humanities Elective 1
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- FIN102 (Principles of Finance)
+- BUS200 (Business Statistics)
+- SCL200 (Principle of Management)
+- Global Citizen Elective
+
+**YEAR 2 - SPRING:**
+- BUS220 (Business Communication)
+- SCL201 (Principle of Procurement Management)
+- SCL202 (Logistics management)
+- SCL203 (Principle of Supply Chain Management)
+- Innovation & Creativity Elective
+
+**YEAR 3 - FALL:**
+- MIS300 (Management Information Systems)
+- SCL310 (Business Quantitative Methods)
+- SCL315 (Management of Production and Operations)
+- SCL320 (Global Supply Chain Operations)
+- Art/Humanities Elective 2
+
+**YEAR 3 - SPRING:**
+- MGT310 (Organizational Behavior)
+- SCL340 (Risk Management in Supply Chain)
+- SCL401 (Business Process Integration)
+- SCL402 (Business Process Configuration)
+- Program Elective 1
+
+**YEAR 4 - FALL:**
+- MGT340 (Operations Management)
+- SCL410 (Supply Chain Sustainability)
+- SCL415 (Strategic Management)
+- Program Elective 2
+- SCL490 (Capstone Design)
+
+**YEAR 4 - SPRING:**
+- BUS345 (Business Research Methods)
+- MGT420 (Strategic Management)
+- SCL400 (Internship)
+- Program Elective 3
+- Free Elective
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENGINEERING PROGRAMS (132 Credits - Sample: Biomedical Engineering)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I) + PHY105 (Lab)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- MAT102 (Calculus II)
+- PHY102 (Physics II) + PHY107 (Lab)
+- CHM101 (Chemistry I) + CHM105 (Lab)
+- Art/Humanities Elective 1
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing and Research)
+- MAT201 (Calculus III)
+- MAT202 (Linear Algebra)
+- ENG205 (Electrical Circuits) + ENG206 (Lab)
+- BIE101 (Human Biology for Engineers)
+
+**YEAR 2 - SPRING:**
+- MAT240 (Differential Equations)
+- ENG207 (Electronics) + ENG208 (Lab)
+- ENG209 (Digital Systems) + ENG210 (Lab)
+- BIE201 (Biochemistry) + BIE202 (Lab)
+- Global Citizen Elective
+
+**YEAR 3 - FALL:**
+- ENG304 (Probability and Statistics)
+- ENG308 (Engineering Numerical Methods)
+- BIE203 (Human Anatomy and Physiology)
+- BIE301 (Biofluids and Biomedical Transport Phenomena)
+- BIE302 (Biomaterials) + BIE303 (Lab)
+
+**YEAR 3 - SPRING:**
+- BIE304 (Biomechanics)
+- BIE350 (Signal Measurement Principles and Control Systems) + BIE351 (Lab)
+- BIE352 (Instrumentation, Measurements, and Data Acquisition) + BIE353 (Lab)
+- BIE371 (Medical Imaging Systems)
+- Innovation & Creativity Elective
+
+**YEAR 4 - FALL:**
+- BIE451 (Instrumentation Design) + BIE452 (Lab)
+- BIE401 (Biomedical Molecular and Nano Devices)
+- Program Elective 1
+- General Elective 1
+- BIE490 (Capstone Design 1)
+
+**YEAR 4 - SPRING:**
+- Program Elective 2
+- Program Elective 3
+- General Elective 2
+- Free Elective
+- BIE491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUMMER COURSE RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌞 **Recommended Summer Courses (All Majors):**
+
+**General Education Courses:**
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+- Art/Humanities Electives
+- Global Citizen Electives
+
+**Foundation Courses:**
+- MAT100/MAT101 (Mathematics foundation)
+- INF120 (Computers and Information Systems)
+- BUS100 (Introduction to Business Administration)
+
+**Avoid in Summer:**
+- Capstone courses
+- Advanced laboratory courses
+- Complex project-based courses
+- Courses with extensive prerequisites
+
+📊 **Summer Planning Strategies:**
+- **Accelerate graduation:** Take 2-3 general education courses each summer
+- **Reduce regular load:** Move lighter courses to summer for technical focus
+- **Prerequisite catch-up:** Use summer to complete prerequisites for fall courses
+- **Maximum summer load:** **9 credits** (typical: **6 credits**)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL PREREQUISITE CHAINS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ **MUST FOLLOW THESE SEQUENCES:**
+
+**English Sequence:**
+ENL101 → ENL102 → ENL201
+(Cannot skip levels)
+
+**Mathematics Sequences:**
+Business: MAT100 → MAT210
+Engineering: MAT101 → MAT102 → MAT201 → MAT240
+
+**Physics Sequence:**
+PHY101 + PHY105 → PHY102 + PHY107
+
+**Computing Foundation:**
+CCS120 → CCS220 → CCS270 → CCS320
+
+**Engineering Foundation:**
+ENG205 → Program-specific advanced courses
+
+**Capstone Requirement:**
+Complete **96 credit hours** → Capstone Design 1 → Capstone Design 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REGISTRATION TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 **Smart Registration Advice:**
+
+1. **Balance Your Load:**
+   - Mix difficult and easier courses each semester
+   - Spread laboratory courses across semesters
+   - Consider course workload and exam schedules
+
+2. **Prerequisite Planning:**
+   - Complete prerequisites early
+   - Don't delay math and science foundation courses
+   - Plan for course sequences that span multiple semesters
+
+3. **Elective Strategy:**
+   - Save interesting electives for later years
+   - Choose electives that complement your career goals
+   - Consider technical electives for specialization
+
+4. **Summer Optimization:**
+   - Use summer to stay on track if you fail a course
+   - Take general education courses to lighten regular semesters
+   - Consider internship opportunities during summer
+
+5. **Graduation Planning:**
+   - Review degree audit regularly
+   - Ensure you meet all credit requirements
+   - Plan capstone projects early
+
+🎯 **Key Milestones:**
+- **Year 1:** Complete all foundation courses
+- **Year 2:** Finish college requirements and begin major courses
+- **Year 3:** Complete core major requirements
+- **Year 4:** Focus on electives and capstone project
+
+ALWAYS consult with your academic advisor before finalizing your course selection!
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY COURSE REGISTRATION GUIDE
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**PREPARATORY COURSES EXPLAINED:**
+- IEP098, IEP099: Intensive English Program (15 contact hours each)
+- IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
+- DPS095: Digital Problem Solving (mandatory for all preparatory students)
+
+🎯 **PREPARATORY PROGRESSION RULES:**
+
+⚠️ **CRITICAL - NO SKIPPING LEVELS:**
+- English Progression: IEP098 → IEP099 → ENL101 (MUST go in sequence, cannot skip)
+- Math Progression: IMP098 → IMP099 → MTH courses (MUST go in sequence, cannot skip)
+- Must PASS BOTH IEP and IMP courses in a semester to progress to next level
+- Minimum TWO SEMESTERS required to complete preparatory program
+
+📊 **AFTER PASSING PREPARATORY COURSES (IEP098 + IMP098):**
+
+**If You Pass BOTH Courses:**
+- ✅ Can register for regular credit courses next semester
+- Maximum **17 credits** for regular students
+- Recommended first credit courses: ENL101, INF120, DPS095, General Education courses
+
+**If You Pass IEP098 ONLY:**
+- Take IEP099 next semester + available courses
+
+**If You Pass IMP098 ONLY:**
+- Take IMP099 next semester + up to **9 credits** of non-math/science courses
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PREPARATORY PROGRAM - COMPLETE REGISTRATION GUIDE
@@ -1099,7 +1601,7 @@ PREPARATORY PROGRAM - COMPLETE REGISTRATION GUIDE
 
 **Mathematics Program:**
 - IMP098 (Intermediate Math Preparatory) - 3 contact hours
-- IMP099 (Precalculus) - 3 contact hours
+- IMP099 (Precalculus) - 3 contact hours  
 - **Progression:** IMP098 → IMP099 → Math courses (MUST pass 098 to take 099)
 
 **Digital Skills:**
@@ -1107,82 +1609,88 @@ PREPARATORY PROGRAM - COMPLETE REGISTRATION GUIDE
 
 ⚠️ **CRITICAL RULES - NO EXCEPTIONS:**
 - MUST pass IEP098 before taking IEP099
-- MUST pass IMP098 before taking IMP099
+- MUST pass IMP098 before taking IMP099  
 - Cannot skip levels in English or Math sequences
 - Minimum TWO semesters required to complete preparatory program
 - Cannot take English-taught courses while in English preparatory
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+PREPARATORY PROGRESSION PATHS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 **TYPICAL 2-SEMESTER PATH:**
+
+**SEMESTER 1:**
+- IEP098 (15H) + IMP098 (3H) = 18H total
+- **No additional courses allowed**
+
+**SEMESTER 2:**
+- **If pass both IEP098 and IMP098:** Take IEP099 + IMP099
+- **If pass IEP098 only:** Take IEP099 + IMP098 (retake)
+- **If pass IMP098 only:** Take IEP098 (retake) + IMP099
+- **If fail both:** Retake IEP098 + IMP098
+
+🎯 **AFTER COMPLETING PREPARATORY:**
+
+**Completed BOTH IEP099 and IMP099:**
+✅ Can register for regular credit courses
+✅ Maximum **17 credits** for regular students
+✅ Recommended first courses: ENL101, INF120, DPS095, General Education
+
+**Completed IEP099 ONLY:**
+➡️ Must complete IMP099 before taking math/science credit courses
+📝 Can take non-math courses while completing IMP099
+
+**Completed IMP099 ONLY:**
+➡️ Must complete IEP099 before taking English-taught credit courses  
+📝 Can take Arabic-taught courses while completing IEP099
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PREPARATORY REGISTRATION CASES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📋 **REGISTRATION RULES BY STATUS:**
+**FIRST REGISTRATION CASES:**
 
-**RULE 1: Taking IEP098 (any math status)**
-- CANNOT take any credit courses
-- Only register: IEP098 + appropriate math level
-- Maximum: 18 contact hours
+**Case 1:** IEP098 and pass all IMP → Register: IEP098
+**Case 2:** IEP098 and IMP098 → Register: IEP098 and IMP098
+**Case 3:** IEP098 and IMP099 → Register: IEP098 and IMP099
+**Case 4:** IEP098 and pass all IMP → Register: IEP098
+**Case 5:** IEP098 and IMP098 → Register: IEP098 and IMP099
+**Case 6:** IEP098 and IMP099 → Register: IEP098 and IMP099
+**Case 7:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
+**Case 8:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
+**Case 9:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
+**Case 10:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
 
-**RULE 2: Taking IEP099 + Taking IMP099**
-- Can add: DPS095 only
-- Total: 18 contact hours (15+3+3)
-- Cannot take additional credit courses
+**SECOND REGISTRATION CASES:**
 
-**RULE 3: Taking IEP099 + Passed IMP099**
-- Can register 9 credits of non-math courses
-- Cannot take English-taught courses
-- Maximum: 24 contact hours
-
-**RULE 4: Taking IMP099 + Passed IEP099**
-- Can register 9 credits of any courses
-- Can take English-taught courses
-- Maximum: 12 contact hours
-
-**RULE 5: Passed IEP099 + Passed IMP099**
-- No preparatory restrictions
-- Can register full credit load (up to 18 credits)
-- Must follow regular program prerequisites
-
-⚠️ **CRITICAL:** Students taking IEP098 or IEP099 can ONLY take Arabic-taught credit courses.
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-PRACTICAL REGISTRATION EXAMPLES
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**EXAMPLE 1:** New student starting preparatory
-➡️ Register: IEP098 + IMP098
-🚫 Cannot take any other courses
-
-**EXAMPLE 2:** Passed IEP098, taking IMP099
-➡️ Register: IEP099 + IMP099 + DPS095
-
-**EXAMPLE 3:** Passed IMP098, taking IEP099
-➡️ Register: IEP099 + IMP099 + DPS095
-
-**EXAMPLE 4:** Taking IEP099 + Passed IMP099
-➡️ Register: IEP099 + 9 credits (Arabic-taught courses)
-
-**EXAMPLE 5:** Taking IMP099 + Passed IEP099
-➡️ Register: IMP099 + 9 credits (any courses)
-
-**EXAMPLE 6:** Passed IEP099 + Passed IMP099
-✅ Register: Full credit courses (up to 18 credits)
+**Case 1:** IEP098 and DPS and pass all IMP → Register: IEP098 + DPS
+**Case 2:** IEP098 and pass DPS and all IMP → Register: IEP098 + 3 credits
+**Case 3:** IEP098 and IMP098 → Register: IEP098 and IMP098
+**Case 4:** IEP098 and IMP099 → Register: IEP098 and IMP099
+**Case 5:** IEP098 and DPS and pass all IMP → Register: IEP098 + DPS + 6 credits
+**Case 6:** IEP098 and pass DPS and all IMP → Register: IEP098 + 9 credits
+**Case 7:** IEP098 and IMP098 → Register: IEP098 and IMP098 + 3 credits
+**Case 8:** IEP098 and IMP098 and DPS → Register: IEP098 and IMP098 and DPS
+**Case 9:** IEP098 and IMP099 → Register: IEP098 and IMP099 + 3 credits
+**Case 10:** IEP098 and IMP098 and DPS → Register: IEP098 and IMP098 and DPS
+**Case 11:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
+**Case 12:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
+**Case 13:** IMP098 and DPS095 and pass all IEP → Register: IMP098 and DPS095 + 6 credits
+**Case 14:** IMP098 and DPS095 and pass all IEP → Register: IMP098 + 9 credits
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ARABIC-TAUGHT COURSE OPTIONS
+CREDIT PLAN CASES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-📖 **Available for Students in English Preparatory:**
-- HST102 (Kuwait History)
-- ARB101 (Arabic Communication Skills)
-- ART101 (Art Appreciation)
-- ART102 (Intro. to Media and Communication)
-- PHL101 (Introduction to Philosophy)
-- LAW101 (Law and Society)
-- PSY101 (Introduction to Psychology)
-- SOC101 (Introduction to Sociology)
-- HST101 (Islamic Culture and Values) - if offered in Arabic
-- GEN150 (Professionalism and Ethics) - if offered in Arabic
+**Case 1:** Taking IEP098 (15H) + Passed IEP099 + Taking IMP098 (3H) → Total: 15H
+**Case 2:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 15H prep + 9 credits = 18H total → Block A
+**Case 3:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 3H prep + 9 credits = 24H total → Block A
+**Case 4:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 3H prep + 9 credits = 12H total → Block B
+**Case 5:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 18H prep + 0 credits = 18H total → NONE
+**Case 6:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 18H prep + 0 credits = 18H total → NONE
+**Case 7:** Passed IEP098 + Passed IEP099 + Passed IMP098 → 18H prep + 3 credits = 21H total → Block A
+**Case 8:** Passed IEP098 + Passed IEP099 + Passed IMP099 → 18H prep + 3 credits = 21H total → Block A
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 FREQUENTLY ASKED QUESTIONS (FAQs)
@@ -1283,26 +1791,44 @@ Response: 📚 **Required Courses for Transfer to Business:**
 - MAT101 (Calculus I) **OR**
 - MAT102 (Calculus II)
 
-ALWAYS be concise, direct, and match the user's language exactly!`
+**EXAMPLE 4 - Computing Program Question:**
+Question: "Software Engineering math requirements"
+Response: 🎯 **Software Engineering Math Requirements:**
+
+**Required Mathematics:**
+- MAT101 (Calculus I)
+- MAT102 (Calculus II) 
+- MAT120 (Discrete Mathematics) - **Take in Year 1**
+- MAT202 (Linear Algebra)
+- ENG304 (Probability and Statistics)
+
+**NOTE:** Software Engineering does NOT require Calculus III (MAT201)
+
+**EXAMPLE 5 - Discrete Mathematics Importance:**
+Question: "When to take discrete mathematics?"
+Response: "**Take MAT120 (Discrete Mathematics) in your FIRST YEAR.** It unlocks programming courses and is required for CCS220 (Programming Fundamentals 2) and all subsequent computing courses."
+
+ALWAYS be concise, direct, and match the user's language exactly!`,
         },
         ...conversationHistory,
         {
           role: "user",
-          content: userMessage
-        }
+          content: userMessage,
+        },
       ],
       max_tokens: 2048,
       temperature: 0.3,
     });
 
-    const botResponse = response.choices[0]?.message?.content || "I couldn't generate a response. Please try again.";
+    const botResponse =
+      response.choices[0]?.message?.content ||
+      "I couldn't generate a response. Please try again.";
     return formatResponse(botResponse);
-
   } catch (error) {
     console.error("❌ OpenAI API error:", error);
 
     const userLanguage = detectLanguage(userMessage);
-    if (userLanguage === 'arabic') {
+    if (userLanguage === "arabic") {
       return "عذراً، أواجه مشكلة في الاتصال حالياً. يرجى المحاولة مرة أخرى بعد قليل.";
     }
 
@@ -1313,10 +1839,10 @@ ALWAYS be concise, direct, and match the user's language exactly!`
 export async function registerRoutes(app: Express): Promise<Server> {
   // Health check endpoint
   app.get("/api/health", (req, res) => {
-    res.json({ 
-      status: "healthy", 
+    res.json({
+      status: "healthy",
       openai: openaiClient ? "connected" : "not configured",
-      timestamp: new Date().toISOString()
+      timestamp: new Date().toISOString(),
     });
   });
 
@@ -1324,7 +1850,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/chat/messages", async (req, res) => {
     try {
       const sessionId = req.query.sessionId as string | undefined;
-      const messages = sessionId 
+      const messages = sessionId
         ? await storage.getChatMessagesBySession(sessionId)
         : await storage.getChatMessages();
       res.json(messages);
@@ -1346,12 +1872,13 @@ export async function registerRoutes(app: Express): Promise<Server> {
         const sessionId = message.sessionId;
 
         // Fetch conversation history for context
-        const sessionMessages = await storage.getChatMessagesBySession(sessionId);
+        const sessionMessages =
+          await storage.getChatMessagesBySession(sessionId);
         const conversationHistory = sessionMessages
-          .filter(msg => msg.id !== message.id)
-          .map(msg => ({
-            role: msg.isUser ? "user" as const : "assistant" as const,
-            content: msg.content
+          .filter((msg) => msg.id !== message.id)
+          .map((msg) => ({
+            role: msg.isUser ? ("user" as const) : ("assistant" as const),
+            content: msg.content,
           }));
 
         // Get bot response asynchronously
@@ -1382,9 +1909,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       console.error("❌ Failed to create message:", error);
 
       if (error instanceof z.ZodError) {
-        res.status(400).json({ 
-          error: "Invalid message format", 
-          details: error.errors 
+        res.status(400).json({
+          error: "Invalid message format",
+          details: error.errors,
         });
       } else {
         res.status(500).json({ error: "Failed to create message" });
@@ -1400,17 +1927,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
       if (sessionId) {
         await storage.clearSessionMessages(sessionId);
         currentChatSession++;
-        res.json({ 
-          success: true, 
+        res.json({
+          success: true,
           message: "Session messages cleared",
-          sessionId 
+          sessionId,
         });
       } else {
         await storage.clearChatMessages();
         currentChatSession++;
-        res.json({ 
-          success: true, 
-          message: "All messages cleared" 
+        res.json({
+          success: true,
+          message: "All messages cleared",
         });
       }
     } catch (error) {
@@ -1437,7 +1964,9 @@ export async function registerRoutes(app: Express): Promise<Server> {
       const { response } = req.body;
 
       if (!response || typeof response !== "string") {
-        return res.status(400).json({ error: "Response is required and must be a string" });
+        return res
+          .status(400)
+          .json({ error: "Response is required and must be a string" });
       }
 
       // Update job response
@@ -1446,12 +1975,17 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Find the job to get the message ID
       const memStorage = storage as any;
       if (memStorage.pickaxeJobs) {
-        const allJobs: PickaxeJob[] = Array.from(memStorage.pickaxeJobs.values());
+        const allJobs: PickaxeJob[] = Array.from(
+          memStorage.pickaxeJobs.values(),
+        );
         const job = allJobs.find((j) => j.id === id);
 
         if (job) {
           // Update the chat message with Pickaxe response
-          await storage.updateChatMessagePickaxeResponse(job.messageId, response);
+          await storage.updateChatMessagePickaxeResponse(
+            job.messageId,
+            response,
+          );
         }
       }
 
@@ -1466,7 +2000,7 @@ export async function registerRoutes(app: Express): Promise<Server> {
   app.get("/api/chat/session", (req, res) => {
     res.json({
       sessionId: currentChatSession,
-      openaiConfigured: !!openaiClient
+      openaiConfigured: !!openaiClient,
     });
   });
 
