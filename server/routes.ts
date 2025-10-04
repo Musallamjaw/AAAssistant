@@ -1043,7 +1043,7 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Computer System Engineering - 132 Credit
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS220 (Object-Oriented Design & Programming) + CCS221 (Lab)
 - CCS200 (Digital Logic & Design)
 - MAT240 (Differential Equations)
 
@@ -1101,7 +1101,7 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Cyber Security Engineering - 132 Credits
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS220 (Object-Oriented Design & Programming) + CCS221 (Lab)
 - CCS200 (Digital Logic & Design)
 - MAT240 (Differential Equations)
 
@@ -1160,7 +1160,7 @@ COMPUTING AND SYSTEMS PROGRAMS (Sample: Software Engineering - 132 Credits)
 - ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
 - MAT221 (Number Theory)
-- CCS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- CCS220 (Object-Oriented Design & Programming) + COS231 (Lab)
 - CCS200 (Digital Logic & Design)
 - MAT240 (Differential Equations)
 
