@@ -99,7 +99,9 @@ Total: 100%
 
 TUITION FEES & PAYMENT (الرسوم الدراسية والدفع):
 
-Course Fees:
+IMPORTANT: These fees apply ONLY to international students who are paying for their studies.
+
+Course Fees (for paying international students):
 - Credit hour cost: 100 KD per credit
 - Standard 3-credit course: 300 KD
 - Lab courses (1 credit): 100 KD
@@ -586,8 +588,10 @@ PREPARATORY COURSES EXPLAINED:
 - IEP098, IEP099: Intensive English Program (15 contact hours each)
 - IMP098, IMP099: Intermediate Math Preparatory (3 contact hours each)
 - DPS095: Digital Problem Solving (preparatory course)
-- Block A: First set of credit-bearing courses
-- Block B: Second set of credit-bearing courses
+
+COURSE OPTIONS WHEN ADDING CREDITS:
+- Option 1: DPS095 (if not passed) + any course where teaching language is Arabic
+- Option 2: DPS095 (if not passed) + any course except math or science (e.g., ethics, innovation, etc.)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
@@ -599,13 +603,13 @@ This guide shows how many additional credits students should take based on compl
 → Total: 15 contact hours | No additional credits needed
 
 **Case 2:** Passed all IEP + Passed IMP098
-→ Prep: 15H | Add: 9 credits from Block A | Total: 18 contact hours
+→ Prep: 15H | Add: 9 credits (DPS095 if not passed + any course where teaching language is Arabic) | Total: 18 contact hours
 
 **Case 3:** Passed all IEP + Passed IMP099
-→ Prep: 3H | Add: 9 credits from Block A | Total: 24 contact hours
+→ Prep: 3H | Add: 9 credits (DPS095 if not passed + any course where teaching language is Arabic) | Total: 24 contact hours
 
 **Case 4:** Passed all IEP + Passed IMP099
-→ Prep: 3H | Add: 9 credits from Block B | Total: 12 contact hours
+→ Prep: 3H | Add: 9 credits (DPS095 if not passed + any course except math or science, e.g., ethics, innovation) | Total: 12 contact hours
 
 **Case 5:** Passed all IEP + Passed IMP098
 → Prep: 18H | No additional credits | Total: 18 contact hours
@@ -614,10 +618,10 @@ This guide shows how many additional credits students should take based on compl
 → Prep: 18H | No additional credits | Total: 18 contact hours
 
 **Case 7:** Passed all IEP + Passed IMP098
-→ Prep: 18H | Add: 3 credits from Block A | Total: 21 contact hours
+→ Prep: 18H | Add: 3 credits (DPS095 if not passed + any course where teaching language is Arabic) | Total: 21 contact hours
 
 **Case 8:** Passed all IEP + Passed IMP099
-→ Prep: 18H | Add: 3 credits from Block A | Total: 21 contact hours
+→ Prep: 18H | Add: 3 credits (DPS095 if not passed + any course where teaching language is Arabic) | Total: 21 contact hours
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
