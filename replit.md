@@ -1,6 +1,6 @@
 # Overview
 
-This is a full-stack chat application built with React, Express, and TypeScript. The application provides a real-time chat interface where users can interact with an AI chatbot. The system is designed with a modern tech stack featuring a React frontend with shadcn/ui components, an Express backend with REST API endpoints, and PostgreSQL database integration via Drizzle ORM. The application is currently in demo mode with placeholder for Pickaxe API integration for intelligent bot responses.
+This is a full-stack chat application built with React, Express, and TypeScript designed for Abdullah Al Salem University (AASU) Registration Section. The application provides a real-time chat interface where students can interact with an AI chatbot that has comprehensive knowledge about AASU admission requirements, transfer policies, course prerequisites, and academic calendars. The system uses DeepSeek AI for intelligent, beautifully formatted responses with emojis, bullet points, and clear sections.
 
 # User Preferences
 
@@ -75,10 +75,21 @@ Preferred communication style: Simple, everyday language.
 
 ## Third-Party Services
 
-**Pickaxe API Integration (Pending)**
-- **Purpose:** AI-powered chatbot responses
-- **Current Status:** Placeholder comment in code (`TODO: Integrate with Pickaxe API`)
-- **Implementation:** Bot responses currently use demo mode with timeout-based responses
+**DeepSeek AI API**
+- **Purpose:** AI-powered chatbot responses for AASU students
+- **Implementation:** Direct integration with DeepSeek API (https://api.deepseek.com)
+- **Model:** deepseek-chat
+- **API Key:** Stored in DEEPSEEK_API_KEY environment secret
+- **Knowledge Base:** Comprehensive AASU information including:
+  - All 3 colleges with complete program listings (Business, Computing, Engineering)
+  - Admission requirements for 2025-2026 with competitive percentages
+  - Transfer rules between colleges and programs
+  - Complete course prerequisites for Digital Marketing (DMK) and Entrepreneurship & Innovation (ENI) majors
+  - Academic calendars for 2025-2026 and 2026-2027
+  - Important deadlines for registration, withdrawal, and exams
+- **Response Formatting:** Configured to provide beautiful responses with emojis, bold text, bullet points, and clear sections
+- **Course Display:** Each course shown on separate line with full name (e.g., "ENL101 (English for Academic Studies)")
+- **Transfer Requirements:** Clear "choose ONE" formatting to show students need one course from each category, not all
 
 ## Database Services
 

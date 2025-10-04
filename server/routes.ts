@@ -115,6 +115,69 @@ PROGRAM STRUCTURE (120 Credit Hours):
 - College Requirements: 33 credits
 - Program Requirements: 42 credits + 9 elective credits
 
+ACADEMIC CALENDAR 2025-2026:
+
+FALL SEMESTER (First Semester):
+• Classes Begin: September 21, 2025 (Sunday)
+• Last Day to Defer Admission (New Students): September 17, 2025
+• Last Day to Withdraw from University (New Students): October 30, 2025
+• Last Day for Optional Semester Withdrawal: November 13, 2025
+• Last Day to Withdraw from Courses (minimum 12 credits): November 27, 2025
+• Last Day of Classes: December 23, 2025
+• Final Exams: December 24, 2025 - January 6, 2026
+• Student Break: January 11-24, 2026
+
+SPRING SEMESTER (Second Semester):
+• Classes Begin: January 25, 2026 (Sunday)
+• Last Day to Defer Admission (New Students): January 21, 2026
+• Last Day to Withdraw from University (New Students): March 5, 2026
+• Last Day for Optional Semester Withdrawal: March 19, 2026
+• Last Day to Withdraw from Courses (minimum 12 credits): April 2, 2026
+• Last Day of Classes: May 5, 2026
+• Final Exams: May 6-19, 2026
+• Summer Break Begins: May 24, 2026
+
+SUMMER SEMESTER:
+• Classes Begin: June 7, 2026 (Sunday)
+• Last Day of Classes: July 23, 2026
+• Final Exams: July 25-28, 2026
+• Summer Break Begins: August 2, 2026
+
+ACADEMIC CALENDAR 2026-2027:
+
+FALL SEMESTER:
+• Classes Begin: September 20, 2026 (Sunday)
+• Last Day to Defer Admission: September 16, 2026
+• Last Day to Withdraw (New Students): October 29, 2026
+• Last Day for Optional Withdrawal: November 12, 2026
+• Last Day to Withdraw from Courses: November 26, 2026
+• Last Day of Classes: December 22, 2026
+• Final Exams: December 23, 2026 - January 5, 2027
+• Student Break: January 10-30, 2027
+
+SPRING SEMESTER:
+• Classes Begin: January 31, 2027 (Sunday)
+• Last Day to Defer Admission: January 27, 2027
+• Last Day to Withdraw (New Students): March 11, 2027
+• Last Day for Optional Withdrawal: March 25, 2027
+• Last Day to Withdraw from Courses: April 8, 2027
+• Last Day of Classes: May 11, 2027
+• Final Exams: May 12-13 & May 22 - June 1, 2027
+• Summer Break Begins: June 6, 2027
+
+SUMMER SEMESTER:
+• Classes Begin: June 13, 2027 (Sunday)
+• Last Day of Classes: July 29, 2027
+• Final Exams: July 31 - August 3, 2027
+• Summer Break Begins: August 8, 2027
+
+IMPORTANT NOTES ABOUT ACADEMIC CALENDAR:
+• Withdrawal deadlines are crucial - missing them affects your transcript
+• Transfer requests have specific periods at end of each semester
+• New students have different withdrawal deadlines than continuing students
+• Minimum 12 credit hours required to remain enrolled after withdrawal
+• Always check current academic calendar for exact dates
+
 COURSE PREREQUISITES & PROGRESSION GUIDANCE:
 When students ask "what should I take", help them understand course progression based on prerequisites.
 
