@@ -1006,18 +1006,18 @@ DATA SCIENCE & ARTIFICIAL INTELLIGENCE (120 Credits)
 - ENL201 (Writing and Research)
 - MAT120 (Discrete Mathematics)
 - MAT202 (Linear Algebra)
-- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
 - CCS230 (Data Structures) + CCS231 (Lab)
 
 **YEAR 2 - SPRING:**
 - ENG304 (Probability and Statistics)
-- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
-- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
-- CCS342 (Database Systems)
+- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
 - Global Citizen Elective
+- DAI230 (Mathematics for Data Science & AI)
+- CC342 (IT Infrastructure)
 
 **YEAR 3 - FALL:**
-- DAI230 (Mathematics for Data Science & AI)
+- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
 - DAI250 (Fundamentals of Data Science & AI) + DAI251 (Lab)
 - CCS330 (Web Engineering) + CCS331 (Lab)
 - DAI310 (Machine Learning) + DAI311 (Lab)
@@ -1065,18 +1065,19 @@ SOFTWARE ENGINEERING (132 Credits)
 **YEAR 2 - FALL:**
 - ENL201 (Writing and Research)
 - MAT202 (Linear Algebra)
-- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
-- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
+- ENG304 (Probability and Statistics)
 - Art/Humanities Elective 1
 
 **YEAR 2 - SPRING:**
-- ENG304 (Probability and Statistics)
-- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
-- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
-- CCS342 (Database Systems)
-- CCS320 (Operating Systems)
+- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
+- Art/Humanities Elective 2
+- General Elective 1
+- General Elective 2
 
 **YEAR 3 - FALL:**
+- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
+- CCS230 (Data Structures) + CCS231 (Lab)
 - SWE301 (Software Process and Methodologies)
 - SWE305 (Software Requirements Engineering) + SWE306 (Lab)
 - SWE310 (Human-Computer Interaction) + SWE311 (Lab)
@@ -1084,23 +1085,22 @@ SOFTWARE ENGINEERING (132 Credits)
 - Global Citizen Elective
 
 **YEAR 3 - SPRING:**
+- CCS320 (Operating Systems)
+- CCS330 (Web Engineering) + CCS331 (Lab)
 - SWE340 (Software Design and Architecture) + SWE341 (Lab)
 - SWE420 (Software Construction and Evolution) + SWE421 (Lab)
 - SWE430 (Software Testing and Quality Assurance) + SWE431 (Lab)
 - Innovation & Creativity Elective
-- Art/Humanities Elective 2
 
 **YEAR 4 - FALL:**
 - SWE440 (Software Security and Analysis)
 - Program Elective 1
-- General Elective 1
 - Free Elective 1
 - SWE490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
 - SWE491 (Capstone Design 2)
 - Program Elective 2
-- General Elective 2
 - Free Elective 2
 - SWE480 (Internship) - Optional
 
@@ -1125,30 +1125,33 @@ CYBERSECURITY ENGINEERING (132 Credits)
 **YEAR 2 - FALL:**
 - ENL201 (Writing and Research)
 - MAT202 (Linear Algebra)
-- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
-- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
+- CCS241 (Computer Networks)
 - Art/Humanities Elective 1
 
 **YEAR 2 - SPRING:**
 - ENG304 (Probability and Statistics)
-- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
+- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
 - CCS241 (Computer Networks)
-- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
-- CCS320 (Operating Systems)
+- CSE210 (Fundamentals of Cyber Security Engineering)
+- Art/Humanities Elective 2
+
 
 **YEAR 3 - FALL:**
-- CSE210 (Fundamentals of Cyber Security Engineering)
+- CCS230 (Data Structures) + CCS231 (Lab)
 - CSE310 (Cryptography and Data Security) + CSE311 (Lab)
 - CSE325 (Cybersecurity Risk Management) + CSE326 (Lab)
 - CSE341 (Network Security)
 - Global Citizen Elective
 
 **YEAR 3 - SPRING:**
+- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
+- CCS320 (Operating Systems)
 - CSE360 (Ethical Hacking and Cyber Laws)
 - CSE410 (Digital Forensics) + CSE411 (Lab)
 - CSE420 (Software Security) + CSE421 (Lab)
 - Innovation & Creativity Elective
-- Art/Humanities Elective 2
+
 
 **YEAR 4 - FALL:**
 - CSE430 (Web Security) + CSE431 (Lab)
@@ -1186,20 +1189,20 @@ COMPUTER SYSTEMS ENGINEERING (132 Credits)
 - ENL201 (Writing and Research)
 - MAT201 (Calculus III)
 - MAT202 (Linear Algebra)
-- CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
+- CCS120 (Computational Thinking & Programming)) + CCS121 (Lab)
 - CCS200 (Digital Logic Design)
 
 **YEAR 2 - SPRING:**
 - MAT240 (Differential Equations)
-- CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
-- CCS230 (Data Structures) + CCS231 (Lab)
+- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
+- ENG304 (Probability and Statistics)
 - ENG205 (Electrical Circuits) + ENG206 (Lab)
 - Art/Humanities Elective 1
 
 **YEAR 3 - FALL:**
-- ENG304 (Probability and Statistics)
+- CCS230 (Data Structures) + CCS231 (Lab)
 - CCS241 (Computer Networks)
-- CCS270 (Object-Oriented Programming) + CCS271 (Lab)
+- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
 - ENG207 (Electronics) + ENG208 (Lab)
 - CME220 (Introduction to Computer Systems Engineering)
 

@@ -1,7 +1,7 @@
 import { useState, useRef, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Lightbulb, HelpCircle, Star, RotateCcw, Plus } from "lucide-react";
+import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Calendar, HelpCircle, Star, RotateCcw, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { apiRequest } from "@/lib/queryClient";
@@ -145,7 +145,7 @@ export default function Chat() {
   };
 
   const suggestions = [
-    { icon: Lightbulb, text: "Tell me a fun fact", color: "text-yellow-500" },
+    { icon: Calendar, text: "academic calendar", color: "text-yellow-500" },
     { icon: HelpCircle, text: "How do I get started?", color: "text-blue-500" },
     { icon: Star, text: "What's new?", color: "text-purple-500" },
   ];
