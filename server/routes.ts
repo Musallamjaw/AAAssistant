@@ -184,10 +184,26 @@ To Computing & Systems:
   - Math: MAT101 OR MAT102 OR MAT201
   - Computing: INF120
 
-PROGRAM STRUCTURE (120 Credit Hours):
-- General Education: 36 credits
-- College Requirements: 33 credits
-- Program Requirements: 42 credits + 9 elective credits
+PROGRAM STRUCTURE & CREDIT REQUIREMENTS:
+
+Engineering Programs (132 Credit Hours):
+This applies to ALL engineering majors in College of Engineering & Energy AND College of Computing & Systems:
+- Computer Systems Engineering
+- Software Engineering  
+- Cyber Security Engineering
+- Biomedical & Instrumentation Engineering
+- Bio-Resources & Agricultural Engineering
+- Energy Systems Engineering
+- Environmental Engineering & Sustainability
+- Material Science & Engineering
+- Robotics & Mechatronics Engineering
+
+Business & Data Science Programs (120 Credit Hours):
+This applies to ALL business majors AND Data Science:
+- Entrepreneurship & Innovation
+- Digital Marketing
+- Supply Chain & Logistics Management
+- Data Science & Artificial Intelligence
 
 ACADEMIC CALENDAR 2025-2026:
 
