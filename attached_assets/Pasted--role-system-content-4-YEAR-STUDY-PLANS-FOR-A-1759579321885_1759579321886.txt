@@ -1,0 +1,533 @@
+{
+  role: "system",
+  content: `━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+4-YEAR STUDY PLANS FOR ALL MAJORS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📅 **IMPORTANT NOTES:**
+- All plans assume **15 credits per semester** for balanced workload
+- **Prerequisites must be followed strictly** - cannot take courses out of sequence
+- **Summer courses** can accelerate graduation or reduce semester load
+- **Lab courses** must be taken with corresponding theory courses
+- Always consult with academic advisor before registration
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BUSINESS PROGRAMS (120 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 **ALL BUSINESS MAJORS - Standard First Two Years:**
+
+**YEAR 1 - FALL SEMESTER:**
+- ENL101 (English for Academic Studies)
+- MAT100 (Business Math)
+- BUS100 (Introduction to Business Administration)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING SEMESTER:**
+- ENL102 (English Composition)
+- ACC101 (Managerial Accounting)
+- FIN102 (Principle of Finance)
+- Art/Humanities Elective 1
+- Innovation & Creativity Elective
+
+**YEAR 2 - FALL SEMESTER:**
+- ENL201 (Writing and Research)
+- MRK103 (Principle of Marketing)
+- INF120 (Computers and Information Systems)
+- BUS200 (Business Statistics)
+- Global Citizen Elective
+
+**YEAR 2 - SPRING SEMESTER:**
+- BUS220 (Business Economics)
+- MIS300 (Management Information Systems)
+- MGT310 (Organization Behaviour)
+- Art/Humanities Elective 2
+- Program Core 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DIGITAL MARKETING MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- DMK210 (Digital Marketing Fundamentals)
+- DMK220 (International Marketing Management)
+- DMK225 (Market Planning and Research)
+- MGT340 (Operations Management)
+- BUS345 (Business Law and Ethics)
+
+**YEAR 3 - SPRING SEMESTER:**
+- DMK230 (Content Marketing)
+- DMK310 (Social Media Marketing)
+- DMK315 (E-commerce Marketing)
+- MGT420 (Innovation Management and Strategy)
+- Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+- DMK325 (Digital Marketing Strategy)
+- DMK330 (Customer Relations and Consumer Behavior)
+- DMK400 (Internship in Marketing)
+- DMK440 (Social Media and Web Analytics)
+- Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+- DMK420 (Mobile Applications Marketing)
+- DMK460 (Digital Advertising Campaign Management)
+- DMK475 (Legal and Ethical Issues in Digital Marketing)
+- DMK490 (Capstone Design)
+- Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENTREPRENEURSHIP & INNOVATION MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- EN1200 (Foundations of Management & Entrepreneurship 1)
+- EN1210 (Foundations of Business Analytics)
+- EN1215 (Entrepreneurship Leadership)
+- MGT340 (Operations Management)
+- BUS345 (Business Law and Ethics)
+
+**YEAR 3 - SPRING SEMESTER:**
+- EN1220 (Foundations of Management & Entrepreneurship 2)
+- EN1225 (Socio-Ecological Systems)
+- EN1315 (Strategic Problem Solving)
+- MGT420 (Innovation Management and Strategy)
+- Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+- EN1320 (Commercialization and Pitching)
+- EN1400 (Internship in Entrepreneurship and Innovation)
+- EN1405 (Business Models and Plan)
+- EN1415 (Entrepreneurship and E-commerce)
+- Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+- EN1410 (Innovation and Sustainability)
+- EN1435 (Entrepreneurial Marketing)
+- EN1455 (Entrepreneurship & Managing Tech Innovation)
+- EN1490 (Capstone Design)
+- Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUPPLY CHAIN & LOGISTICS MAJOR - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- SCL200 (Principle of Management)
+- SCL201 (Principle of Procurement Management)
+- SCL202 (Logistics Management)
+- SCL203 (Principle of Supply Chain Management)
+- MGT340 (Operations Management)
+
+**YEAR 3 - SPRING SEMESTER:**
+- SCL310 (Business Quantitative Methods)
+- SCL315 (Management of Production and Operations)
+- SCL320 (Global Supply Chain Operations)
+- MGT420 (Innovation Management and Strategy)
+- Program Elective 1
+
+**YEAR 4 - FALL SEMESTER:**
+- SCL340 (Risk Management in Supply Chain)
+- SCL400 (Internship)
+- SCL401 (Business Process Integration)
+- SCL402 (Business Process Configuration)
+- Program Elective 2
+
+**YEAR 4 - SPRING SEMESTER:**
+- SCL410 (Supply Chain Sustainability)
+- SCL415 (Strategic Management)
+- SCL490 (Capstone Design)
+- Program Elective 3
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+DATA SCIENCE & AI (120 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL SEMESTER:**
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING SEMESTER:**
+- ENL102 (English Composition)
+- PHY105 (Physics Lab I)
+- MAT102 (Calculus II)
+- BIO101/CHM101 (Biology I or Chemistry I)
+- BIO105/CHM105 (Lab)
+
+**YEAR 2 - FALL SEMESTER:**
+- ENL201 (Writing and Research)
+- MAT120 (Discrete Mathematics)
+- MAT202 (Linear Algebra)
+- CCS120 (Computational Thinking & Programming)
+- CCS121 (Computational Thinking & Programming Lab)
+
+**YEAR 2 - SPRING SEMESTER:**
+- ENG304 (Engineering Probability & Statistics)
+- CCS220 (Object-Oriented Design & Programming)
+- CCS221 (Object-Oriented Design & Programming Lab)
+- CCS230 (Fundamentals of Database Systems)
+- CCS231 (Fundamentals of Database Systems Lab)
+
+**YEAR 3 - FALL SEMESTER:**
+- DAI230 (Mathematics for Data Science & AI)
+- DAI250 (Fundamentals of Data Science & AI)
+- DAI251 (Fundamentals of Data Science & AI Lab)
+- CCS270 (Data Structures and Algorithms)
+- CCS271 (Data Structures and Algorithms Lab)
+
+**YEAR 3 - SPRING SEMESTER:**
+- DAI310 (Machine Learning)
+- DAI311 (Machine Learning Lab)
+- DAI330 (Data Warehousing and Data Mining)
+- DAI331 (Data Warehousing and Data Mining Lab)
+- CCS342 (IT Infrastructure)
+
+**YEAR 4 - FALL SEMESTER:**
+- DAI351 (Advanced Machine Learning)
+- DAI352 (Advanced Machine Learning Lab)
+- DAI421 (Data Analytics and Visualization)
+- DAI440 (Distributed Computing)
+- Program Elective 1
+
+**YEAR 4 - SPRING SEMESTER:**
+- DAI374 (Data Ethics, Governance, and Laws)
+- DAI430 (Big Data Systems)
+- DAI431 (Big Data Systems Lab)
+- DAI490 (Capstone Design 1)
+- DAI491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENGINEERING & COMPUTING PROGRAMS (132 CREDITS - 4 YEARS)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🎯 **ALL ENGINEERING/COMPUTING MAJORS - Standard First Two Years:**
+
+**YEAR 1 - FALL SEMESTER:**
+- ENL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I)
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+
+**YEAR 1 - SPRING SEMESTER:**
+- ENL102 (English Composition)
+- PHY105 (Physics Lab I)
+- MAT102 (Calculus II)
+- CHM101 (Chemistry I)
+- CHM105 (Chemistry I Lab)
+
+**YEAR 2 - FALL SEMESTER:**
+- ENL201 (Writing and Research)
+- MAT201 (Calculus III)
+- PHY102 (Physics II)
+- PHY107 (Physics II Lab)
+- INF120 (Computers and Information Systems)
+
+**YEAR 2 - SPRING SEMESTER:**
+- MAT202 (Linear Algebra)
+- MAT240 (Differential Equations)
+- ENG205 (Electrical and Electronic Circuits)
+- ENG206 (Electrical and Electronic Circuits Lab)
+- Art/Humanities Elective 1
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPUTER SYSTEMS ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG209 (Statics and Strength of Materials)
+- ENG304 (Engineering Probability & Statistics)
+- CCS200 (Digital Logic and Design)
+- CCS241 (Fundamentals of Computer Networks)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- CCS270 (Data Structures and Algorithms)
+- CCS271 (Data Structures and Algorithms Lab)
+- CME220 (Introduction to Computer Systems Engineering)
+
+**YEAR 4 - FALL SEMESTER:**
+- CME310 (Computer Architecture and Organization)
+- CME311 (Computer Architecture and Organization Lab)
+- CME341 (Systems and Signal Processing)
+- CME360 (Network and System Security)
+- Program Elective 1
+
+**YEAR 4 - SPRING SEMESTER:**
+- CME410 (Programming for Computer Engineering)
+- CME411 (Programming for Computer Engineering Lab)
+- CME420 (Embedded and Microprocessor Systems)
+- CME421 (Embedded and Microprocessor Systems Lab)
+- CME490 (Capstone Design 1)
+- CME491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SOFTWARE ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG304 (Engineering Probability & Statistics)
+- CCS220 (Object-Oriented Design & Programming)
+- CCS221 (Object-Oriented Design & Programming Lab)
+- CCS230 (Fundamentals of Database Systems)
+- CCS231 (Fundamentals of Database Systems Lab)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- CCS270 (Data Structures and Algorithms)
+- CCS271 (Data Structures and Algorithms Lab)
+- CCS320 (Fundamentals of Operating Systems)
+
+**YEAR 4 - FALL SEMESTER:**
+- SWE301 (Software Process and Methodologies)
+- SWE305 (Software Requirements Engineering)
+- SWE306 (Software Requirements Engineering Lab)
+- SWE340 (Software Design and Architecture)
+- SWE341 (Software Design and Architecture Lab)
+
+**YEAR 4 - SPRING SEMESTER:**
+- SWE310 (Human-Computer Interaction)
+- SWE311 (Human-Computer Interaction Lab)
+- SWE420 (Software Construction and Evolution)
+- SWE421 (Software Construction and Evolution Lab)
+- SWE490 (Capstone Design 1)
+- SWE491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CYBERSECURITY ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG304 (Engineering Probability & Statistics)
+- CCS220 (Object-Oriented Design & Programming)
+- CCS221 (Object-Oriented Design & Programming Lab)
+- CCS241 (Fundamentals of Computer Networks)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- CCS270 (Data Structures and Algorithms)
+- CCS271 (Data Structures and Algorithms Lab)
+- CCS320 (Fundamentals of Operating Systems)
+
+**YEAR 4 - FALL SEMESTER:**
+- CSE210 (Fundamentals of Cyber Security Engineering)
+- CSE310 (Cryptography and Data Security)
+- CSE311 (Cryptography and Data Security Lab)
+- CSE341 (Network Security)
+- CSE360 (Ethical Hacking and Cyber Laws)
+
+**YEAR 4 - SPRING SEMESTER:**
+- CSE325 (Cybersecurity Risk Management)
+- CSE326 (Cybersecurity Risk Management Lab)
+- CSE410 (Digital Forensics)
+- CSE411 (Digital Forensics Lab)
+- CSE490 (Capstone Design 1)
+- CSE491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BIOMEDICAL & INSTRUMENTS ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG208 (Introduction to Energy and Sustainability)
+- ENG304 (Engineering Probability & Statistics)
+- BIE101 (Human Biology for Engineers)
+- BIE201 (Biochemistry)
+- BIE202 (Biochemistry Lab)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- BIE203 (Human Anatomy and Physiology)
+- BIE301 (Biofluids and Biomedical Transport Phenomena)
+- BIE350 (Signal Measurement Principles and Control Systems)
+- BIE351 (Signal Measurement Principles and Control Systems Lab)
+
+**YEAR 4 - FALL SEMESTER:**
+- BIE302 (Biomaterials)
+- BIE303 (Biomaterials Lab)
+- BIE304 (Biomechanics)
+- BIE352 (Instrumentation, Measurements, and Data Acquisition)
+- BIE353 (Instrumentation, Measurements, and Data Acquisition Lab)
+
+**YEAR 4 - SPRING SEMESTER:**
+- BIE371 (Medical Imaging Systems)
+- BIE451 (Instrumentation Design)
+- BIE452 (Instrumentation Design Lab)
+- BIE401 (Biomedical Molecular and Nano Devices)
+- BIE490 (Capstone Design 1)
+- BIE491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ENERGY SYSTEMS ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG304 (Engineering Probability & Statistics)
+- ESE211 (Industrial Electronics)
+- ESE301 (Thermodynamics)
+- RME304 (Instrumentation, Sensors, and Actuators)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- ESE302 (Thermo-fluid systems)
+- ESE305 (Thermal Systems Lab)
+- ESE312 (Electrical Machines and Drives)
+- ESE313 (Electrical Machines and Drives Lab)
+
+**YEAR 4 - FALL SEMESTER:**
+- ESE314 (Power Systems Analysis)
+- ESE315 (Power Systems Lab)
+- ESE321 (Renewable Energy Conversion Systems)
+- RME360 (Control Systems Analysis & Design)
+- ESE401 (Power Plants)
+
+**YEAR 4 - SPRING SEMESTER:**
+- ESE402 (Energy Efficient Buildings)
+- ESE425 (Renewable Energy Conversion Systems Lab)
+- Program Elective 1
+- Program Elective 2
+- ESE490 (Capstone Design 1)
+- ESE491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+ROBOTICS & MECHATRONICS ENGINEERING - Years 3-4
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 3 - FALL SEMESTER:**
+- ENG207 (Programming)
+- ENG304 (Engineering Probability & Statistics)
+- ESE211 (Industrial Electronics)
+- RME301 (Introduction to Mechatronics and Robotics)
+- RME302 (Introduction to Mechatronics and Robotics Lab)
+
+**YEAR 3 - SPRING SEMESTER:**
+- ENG308 (Numerical Methods)
+- ENG309 (Engineering Project Management and Economics)
+- RME304 (Instrumentation, Sensors, and Actuators)
+- RME352 (Digital Systems Design & Microcontrollers)
+- RME353 (Digital Systems Design & Microcontrollers Lab)
+
+**YEAR 4 - FALL SEMESTER:**
+- RME360 (Control Systems Analysis & Design)
+- RME361 (Control Systems Analysis & Design Lab)
+- RME401 (Robotics, Dynamics & Controls)
+- RME402 (Robotics, Dynamics & Controls Lab)
+- RME430 (Digital Signal Processing)
+- RME431 (Digital Signal Processing Lab)
+
+**YEAR 4 - SPRING SEMESTER:**
+- RME403 (Computer-Integrated Manufacturing Systems)
+- RME460 (Design of Machine Elements)
+- Program Elective 1
+- Program Elective 2
+- RME490 (Capstone Design 1)
+- RME491 (Capstone Design 2)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+SUMMER COURSE RECOMMENDATIONS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🌞 **Recommended Summer Courses (All Majors):**
+
+**General Education Courses:**
+- GEN150 (Professionalism and Ethics)
+- HST101 (Islamic Culture and Values)
+- Art/Humanities Electives
+- Global Citizen Electives
+
+**Foundation Courses:**
+- MAT100/MAT101 (Mathematics foundation)
+- INF120 (Computers and Information Systems)
+- BUS100 (Introduction to Business Administration)
+
+**Avoid in Summer:**
+- Capstone courses
+- Advanced laboratory courses
+- Complex project-based courses
+- Courses with extensive prerequisites
+
+📊 **Summer Planning Strategies:**
+- **Accelerate graduation:** Take 2-3 general education courses each summer
+- **Reduce regular load:** Move lighter courses to summer for technical focus
+- **Prerequisite catch-up:** Use summer to complete prerequisites for fall courses
+- **Maximum summer load:** **9 credits** (typical: **6 credits**)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+CRITICAL PREREQUISITE CHAINS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+⚠️ **MUST FOLLOW THESE SEQUENCES:**
+
+**English Sequence:**
+ENL101 → ENL102 → ENL201
+(Cannot skip levels)
+
+**Mathematics Sequences:**
+Business: MAT100 → MAT210
+Engineering: MAT101 → MAT102 → MAT201 → MAT240
+
+**Physics Sequence:**
+PHY101 + PHY105 → PHY102 + PHY107
+
+**Computing Foundation:**
+CCS120 → CCS220 → CCS270 → CCS320
+
+**Engineering Foundation:**
+ENG205 → Program-specific advanced courses
+
+**Capstone Requirement:**
+Complete **96 credit hours** → Capstone Design 1 → Capstone Design 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+REGISTRATION TIPS
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+💡 **Smart Registration Advice:**
+
+1. **Balance Your Load:**
+   - Mix difficult and easier courses each semester
+   - Spread laboratory courses across semesters
+   - Consider course workload and exam schedules
+
+2. **Prerequisite Planning:**
+   - Complete prerequisites early
+   - Don't delay math and science foundation courses
+   - Plan for course sequences that span multiple semesters
+
+3. **Elective Strategy:**
+   - Save interesting electives for later years
+   - Choose electives that complement your career goals
+   - Consider technical electives for specialization
+
+4. **Summer Optimization:**
+   - Use summer to stay on track if you fail a course
+   - Take general education courses to lighten regular semesters
+   - Consider internship opportunities during summer
+
+5. **Graduation Planning:**
+   - Review degree audit regularly
+   - Ensure you meet all credit requirements
+   - Plan capstone projects early
+
+🎯 **Key Milestones:**
+- **Year 1:** Complete all foundation courses
+- **Year 2:** Finish college requirements and begin major courses
+- **Year 3:** Complete core major requirements
+- **Year 4:** Focus on electives and capstone project
+
+ALWAYS consult with your academic advisor before finalizing your course selection!`
+}
