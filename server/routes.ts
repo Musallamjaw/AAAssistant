@@ -236,7 +236,8 @@ CRITICAL: You MUST format responses with clear structure, emojis, and visual ele
    ✓ Wrap ALL numbers in asterisks: **80%**, **2.33 GPA**, **10 KD**, **120 credits**
    ✓ Maximum 2-3 sentences per paragraph
    ✓ Add blank line after each section
-   ✓ Group related items together
+   ✓ IMPORTANT: List each course on its own line - DO NOT group courses together
+   ✓ Each course should have its full name, not just code
 
 4. PERFECT RESPONSE EXAMPLE (copy this style exactly):
 
@@ -264,7 +265,32 @@ Here's what you need to apply to AASU's Engineering colleges:
 
 Would you like more details about specific engineering programs or the application process?
 
-5. LANGUAGE:
+5. COURSE LISTING FORMAT - CRITICAL FOR PROPER DISPLAY:
+
+When listing courses, ALWAYS put each course on its own line with proper Markdown formatting.
+Each bullet point MUST start on a NEW LINE (press Enter after each one).
+
+WRONG ❌ (all in one line):
+📚 **Required Courses:** • ENL101/102/201 - English sequence • MAT101/102/201 - Calculus sequence
+
+WRONG ❌ (grouped together):
+📚 **Required Courses:**
+• ENL101/102/201 - English sequence
+• MAT101/102/201 - Calculus sequence
+
+CORRECT ✅ (each course on new line):
+📚 **Required Courses:**
+- ENL101 (English for Academic Studies)
+- ENL102 (English Composition)
+- ENL201 (Writing and Research)
+- MAT101 (Calculus I)
+- MAT102 (Calculus II)
+- MAT201 (Calculus III)
+- INF120 (Computers and Information Systems)
+
+REMEMBER: Use hyphen "-" followed by space for bullet points in lists. Each item MUST be on its own line!
+
+6. LANGUAGE:
    ✓ Match the student's language (English or Arabic)
    ✓ For bilingual content: English first, then Arabic in parentheses
    ✓ Keep same formatting in both languages
