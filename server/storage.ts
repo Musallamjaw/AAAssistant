@@ -6,9 +6,11 @@ export interface IStorage {
   getUserByUsername(username: string): Promise<User | undefined>;
   createUser(user: InsertUser): Promise<User>;
   getChatMessages(): Promise<ChatMessage[]>;
+  getChatMessagesBySession(sessionId: string): Promise<ChatMessage[]>;
   createChatMessage(message: InsertChatMessage): Promise<ChatMessage>;
   updateChatMessagePickaxeResponse(id: string, response: string): Promise<void>;
   clearChatMessages(): Promise<void>;
+  clearSessionMessages(sessionId: string): Promise<void>;
   createPickaxeJob(job: InsertPickaxeJob): Promise<PickaxeJob>;
   getPendingPickaxeJobs(): Promise<PickaxeJob[]>;
   updatePickaxeJobResponse(id: string, response: string): Promise<void>;
@@ -48,10 +50,17 @@ export class MemStorage implements IStorage {
     );
   }
 
+  async getChatMessagesBySession(sessionId: string): Promise<ChatMessage[]> {
+    return Array.from(this.chatMessages.values())
+      .filter(msg => msg.sessionId === sessionId)
+      .sort((a, b) => new Date(a.timestamp).getTime() - new Date(b.timestamp).getTime());
+  }
+
   async createChatMessage(insertMessage: InsertChatMessage): Promise<ChatMessage> {
     const id = randomUUID();
     const message: ChatMessage = {
       id,
+      sessionId: insertMessage.sessionId ?? randomUUID(),
       content: insertMessage.content,
       isUser: insertMessage.isUser ?? false,
       pickaxeResponse: null,
@@ -71,6 +80,14 @@ export class MemStorage implements IStorage {
 
   async clearChatMessages(): Promise<void> {
     this.chatMessages.clear();
+  }
+
+  async clearSessionMessages(sessionId: string): Promise<void> {
+    const messagesToDelete = Array.from(this.chatMessages.entries())
+      .filter(([_, msg]) => msg.sessionId === sessionId)
+      .map(([id, _]) => id);
+    
+    messagesToDelete.forEach(id => this.chatMessages.delete(id));
   }
 
   async createPickaxeJob(insertJob: InsertPickaxeJob): Promise<PickaxeJob> {

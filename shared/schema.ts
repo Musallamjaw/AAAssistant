@@ -11,6 +11,7 @@ export const users = pgTable("users", {
 
 export const chatMessages = pgTable("chat_messages", {
   id: varchar("id").primaryKey().default(sql`gen_random_uuid()`),
+  sessionId: varchar("session_id").notNull().default(sql`gen_random_uuid()`),
   content: text("content").notNull(),
   isUser: boolean("is_user").notNull().default(false),
   pickaxeResponse: text("pickaxe_response"),
@@ -32,6 +33,7 @@ export const insertUserSchema = createInsertSchema(users).pick({
 });
 
 export const insertChatMessageSchema = createInsertSchema(chatMessages).pick({
+  sessionId: true,
   content: true,
   isUser: true,
 });

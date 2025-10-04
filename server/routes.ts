@@ -26,7 +26,7 @@ if (DEEPSEEK_API_KEY) {
 // Track chat session to prevent stale bot responses after clear
 let currentChatSession = 0;
 
-async function getBotResponse(userMessage: string): Promise<string> {
+async function getBotResponse(userMessage: string, conversationHistory: Array<{ role: "user" | "assistant", content: string }> = []): Promise<string> {
   if (!openaiClient) {
     return "I'm currently in demo mode. Please configure the DEEPSEEK_API_KEY environment variable to enable AI responses.";
   }
@@ -739,6 +739,7 @@ Example response when unsure:
 
 "Sorry, I don't have that information right now. Please visit the Registration Office or contact them at studentaffairs@aasu.edu.kw for assistance. Your question will be added to the system soon! ✨"`
         },
+        ...conversationHistory,
         {
           role: "user",
           content: userMessage
@@ -755,10 +756,13 @@ Example response when unsure:
 }
 
 export async function registerRoutes(app: Express): Promise<Server> {
-  // Get all chat messages
+  // Get chat messages (optionally filtered by session)
   app.get("/api/chat/messages", async (req, res) => {
     try {
-      const messages = await storage.getChatMessages();
+      const sessionId = req.query.sessionId as string | undefined;
+      const messages = sessionId 
+        ? await storage.getChatMessagesBySession(sessionId)
+        : await storage.getChatMessages();
       res.json(messages);
     } catch (error) {
       res.status(500).json({ error: "Failed to fetch messages" });
@@ -776,11 +780,22 @@ export async function registerRoutes(app: Express): Promise<Server> {
         // Capture the current session ID to check later
         const sessionAtRequest = currentChatSession;
         
-        // Get bot response asynchronously
-        getBotResponse(messageData.content).then(async (botResponse) => {
+        // Fetch conversation history for this session (excluding the just-added user message)
+        const sessionId = message.sessionId; // Use the actual sessionId from the created message (which has a default)
+        const sessionMessages = await storage.getChatMessagesBySession(sessionId);
+        const conversationHistory = sessionMessages
+          .filter(msg => msg.id !== message.id) // Exclude the current message
+          .map(msg => ({
+            role: msg.isUser ? "user" as const : "assistant" as const,
+            content: msg.content
+          }));
+        
+        // Get bot response asynchronously with conversation context
+        getBotResponse(messageData.content, conversationHistory).then(async (botResponse) => {
           // Only store bot response if chat hasn't been cleared since request
           if (sessionAtRequest === currentChatSession) {
             const botMessage = await storage.createChatMessage({
+              sessionId: sessionId,
               content: botResponse,
               isUser: false,
             });
@@ -806,13 +821,21 @@ export async function registerRoutes(app: Express): Promise<Server> {
     }
   });
 
-  // Clear all chat messages
+  // Clear chat messages (optionally for a specific session)
   app.delete("/api/chat/messages", async (req, res) => {
     try {
-      await storage.clearChatMessages();
-      // Increment session to invalidate any pending bot responses
-      currentChatSession++;
-      res.json({ success: true, message: "All messages cleared" });
+      const sessionId = req.query.sessionId as string | undefined;
+      if (sessionId) {
+        await storage.clearSessionMessages(sessionId);
+        // Increment session to invalidate any pending bot responses for this session too
+        currentChatSession++;
+        res.json({ success: true, message: "Session messages cleared" });
+      } else {
+        await storage.clearChatMessages();
+        // Increment session to invalidate any pending bot responses
+        currentChatSession++;
+        res.json({ success: true, message: "All messages cleared" });
+      }
     } catch (error) {
       res.status(500).json({ error: "Failed to clear messages" });
     }

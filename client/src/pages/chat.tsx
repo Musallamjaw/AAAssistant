@@ -1,35 +1,53 @@
 import { useState, useRef, useEffect } from "react";
 import { useQuery, useMutation, useQueryClient } from "@tanstack/react-query";
 import { motion, AnimatePresence } from "framer-motion";
-import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Lightbulb, HelpCircle, Star, RotateCcw } from "lucide-react";
+import { Bot, User, Send, Paperclip, Shield, MoreVertical, MessageCircle, Lightbulb, HelpCircle, Star, RotateCcw, Plus } from "lucide-react";
 import { Button } from "@/components/ui/button";
 import { Textarea } from "@/components/ui/textarea";
 import { apiRequest } from "@/lib/queryClient";
 import { ChatMessage } from "@shared/schema";
 import ChatMessageComponent from "@/components/chat-message";
 import TypingIndicator from "@/components/typing-indicator";
+import { nanoid } from "nanoid";
+
+// Helper function to get or create session ID
+function getSessionId(): string {
+  const stored = localStorage.getItem("chatSessionId");
+  if (stored) return stored;
+  
+  const newSessionId = nanoid();
+  localStorage.setItem("chatSessionId", newSessionId);
+  return newSessionId;
+}
 
 export default function Chat() {
   const [message, setMessage] = useState("");
   const [isTyping, setIsTyping] = useState(false);
+  const [sessionId, setSessionId] = useState(getSessionId());
   const messagesEndRef = useRef<HTMLDivElement>(null);
   const textareaRef = useRef<HTMLTextAreaElement>(null);
   const queryClient = useQueryClient();
 
   const { data: messages = [], isLoading } = useQuery<ChatMessage[]>({
-    queryKey: ["/api/chat/messages"],
+    queryKey: ["/api/chat/messages", sessionId],
+    queryFn: async () => {
+      const response = await fetch(`/api/chat/messages?sessionId=${sessionId}`);
+      if (!response.ok) throw new Error("Failed to fetch messages");
+      return response.json();
+    },
   });
 
   const sendMessageMutation = useMutation({
     mutationFn: async (content: string) => {
       const response = await apiRequest("POST", "/api/chat/messages", {
+        sessionId,
         content,
         isUser: true,
       });
       return response.json();
     },
     onSuccess: () => {
-      queryClient.invalidateQueries({ queryKey: ["/api/chat/messages"] });
+      queryClient.invalidateQueries({ queryKey: ["/api/chat/messages", sessionId] });
       setIsTyping(true);
       
       // Poll for bot response every 2 seconds for up to 30 seconds
@@ -37,7 +55,7 @@ export default function Chat() {
       const maxPolls = 15; // 15 * 2 seconds = 30 seconds max wait
       const pollInterval = setInterval(() => {
         pollCount++;
-        queryClient.invalidateQueries({ queryKey: ["/api/chat/messages"] });
+        queryClient.invalidateQueries({ queryKey: ["/api/chat/messages", sessionId] });
         
         // Stop polling after max attempts
         if (pollCount >= maxPolls) {
@@ -46,7 +64,7 @@ export default function Chat() {
         }
         
         // Check if we got a bot response
-        const currentMessages = queryClient.getQueryData<ChatMessage[]>(["/api/chat/messages"]);
+        const currentMessages = queryClient.getQueryData<ChatMessage[]>(["/api/chat/messages", sessionId]);
         if (currentMessages && currentMessages.length > 0) {
           const lastMessage = currentMessages[currentMessages.length - 1];
           if (!lastMessage.isUser) {
@@ -60,11 +78,27 @@ export default function Chat() {
 
   const clearMessagesMutation = useMutation({
     mutationFn: async () => {
-      const response = await apiRequest("DELETE", "/api/chat/messages");
+      const response = await apiRequest("DELETE", `/api/chat/messages?sessionId=${sessionId}`);
       return response.json();
     },
     onSuccess: () => {
-      queryClient.setQueryData(["/api/chat/messages"], []);
+      queryClient.setQueryData(["/api/chat/messages", sessionId], []);
+      setIsTyping(false);
+      setMessage("");
+    },
+  });
+
+  const startNewChatMutation = useMutation({
+    mutationFn: async () => {
+      // Create a new session ID
+      const newSessionId = nanoid();
+      localStorage.setItem("chatSessionId", newSessionId);
+      setSessionId(newSessionId);
+      return newSessionId;
+    },
+    onSuccess: (newSessionId) => {
+      // Clear the old query cache for the previous session
+      queryClient.setQueryData(["/api/chat/messages", newSessionId], []);
       setIsTyping(false);
       setMessage("");
     },
@@ -138,13 +172,13 @@ export default function Chat() {
             <Button
               variant="ghost"
               size="icon"
-              onClick={() => clearMessagesMutation.mutate()}
-              disabled={clearMessagesMutation.isPending || messages.length === 0}
+              onClick={() => startNewChatMutation.mutate()}
+              disabled={startNewChatMutation.isPending}
               className="w-9 h-9 bg-white/10 hover:bg-white/20 text-white disabled:opacity-50 disabled:cursor-not-allowed"
-              data-testid="restart-chat-button"
-              title="Restart chat"
+              data-testid="new-chat-button"
+              title="New chat"
             >
-              <RotateCcw className="w-4 h-4" />
+              <Plus className="w-4 h-4" />
             </Button>
             <Button
               variant="ghost"

@@ -33,8 +33,15 @@ Preferred communication style: Simple, everyday language.
 - **Production Build:** esbuild for fast, optimized server bundling
 
 **Key Endpoints:**
-- `GET /api/chat/messages` - Retrieve all chat messages
-- `POST /api/chat/messages` - Send a new chat message
+- `GET /api/chat/messages?sessionId=<id>` - Retrieve chat messages for a session
+- `POST /api/chat/messages` - Send a new chat message (includes conversation history)
+- `DELETE /api/chat/messages?sessionId=<id>` - Clear messages for a specific session
+
+**Conversation Context:**
+- The system maintains conversation history for each session
+- When sending a message to DeepSeek AI, the full conversation history is included
+- This allows the AI to reference previous messages and maintain context across multiple interactions
+- Sessions are managed via sessionId stored in browser localStorage
 
 **Rationale:** Express provides a minimal, flexible foundation that's well-suited for REST APIs, while TypeScript ensures type safety across the full stack.
 
@@ -50,7 +57,7 @@ Preferred communication style: Simple, everyday language.
 
 **Database Schema:**
 - **users table:** id, username, password
-- **chat_messages table:** id, content, isUser (boolean), timestamp
+- **chat_messages table:** id, sessionId, content, isUser (boolean), timestamp
 
 **Rationale:** Drizzle provides excellent TypeScript support with minimal overhead, while the shared schema approach ensures type consistency across the stack. The in-memory storage allows development without database setup.
 
