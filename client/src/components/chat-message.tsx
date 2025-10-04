@@ -3,7 +3,6 @@ import { Bot, User } from "lucide-react";
 import { ChatMessage } from "@shared/schema";
 import ReactMarkdown from "react-markdown";
 import remarkGfm from "remark-gfm";
-import chatLogo from "@assets/image_1759589515542.png";
 
 interface ChatMessageProps {
   message: ChatMessage;
@@ -32,8 +31,8 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
       data-testid={`message-${message.id}`}
     >
       {!isUser && (
-        <div className="w-10 h-10 rounded-full flex items-center justify-center flex-shrink-0">
-          <img src={chatLogo} alt="AI Assistant" className="w-full h-full object-contain" />
+        <div className="w-10 h-10 rounded-full bg-gradient-to-br from-blue-500 to-blue-600 flex items-center justify-center flex-shrink-0">
+          <Bot className="w-5 h-5 text-white" />
         </div>
       )}
       
