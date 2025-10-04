@@ -1,7 +1,7 @@
 import type { Express } from "express";
 import { createServer, type Server } from "http";
 import { storage } from "./storage";
-import { insertChatMessageSchema, insertPickaxeJobSchema } from "@shared/schema";
+import { insertChatMessageSchema, insertPickaxeJobSchema, type PickaxeJob } from "@shared/schema";
 import { z } from "zod";
 import OpenAI from "openai";
 
@@ -379,10 +379,10 @@ export async function registerRoutes(app: Express): Promise<Server> {
       // Find the job to get the message ID - need to access the private map
       const memStorage = storage as any;
       if (memStorage.pickaxeJobs) {
-        const allJobs = Array.from(memStorage.pickaxeJobs.values());
-        const job = allJobs.find((j: any) => j.id === id);
+        const allJobs: PickaxeJob[] = Array.from(memStorage.pickaxeJobs.values());
+        const job = allJobs.find((j) => j.id === id);
         
-        if (job && job.messageId) {
+        if (job) {
           // Update the chat message with Pickaxe response
           await storage.updateChatMessagePickaxeResponse(job.messageId, response);
         }

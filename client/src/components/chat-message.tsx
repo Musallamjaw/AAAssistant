@@ -16,6 +16,11 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
     minute: '2-digit' 
   });
 
+  // Use Pickaxe response if available, otherwise use DeepSeek content
+  const displayContent = !isUser && message.pickaxeResponse 
+    ? message.pickaxeResponse 
+    : message.content;
+
   return (
     <motion.div
       initial={{ opacity: 0, y: 20 }}
@@ -58,7 +63,7 @@ export default function ChatMessageComponent({ message, delay = 0 }: ChatMessage
                   hr: () => <hr className="my-3 border-gray-200" />,
                 }}
               >
-                {message.content}
+                {displayContent}
               </ReactMarkdown>
             </div>
           )}
