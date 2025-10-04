@@ -100,6 +100,21 @@ UNIVERSITY INFORMATION BASE
 🤖 **ABOUT THIS BOT:**
 - I was created by Moslem Jawich, a Software Engineering student at the university
 
+📞 **CONTACT INFORMATION:**
+
+**Registration Office:**
+- Email: registration@aasu.edu.kw
+- Location: Abdullah Al Salem University - Khaldiya Campus Gate 1 - Building 14KH
+- Google Maps: https://maps.app.goo.gl/tmprFbbDjzYCSYxP9
+
+**Student Affairs Office:**
+- Email: Studentaffairs@aasu.edu.kw
+- Location: Abdullah Al Salem University - Khaldiya Campus Gate 3 - Building 30KH
+- Google Maps: https://maps.app.goo.gl/4KMgbGjb8fp9sYWAA
+
+**IT Help Desk:**
+- Email: it.helpdesk@aasu.edu.kw
+
 🏛️ **COLLEGES & PROGRAMS:**
 
 1. **College of Business & Entrepreneurship (كلية إدارة الأعمال والريادة):**
@@ -568,8 +583,8 @@ DATA SCIENCE & ARTIFICIAL INTELLIGENCE (DAI) - 120 Credits
 - DAI463 (Natural Language Processing)
 - DAI475 (Business Intelligence and Decision Support Systems)
 - DAI476 (Data Analytics for Risk Management & Strategic Planning)
-- DAI495 (Special topics in Data Science)
-- DAI496 (Special topics in Artificial Intelligence)
+- DAI495 (Special Topics in Data Science)
+- DAI496 (Special Topics in Artificial Intelligence)
 
 **Prerequisite Chains:**
 - MAT120 → DAI230 → DAI250 → DAI310 → DAI351
@@ -623,14 +638,14 @@ COMPUTER SYSTEMS ENGINEERING (CME) - 132 Credits
 - CME480 (Internship)
 - CCS330 (Web Engineering)
 - CME435 (Formal Language and Automata)
-- CME440 (Real-time systems)
+- CME440 (Real-time Systems)
 - CME441 (VHDL Programming)
 - CME442 (Parallel and Distributed Computing)
 - CME443 (Simulation Modeling and Analysis)
-- CME444 (Principles Artificial Intelligence)
-- CME445 (Principles Blockchain Technology)
-- CME446 (Principles Quantum Computing)
-- CME495 (Special Topic in Computer Systems)
+- CME444 (Principles of Artificial Intelligence)
+- CME445 (Principles of Blockchain Technology)
+- CME446 (Principles of Quantum Computing)
+- CME495 (Special Topics in Computer Systems)
 
 **Prerequisite Chains:**
 - CCS200 → CME220 → CME310 → CME420/CME430
@@ -642,6 +657,12 @@ COMPUTER SYSTEMS ENGINEERING (CME) - 132 Credits
 SOFTWARE ENGINEERING (SWE) - 132 Credits
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+**Credit Distribution:**
+- General Education: **36 credits**
+- College Requirements: **55 credits**
+- Program Requirements: **35 credits**
+- Program Electives: **6 credits**
+
 **College Requirements:**
 - CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
 - CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
@@ -649,10 +670,11 @@ SOFTWARE ENGINEERING (SWE) - 132 Credits
 - CCS270 (Object-Oriented Programming) + CCS271 (Lab)
 - CCS320 (Operating Systems)
 - CCS342 (Database Systems)
+- CCS330 (Web Engineering) + CCS331 (Lab)
 - MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
 - MAT102 (Calculus II)
 - MAT202 (Linear Algebra)
-- PHY105 (Physics Lab I)
+- PHY101 (Physics I) + PHY105 (Lab)
 - ENG304 (Probability and Statistics)
 
 **Program Requirements (15 courses):**
@@ -660,10 +682,10 @@ SOFTWARE ENGINEERING (SWE) - 132 Credits
 - SWE305 (Software Requirements Engineering) + SWE306 (Lab)
 - SWE310 (Human-Computer Interaction) + SWE311 (Lab)
 - SWE340 (Software Design and Architecture) + SWE341 (Lab)
-- SWE345 (Software Modelling and Analysis)
+- SWE345 (Software Modeling and Analysis)
 - SWE420 (Software Construction and Evolution) + SWE421 (Lab)
 - SWE430 (Software Testing and Quality Assurance) + SWE431 (Lab)
-- SWE440 (Software Security and Analysis)
+- SWE440 (Software Security Analysis)
 - SWE490 (Capstone Design 1)
 - SWE491 (Capstone Design 2)
 
@@ -675,7 +697,7 @@ SOFTWARE ENGINEERING (SWE) - 132 Credits
 - SWE444 (Modern Software Methodologies)
 - SWE445 (Software Development and Maintenance)
 - SWE447 (Cloud Computing)
-- SWE495 (Special topics in Software Engineering)
+- SWE495 (Special Topics in Software Engineering)
 
 **Prerequisite Chains:**
 - CCS230 → SWE301/SWE305 → SWE340 → SWE420/SWE430 → SWE440
@@ -686,6 +708,12 @@ SOFTWARE ENGINEERING (SWE) - 132 Credits
 CYBERSECURITY ENGINEERING (CSE) - 132 Credits
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
+**Credit Distribution:**
+- General Education: **36 credits**
+- College Requirements: **55 credits**
+- Program Requirements: **35 credits**
+- Program Electives: **6 credits**
+
 **College Requirements:**
 - CCS120 (Programming Fundamentals 1) + CCS121 (Lab)
 - CCS220 (Programming Fundamentals 2) + CCS221 (Lab)
@@ -693,10 +721,11 @@ CYBERSECURITY ENGINEERING (CSE) - 132 Credits
 - CCS241 (Computer Networks)
 - CCS270 (Object-Oriented Programming) + CCS271 (Lab)
 - CCS320 (Operating Systems)
+- CCS342 (Database Systems)
 - MAT120 (Discrete Mathematics) - **CRITICAL: Take in Year 1**
 - MAT102 (Calculus II)
 - MAT202 (Linear Algebra)
-- PHY105 (Physics Lab I)
+- PHY101 (Physics I) + PHY105 (Lab)
 - ENG304 (Probability and Statistics)
 
 **Program Requirements (15 courses):**
@@ -738,8 +767,50 @@ ENGINEERING PROGRAMS (ALL 132 CREDITS)
 - Program Electives: **9 credits**
 
 **Common Engineering Core (All Programs):**
-- Math/Science: PHY105, MAT102, MAT201, PHY102, PHY107, CHM101, CHM105, MAT202, MAT240
-- Engineering Foundation: ENG205, ENG206, ENG207, ENG208, ENG209, ENG304, ENG308, ENG309
+- Math/Science: MAT101, MAT102, MAT201, MAT202, MAT240, PHY101, PHY105, PHY102, PHY107, CHM101, CHM105
+- Engineering Foundation: ENG205, ENG206, ENG207, ENG208, ENG209, ENG210, ENG304, ENG308, ENG309
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+BIOMEDICAL & INSTRUMENTS ENGINEERING (BIE)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**Program Requirements (17 courses):**
+- BIE101 (Human Biology for Engineers)
+- BIE201 (Biochemistry)
+- BIE202 (Biochemistry Lab)
+- BIE203 (Human Anatomy and Physiology)
+- BIE301 (Biofluids and Biomedical Transport Phenomena)
+- BIE302 (Biomaterials)
+- BIE303 (Biomaterials Lab)
+- BIE304 (Biomechanics)
+- BIE350 (Signal Measurement Principles and Control Systems)
+- BIE351 (Signal Measurement Principles and Control Systems Lab)
+- BIE352 (Instrumentation, Measurements, and Data Acquisition)
+- BIE353 (Instrumentation, Measurements, and Data Acquisition Lab)
+- BIE371 (Medical Imaging Systems)
+- BIE401 (Biomedical Molecular and Nano Devices)
+- BIE451 (Instrumentation Design)
+- BIE452 (Instrumentation Design Lab)
+- BIE490 (Capstone Design 1)
+- BIE491 (Capstone Design 2)
+
+**Program Electives (Choose 3):**
+- BIE410 (Biomechanics and Modeling of Human Movement)
+- BIE411 (Cellular and Molecular Biomechanics)
+- BIE412 (Rehabilitation Engineering)
+- BIE413 (Biomedical Algorithms and Solutions)
+- BIE414 (Image Processing)
+- BIE415 (Biomedical Optics)
+- BIE416 (Medical Devices Design and Manufacturing)
+- BIE453 (Electromagnetics Principles & Applications)
+- BIE454 (Instrumentation Electronics)
+- BIE460 (Process Instrumentation)
+- BIE461 (Safety and Reliability)
+- BIE462 (Communication Protocols)
+- BIE466 (Sensors Design)
+- BIE480 (Internship)
+- BIE495 (Special Topics in Biomedical Engineering)
+- BIE496 (Special Topics in Instrumentation Engineering)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 BIORESOURCES & AGRICULTURAL ENGINEERING (BAE)
@@ -747,8 +818,8 @@ BIORESOURCES & AGRICULTURAL ENGINEERING (BAE)
 
 **Program Requirements (17 courses):**
 - BIO101 (Biology)
-- BAE101 (Introduction to Bioresources and Agriculture Engineering)
-- BAE102 (Introduction to Bioresources and Agriculture Engineering Lab)
+- BAE101 (Introduction to Bioresources and Agricultural Engineering)
+- BAE102 (Introduction to Bioresources and Agricultural Engineering Lab)
 - ESE211 (Industrial Electronics)
 - BAE230 (Mechanical Systems in Agriculture I)
 - BAE231 (Mechanical Systems in Agriculture I Lab)
@@ -775,53 +846,11 @@ BIORESOURCES & AGRICULTURAL ENGINEERING (BAE)
 - BAE463 (Biosystems Analysis and Design)
 - BAE468 (Controlled Environment Engineering)
 - BAE471 (Food Processing Plant Sanitation)
-- BAE473 (Food safety)
+- BAE473 (Food Safety)
 - BAE475 (Geomatics)
 - BAE480 (Internship)
 - BAE495 (Special Topics in Bioresources)
 - BAE496 (Special Topics in Agricultural Engineering)
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-BIOMEDICAL & INSTRUMENTATION ENGINEERING (BIE)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**Program Requirements (17 courses):**
-- BIE101 (Human Biology for Engineers)
-- BIE201 (Biochemistry)
-- BIE202 (Biochemistry Lab)
-- BIE203 (Human Anatomy and Physiology)
-- BIE301 (Biofluids and Biomedical Transport Phenomena)
-- BIE302 (Biomaterials)
-- BIE303 (Biomaterials Lab)
-- BIE304 (Biomechanics)
-- BIE350 (Signal Measurement Principles and Control Systems)
-- BIE351 (Signal Measurement Principles and Control Systems Lab)
-- BIE352 (Instrumentation, Measurements, and Data Acquisition)
-- BIE353 (Instrumentation, Measurements, and Data Acquisition Lab)
-- BIE371 (Medical Imaging Systems)
-- BIE451 (Instrumentation Design)
-- BIE452 (Instrumentation Design Lab)
-- BIE401 (Biomedical Molecular and Nano Devices)
-- BIE490 (Capstone Design 1)
-- BIE491 (Capstone Design 2)
-
-**Program Electives (Choose 3):**
-- BIE453 (Electromagnetics Principles & Applications)
-- BIE454 (Instrumentation Electronics)
-- BIE460 (Process Instrumentation)
-- BIE461 (Safety and Reliability)
-- BIE462 (Communication Protocols)
-- BIE466 (Sensors Design)
-- BIE480 (Internship)
-- BIE410 (Biomechanics and Modelling of Human Movement)
-- BIE411 (Cellular and Molecular Biomechanics)
-- BIE412 (Rehabilitation Engineering)
-- BIE413 (Biomedical Algorithms and Solutions)
-- BIE414 (Image Processing)
-- BIE415 (Biomedical Optics)
-- BIE416 (Medical Devices Design and Manufacturing)
-- BIE495 (Special Topics in Biomedical Engineering)
-- BIE496 (Special Topics in Instrumentation Engineering)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ENERGY SYSTEMS ENGINEERING (ESE)
@@ -830,15 +859,15 @@ ENERGY SYSTEMS ENGINEERING (ESE)
 **Program Requirements (17 courses):**
 - ESE211 (Industrial Electronics)
 - ESE301 (Thermodynamics)
-- ESE302 (Thermo-fluid systems)
+- ESE302 (Thermo-fluid Systems)
 - ESE305 (Thermal Systems Lab)
 - RME304 (Instrumentation, Sensors, and Actuators)
 - RME352 (Digital Systems Design & Microcontrollers)
 - RME353 (Digital Systems Design & Microcontrollers Lab)
 - ESE312 (Electrical Machines and Drives)
-- ESE313 (Electrical Machines and Drives Lab)
+- ESE315 (Electrical Machines and Drives Lab)
 - ESE314 (Power Systems Analysis)
-- ESE315 (Power Systems Lab)
+- ESE316 (Power Systems Lab)
 - ESE321 (Renewable Energy Conversion Systems)
 - RME360 (Control Systems Analysis & Design)
 - ESE401 (Power Plants)
@@ -866,36 +895,36 @@ ENVIRONMENTAL & SUSTAINABILITY ENGINEERING (EES)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Program Requirements (15 courses):**
-- BIO101 (Biology I)
+- BIO101 (Biology)
 - ESE301 (Thermodynamics)
-- ESE302 (Thermo-fluid systems)
+- ESE302 (Thermo-fluid Systems)
 - ESE305 (Thermal Systems Lab)
 - EES301 (Environmental Chemistry)
 - EES302 (Environmental Management Systems)
 - EES303 (Sustainability Fundamentals and Development Strategy)
-- EES304 (Water Supply and Beverage Engineering)
-- EES305 (Water Supply and Beverage Engineering Lab)
-- EES306 (Air and Water Pollution Control and Waste-Water Treatment)
+- EES304 (Water Supply and Sewerage Engineering)
+- EES305 (Water Supply and Sewerage Engineering Lab)
+- EES306 (Air and Water Pollution Control and Wastewater Treatment)
 - EES307 (Soil, Solid, and Hazardous Waste Control)
 - EES308 (Waste Management and Conversion Technology)
 - EES401 (Environmental Impact Assessment and Practices)
-- EES402 (Sustainable Buildings Design)
+- EES402 (Sustainable Building Design)
 - EES490 (Capstone Design 1)
 - EES491 (Capstone Design 2)
 
 **Program Electives (Choose 3):**
 - EES451 (Carbon Footprint Analysis and Reduction)
-- EES452 (Economics for environmental policy and management)
-- EES453 (Climate Changes and Mitigation)
+- EES452 (Economics for Environmental Policy and Management)
+- EES453 (Climate Change and Mitigation)
 - EES454 (Natural Ecosystems and Resources Conservation)
-- EES455 (Introduction to risk assessment and management)
+- EES455 (Introduction to Risk Assessment and Management)
 - EES461 (Kuwait's Environmental Issues)
 - EES480 (Internship)
 - EES495 (Special Topics in Environmental Engineering)
 - EES496 (Special Topics in Sustainability Engineering)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-MATERIAL SCIENCE & ENGINEERING (MSE)
+MATERIALS SCIENCE & ENGINEERING (MSE)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **Program Requirements (17 courses):**
@@ -907,14 +936,14 @@ MATERIAL SCIENCE & ENGINEERING (MSE)
 - MSE305 (Electronic Properties of Materials)
 - MSE306 (Mechanical and Thermal Properties of Materials)
 - MSE307 (Nanomaterials)
-- MSE308 (Materials Characterization Laboratory 1)
+- MSE308 (Materials Characterization Laboratory I)
 - MSE309 (Materials Synthesis Laboratory)
 - MSE310 (Electronic Device Fabrication Laboratory)
 - MSE311 (Material Property Measurement Laboratory)
 - MSE400 (Diffusion and Kinetics in Materials)
 - MSE401 (Phase Diagrams & Phase Transformations)
 - MSE402 (Materials for Renewable Energy & Storage Technologies)
-- MSE403 (Materials Characterization Laboratory 2)
+- MSE403 (Materials Characterization Laboratory II)
 - MSE490 (Capstone Design 1)
 - MSE491 (Capstone Design 2)
 
@@ -926,7 +955,7 @@ MATERIAL SCIENCE & ENGINEERING (MSE)
 - MSE487 (Composite Material Design and Engineering)
 - MSE488 (Materials Engineering for Harsh Environments)
 - MSE480 (Internship)
-- MSE495 (Special Topics in Material Science Engineering)
+- MSE495 (Special Topics in Materials Science Engineering)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ROBOTICS & MECHATRONICS ENGINEERING (RME)
@@ -953,15 +982,15 @@ ROBOTICS & MECHATRONICS ENGINEERING (RME)
 - RME491 (Capstone Design 2)
 
 **Program Electives (Choose 3):**
-- RME484 (Autonomous and Intelligent Mobile Robots)
 - RME481 (Machine Vision and Image Processing)
 - RME482 (Robotic Manipulators Design)
 - RME483 (Robotics Project Management)
-- RME480 (Internship)
+- RME484 (Autonomous and Intelligent Mobile Robots)
 - RME485 (Advanced Programmable Logic Controllers)
-- ESE312 (Electrical Machines & Drives)
 - RME486 (Nano Mechatronics)
 - RME487 (Machine Learning for Mechatronics Systems)
+- RME480 (Internship)
+- ESE312 (Electrical Machines and Drives)
 - RME495 (Special Topics in Mechatronics)
 - RME496 (Special Topics in Robotics)
 
@@ -993,247 +1022,242 @@ Must complete **96 credit hours** → Capstone Design 1 → Capstone Design 2
 - Always consult with academic advisor before registration
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-DATA SCIENCE & ARTIFICIAL INTELLIGENCE (120 Credits)
+COMPUTING AND SYSTEMS PROGRAMS (Sample: Computer System Engineering - 132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **YEAR 1 - FALL:**
-- ENL101 (English for Academic Studies)
+- EN1101 (English for Academic Studies)
 - MAT101 (Calculus I)
-- PHY101 (Physics I)
-- GEN150 (Professionalism and Ethics)
-- HST101 (Islamic Culture and Values)
+- PHY101 (Physics I) + PHY105 (Lab)
+- MAT110 (Discrete Mathematics)
+- COS100 (Computer & Information Systems)
+- Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
-- PHY105 (Physics Lab I)
 - MAT102 (Calculus II)
-- BIO101/CHM101 (Biology I/Chemistry I)
-- Art/Humanities Elective 1
+- COS130 (Computational Thinking & Programming) + COS131 (Lab)
+- CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
+- GEN150 (Professionalism & Ethics)
 
 **YEAR 2 - FALL:**
-- ENL201 (Writing and Research)
-- MAT120 (Discrete Mathematics)
+- ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
-- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
-- CCS230 (Data Structures) + CCS231 (Lab)
+- MAT221 (Number Theory)
+- COS230 (Object-Oriented Design & Programming) + COS231 (Lab)
+- COS209 (Digital Logic & Design)
+- MAT240 (Differential Equations)
 
 **YEAR 2 - SPRING:**
-- ENG304 (Probability and Statistics)
-- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
-- Global Citizen Elective
-- DAI230 (Mathematics for Data Science & AI)
-- CC342 (IT Infrastructure)
+- ENG304 (Engineering Probability & Statistics)
+- ENG308 (Numerical Methods)
+- CCS230 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS241 (Fundamentals of Computer Networks)
+- Innovation & Creativity Elective
+- Arts & Humanities Elective II
 
 **YEAR 3 - FALL:**
-- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
-- DAI250 (Fundamentals of Data Science & AI) + DAI251 (Lab)
-- CCS330 (Web Engineering) + CCS331 (Lab)
-- DAI310 (Machine Learning) + DAI311 (Lab)
-- Innovation & Creativity Elective
+- HST101 (Islamic Culture & Values)
+- PHY102 (Physics II) + PHY107 (Lab)
+- CME239 (Introduction to Computer System Engineering)
+- CCS270 (Data Structures & Algorithms) + CCS271 (Lab)
 
 **YEAR 3 - SPRING:**
-- DAI330 (Data Warehousing and Data Mining) + DAI331 (Lab)
-- DAI351 (Advanced Machine Learning) + DAI352 (Lab)
-- DAI421 (Data Analytics and Visualization)
-- DAI374 (Data Ethics, Governance, and Laws)
-- Art/Humanities Elective 2
-
-**YEAR 4 - FALL:**
-- DAI430 (Big Data Systems) + DAI431 (Lab)
-- DAI440 (Distributed Computing)
-- Program Elective 1
-- General Elective 1
-- DAI490 (Capstone Design 1)
-
-**YEAR 4 - SPRING:**
-- DAI491 (Capstone Design 2)
-- Program Elective 2
-- General Elective 2
-- Free Elective
-- DAI480 (Internship) - Optional
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-SOFTWARE ENGINEERING (132 Credits)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 1 - FALL:**
-- ENL101 (English for Academic Studies)
-- MAT101 (Calculus I)
-- PHY101 (Physics I)
-- GEN150 (Professionalism and Ethics)
-- HST101 (Islamic Culture and Values)
-
-**YEAR 1 - SPRING:**
-- ENL102 (English Composition)
-- PHY105 (Physics Lab I)
-- MAT102 (Calculus II)
-- BIO101/CHM101 (Biology I/Chemistry I)
-- MAT120 (Discrete Mathematics)
-
-**YEAR 2 - FALL:**
-- ENL201 (Writing and Research)
-- MAT202 (Linear Algebra)
-- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
-- ENG304 (Probability and Statistics)
-- Art/Humanities Elective 1
-
-**YEAR 2 - SPRING:**
-- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
-- Art/Humanities Elective 2
-- General Elective 1
-- General Elective 2
-
-**YEAR 3 - FALL:**
-- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
-- CCS230 (Data Structures) + CCS231 (Lab)
-- SWE301 (Software Process and Methodologies)
-- SWE305 (Software Requirements Engineering) + SWE306 (Lab)
-- SWE310 (Human-Computer Interaction) + SWE311 (Lab)
-- SWE345 (Software Modelling and Analysis)
 - Global Citizen Elective
-
-**YEAR 3 - SPRING:**
-- CCS320 (Operating Systems)
-- CCS330 (Web Engineering) + CCS331 (Lab)
-- SWE340 (Software Design and Architecture) + SWE341 (Lab)
-- SWE420 (Software Construction and Evolution) + SWE421 (Lab)
-- SWE430 (Software Testing and Quality Assurance) + SWE431 (Lab)
-- Innovation & Creativity Elective
+- CCS320 (Fundamentals of Operating Systems)
+- CME360 (Network and System Security)
+- CME310 (Computer Architecture and Organization) + CME311 (Lab)
+- ENG208 (Circuit and Electronics)
 
 **YEAR 4 - FALL:**
-- SWE440 (Software Security and Analysis)
+- CME410 (Programming for Computer Engineering) + CME411 (Lab)
+- CME402 (Embedded and Microprocessor Systems) + CME421 (Lab)
+- CME490 (Capstone Design I)
 - Program Elective 1
-- Free Elective 1
-- SWE490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
-- SWE491 (Capstone Design 2)
+- CME341 (Systems and Signal Processing)
 - Program Elective 2
-- Free Elective 2
-- SWE480 (Internship) - Optional
+- Program Elective 3
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-CYBERSECURITY ENGINEERING (132 Credits)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-
-**YEAR 1 - FALL:**
-- ENL101 (English for Academic Studies)
-- MAT101 (Calculus I)
-- PHY101 (Physics I)
-- GEN150 (Professionalism and Ethics)
-- HST101 (Islamic Culture and Values)
-
-**YEAR 1 - SPRING:**
-- ENL102 (English Composition)
-- PHY105 (Physics Lab I)
-- MAT102 (Calculus II)
-- BIO101/CHM101 (Biology I/Chemistry I)
-- MAT120 (Discrete Mathematics)
-
-**YEAR 2 - FALL:**
-- ENL201 (Writing and Research)
-- MAT202 (Linear Algebra)
-- CCS120 (Computational Thinking & Programming) + CCS121 (Lab)
-- CCS241 (Computer Networks)
-- Art/Humanities Elective 1
-
-**YEAR 2 - SPRING:**
-- ENG304 (Probability and Statistics)
-- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
-- CCS241 (Computer Networks)
-- CSE210 (Fundamentals of Cyber Security Engineering)
-- Art/Humanities Elective 2
-
-
-**YEAR 3 - FALL:**
-- CCS230 (Data Structures) + CCS231 (Lab)
-- CSE310 (Cryptography and Data Security) + CSE311 (Lab)
-- CSE325 (Cybersecurity Risk Management) + CSE326 (Lab)
-- CSE341 (Network Security)
-- Global Citizen Elective
-
-**YEAR 3 - SPRING:**
-- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
-- CCS320 (Operating Systems)
-- CSE360 (Ethical Hacking and Cyber Laws)
-- CSE410 (Digital Forensics) + CSE411 (Lab)
-- CSE420 (Software Security) + CSE421 (Lab)
-- Innovation & Creativity Elective
-
-
-**YEAR 4 - FALL:**
-- CSE430 (Web Security) + CSE431 (Lab)
-- Program Elective 1
-- General Elective 1
-- Free Elective 1
-- CSE490 (Capstone Design 1)
-
-**YEAR 4 - SPRING:**
-- CSE491 (Capstone Design 2)
-- Program Elective 2
-- General Elective 2
-- Free Elective 2
-- CSE480 (Internship) - Optional
-
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-COMPUTER SYSTEMS ENGINEERING (132 Credits)
+COMPUTING AND SYSTEMS PROGRAMS (Sample: Cyber Security Engineering - 132 Credits)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
 **YEAR 1 - FALL:**
 - ENL101 (English for Academic Studies)
 - MAT101 (Calculus I)
 - PHY101 (Physics I) + PHY105 (Lab)
-- GEN150 (Professionalism and Ethics)
-- HST101 (Islamic Culture and Values)
+- MAT129 (Discrete Mathematics)
+- CS139 (Computers & Information Systems)
+- Arts & Humanities Elective I
 
 **YEAR 1 - SPRING:**
 - ENL102 (English Composition)
 - MAT102 (Calculus II)
-- PHY102 (Physics II) + PHY107 (Lab)
-- CHM101 (Chemistry I) + CHM105 (Lab)
-- MAT120 (Discrete Mathematics)
+- CS229 (Computational Thinking & Programming) + CS231 (Lab)
+- CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
+- GEN104 (Professionalism & Ethics)
 
 **YEAR 2 - FALL:**
-- ENL201 (Writing and Research)
-- MAT201 (Calculus III)
+- ENL201 (Writing & Research)
 - MAT202 (Linear Algebra)
-- CCS120 (Computational Thinking & Programming)) + CCS121 (Lab)
-- CCS200 (Digital Logic Design)
+- MAT221 (Number Theory)
+- CCS228 (Object-Oriented Design & Programming) + CCS231 (Lab)
+- CCS209 (Digital Logic & Design)
+- MAT240 (Differential Equations)
 
 **YEAR 2 - SPRING:**
-- MAT240 (Differential Equations)
-- CCS220 (Object Oriented Design & Programming) + CCS221 (Lab)
-- ENG304 (Probability and Statistics)
-- ENG205 (Electrical Circuits) + ENG206 (Lab)
-- Art/Humanities Elective 1
+- ENG304 (Engineering Probability & Statistics)
+- ENG308 (Numerical Methods)
+- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS241 (Fundamentals of Computer Networks)
+- Innovation & Creativity Elective
+- Arts & Humanities Elective II
 
 **YEAR 3 - FALL:**
-- CCS230 (Data Structures) + CCS231 (Lab)
-- CCS241 (Computer Networks)
-- CCS270 (Fundamental Of Database Systems) + CCS271 (Lab)
-- ENG207 (Electronics) + ENG208 (Lab)
-- CME220 (Introduction to Computer Systems Engineering)
+- HST101 (Islamic Culture & Values)
+- CSE210 (Fundamentals of Cyber Security Engineering)
+- CCS270 (Data Structures & Algorithms) + CCS271 (Lab)
+- CCS330 (Web Engineering) + CCS331 (Lab)
+- CSE341 (Network Security)
 
 **YEAR 3 - SPRING:**
-- ENG308 (Engineering Numerical Methods)
-- ENG209 (Digital Systems) + ENG210 (Lab)
-- CCS320 (Operating Systems)
-- CME310 (Computer Architecture and Organization) + CME311 (Lab)
 - Global Citizen Elective
+- CCS320 (Fundamentals of Operating Systems)
+- CSE310 (Cryptography & Data Security) + CSE311 (Lab)
+- CSE325 (Cybersecurity Risk Management) + CSE326 (Lab)
+- CSE360 (Ethical Hacking & Cyber Laws)
 
 **YEAR 4 - FALL:**
-- CME341 (Systems and Signal Processing)
-- CME360 (Network and System Security)
-- CME420 (Embedded and Microprocessor Systems) + CME421 (Lab)
+- CSE410 (Digital Forensics) + CSE411 (Lab)
+- CSE430 (Web Security) + CSE431 (Lab)
+- CSE490 (Capstone Design I)
 - Program Elective 1
-- CME490 (Capstone Design 1)
 
 **YEAR 4 - SPRING:**
-- CME410 (Programming for Computer Engineering) + CME411 (Lab)
-- CME430 (Digital Systems Design) + CME431 (Lab)
-- CME491 (Capstone Design 2)
+- CSE420 (Software Security) + CSE421 (Lab)
+- CSE491 (Capstone Design 2)
 - Program Elective 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPUTING AND SYSTEMS PROGRAMS (Sample: Software Engineering - 132 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- EXL101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I) + PHY105 (Lab)
+- MAT120 (Discrete Mathematics)
+- SW123 (Computers & Information Systems)
+- Arts & Humanities Elective I
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- MAT102 (Calculus II)
+- CCS130 (Computational Thinking & Programming) + CCS131 (Lab)
+- CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
+- GEN150 (Professionalism & Ethics)
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing & Research)
+- MAT202 (Linear Algebra)
+- MAT221 (Number Theory)
+- CCS230 (Object-Oriented Design & Programming) + CCS231 (Lab)
+- CCS209 (Digital Logic & Design)
+- MAT210 (Differential Equations)
+
+**YEAR 2 - SPRING:**
+- ENG304 (Engineering Probability & Statistics)
+- ENG308 (Numerical Methods)
+- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- CCS241 (Fundamentals of Computer Networks)
 - Innovation & Creativity Elective
+- Arts & Humanities Elective II
+
+**YEAR 3 - FALL:**
+- HST101 (Islamic Culture & Values)
+- SWE301 (Software Process and Methodologies)
+- CCS270 (Data Structures & Algorithms) + CCS271 (Lab)
+- SWE305 (Software Requirements Engineering) + SWE306 (Lab)
+- Global Citizen Elective
+
+**YEAR 3 - SPRING:**
+- SWE345 (Software Modeling and Analysis)
+- CCS320 (Fundamentals of Operating Systems)
+- CCS330 (Web Engineering) + CCS331 (Lab)
+- SWE340 (Software Design and Architecture) + SWE341 (Lab)
+- SWE310 (Human-Computer Interaction) + SWE311 (Lab)
+
+**YEAR 4 - FALL:**
+- SWE405 (Software Testing and Quality Assurance) + SWE401 (Lab)
+- SWE420 (Software Construction and Evolution) + SWE421 (Lab)
+- SWE490 (Capstone Design I)
+- Program Elective 1
+
+**YEAR 4 - SPRING:**
+- SWE440 (Software Security Analysis)
+- SWE491 (Capstone Design 2)
+- Program Elective 2
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+COMPUTING AND SYSTEMS PROGRAMS (Sample: Data Science and AI - 120 Credits)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+**YEAR 1 - FALL:**
+- EN1101 (English for Academic Studies)
+- MAT101 (Calculus I)
+- PHY101 (Physics I) + PHY105 (Lab)
+- MAT129 (Discrete Mathematics)
+- CS139 (Computers & Information Systems)
+- Arts & Humanities Elective I
+
+**YEAR 1 - SPRING:**
+- ENL102 (English Composition)
+- CHM101/BIO101 (Chemistry I or Biology I) + CHM105/BIO105 (Lab)
+- CS130 (Computational Thinking & Programming) + CS131 (Lab)
+- Arts & Humanities Elective II
+- ICT104
+
+**YEAR 2 - FALL:**
+- ENL201 (Writing & Research)
+- MAT202 (Linear Algebra)
+- DAI230 (Mathematics for Data Science & AI)
+- CS220 (Object-Oriented Design & Programming) + CS221 (Lab)
+- GEN130 (Professionalism & Ethics)
+
+**YEAR 2 - SPRING:**
+- HST101 (Islamic Culture & Values)
+- ENG304 (Engineering Probability & Statistics)
+- CCS232 (Fundamentals of Database Systems) + CCS231 (Lab)
+- Innovation & Creativity Elective
+- Arts & Humanities Elective III
+
+**YEAR 3 - FALL:**
+- Global Citizen Elective
+- ENG308 (Numerical Methods)
+- CCS270 (Data Structures & Algorithms) + CCS271 (Lab)
+- DAI280 (Fundamentals of Data Science & AI) + DAI281 (Lab)
+- CCS242 (IT Infrastructure)
+
+**YEAR 3 - SPRING:**
+- DAI340 (Distributed Computing)
+- DAI330 (Data Warehousing and Data Mining) + DAI331 (Lab)
+- DAI310 (Machine Learning) + DAI311 (Lab)
+- DAI321 (Data Analytics and Visualization)
+
+**YEAR 4 - FALL:**
+- DAI451 (Advanced Machine Learning) + DAI452 (Lab)
+- CCS330 (Web Engineering) + CCS331 (Lab)
+- DAI490 (Capstone Design 1)
+- Program Elective 1
+- DAI374 (Data Ethics, Governance, and Laws)
+
+**YEAR 4 - SPRING:**
+- DAI491 (Capstone Design 2)
+- DAI430 (Big Data Systems) + DAI431 (Lab)
+- Program Elective 2
+- Program Elective 3
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 DIGITAL MARKETING (120 Credits)
@@ -1415,65 +1439,389 @@ SUPPLY CHAIN & LOGISTICS MANAGEMENT (120 Credits)
 - Program Elective 3
 - Free Elective
 
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-ENGINEERING PROGRAMS (132 Credits - Sample: Biomedical Engineering)
-━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Biomedical and Instruments Engineering)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
 
-**YEAR 1 - FALL:**
-- ENL101 (English for Academic Studies)
-- MAT101 (Calculus I)
-- PHY101 (Physics I) + PHY105 (Lab)
-- GEN150 (Professionalism and Ethics)
-- HST101 (Islamic Culture and Values)
+**YEAR 1 - FALL:**  
+- EXL101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CHM101 (Chemistry I) + CHM105 (Lab)  
+- GEN150 (Professionalism and Ethics)  
 
-**YEAR 1 - SPRING:**
-- ENL102 (English Composition)
-- MAT102 (Calculus II)
-- PHY102 (Physics II) + PHY107 (Lab)
-- CHM101 (Chemistry I) + CHM105 (Lab)
-- Art/Humanities Elective 1
+**YEAR 1 - SPRING:**  
+- EXL102 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
 
-**YEAR 2 - FALL:**
-- ENL201 (Writing and Research)
-- MAT201 (Calculus III)
-- MAT202 (Linear Algebra)
-- ENG205 (Electrical Circuits) + ENG206 (Lab)
-- BIE101 (Human Biology for Engineers)
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG208 (Electrical and Electronic Circuits)  
+- ENG204 (Engineering Mechanics)  
+- BIE101 (Human Biology for Engineers)  
+- HST101 (Islamic Culture and Values)  
 
-**YEAR 2 - SPRING:**
-- MAT240 (Differential Equations)
-- ENG207 (Electronics) + ENG208 (Lab)
-- ENG209 (Digital Systems) + ENG210 (Lab)
-- BIE201 (Biochemistry) + BIE202 (Lab)
-- Global Citizen Elective
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ENG304 (Engineering Probability & Statistics)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- BIE203 (Human Anatomy and Physiology)  
+- BIE201 (Biochemistry) + BIE202 (Lab)  
+- ENL201 (Writing and Research)  
 
-**YEAR 3 - FALL:**
-- ENG304 (Probability and Statistics)
-- ENG308 (Engineering Numerical Methods)
-- BIE203 (Human Anatomy and Physiology)
-- BIE301 (Biofluids and Biomedical Transport Phenomena)
-- BIE302 (Biomaterials) + BIE303 (Lab)
+**YEAR 3 - FALL:**  
+- ENG208 (Introduction to Energy and Sustainability)  
+- ENG308 (Numerical Methods)  
+- BIE350 (Signal Measurement Principles and Control Systems) + BIE351 (Lab)  
+- BIE301 (Bio/Instruments and Biomedical Transport Phenomena)  
+- Arts and Humanities Elective  
 
-**YEAR 3 - SPRING:**
-- BIE304 (Biomechanics)
-- BIE350 (Signal Measurement Principles and Control Systems) + BIE351 (Lab)
-- BIE352 (Instrumentation, Measurements, and Data Acquisition) + BIE353 (Lab)
-- BIE371 (Medical Imaging Systems)
-- Innovation & Creativity Elective
+**YEAR 3 - SPRING:**  
+- BIE302 (Biomaterials) + BIE303 (Lab)  
+- BIE352 (Instrumentation, Measurements, and Data Acquisition) + BIE353 (Lab)  
+- BIE304 (Biomechanics)  
+- Global Citizen Elective  
+- Innovation and Creativity Elective  
 
-**YEAR 4 - FALL:**
-- BIE451 (Instrumentation Design) + BIE452 (Lab)
-- BIE401 (Biomedical Molecular and Nano Devices)
-- Program Elective 1
-- General Elective 1
-- BIE490 (Capstone Design 1)
+**YEAR 4 - FALL:**  
+- ENG309 (Engineering Project Management and Economics)  
+- BIE371 (Medical Imaging Systems)  
+- BIE451 (Instrumentation Design) + BIE452 (Lab)  
+- BIE509 (Capstone Design I)  
+- Arts and Humanities Elective  
 
-**YEAR 4 - SPRING:**
-- Program Elective 2
-- Program Elective 3
-- General Elective 2
-- Free Elective
-- BIE491 (Capstone Design 2)
+**YEAR 4 - SPRING:**  
+- BIE401 (Biomedical Molecular and Nano Devices)  
+- BIE491 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Bioresources and Agricultural Engineering)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+**YEAR 1 - FALL:**  
+- ENL101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CEM101 (Chemistry I) + CEM105 (Lab)  
+- GEN150 (Professionalism and Ethics)  
+
+**YEAR 1 - SPRING:**  
+- ENL102 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
+
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG205 (Electrical and Electronic Circuits)  
+- ENG209 (Statics and Strength of Materials)  
+- HST101 (Islamic Culture and Values)  
+- Global Citizen Elective  
+
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ENG308 (Numerical Methods)  
+- ENG304 (Engineering Probability & Statistics)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- ESE211 (Industrial Electronics)  
+- ENL201 (Writing and Research)  
+
+**YEAR 3 - FALL:**  
+- BIO101 (Biology)  
+- BAE101 (Introduction to Biosources and Agricultural Engineering) + BAE102 (Lab)  
+- BAE230 (Mechanical Systems in Agriculture I) + BAE231 (Lab)  
+- Innovation and Creativity Elective  
+
+**YEAR 3 - SPRING:**  
+- BAE320 (Agricultural Structures Planning)  
+- ENG208 (Introduction to Energy and Sustainability)  
+- ENG309 (Engineering Project Management and Economics)  
+- BAE330 (Mechanical Systems in Agriculture II) + BAE331 (Lab)  
+- Arts and Humanities Elective  
+
+**YEAR 4 - FALL:**  
+- BAE450 (Agricultural Robotics and Automation) + BAE451 (Lab)  
+- BAE360 (Bioresource Engineering)  
+- BAE340 (Microbiology and Food Safety) + BAE341 (Lab)  
+- BAE491 (Capstone Design 1)  
+
+**YEAR 4 - SPRING:**  
+- BAE310 (Remote Sensing Data and Methods)  
+- BAE430 (Mechanical Systems in Agriculture III)  
+- BAE492 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Energy Systems Engineering)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+**YEAR 1 - FALL:**  
+- ENL101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CEM101 (Chemistry I) + CIBM105 (Lab)  
+- GEN150 (Professionalism and Ethics)  
+
+**YEAR 1 - SPRING:**  
+- ENL102 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
+
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG205 (Electrical and Electronic Circuits)  
+- ENG209 (Statics and Strength of Materials)  
+- HST101 (Islamic Culture and Values)  
+- Global Citizen Elective  
+
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ENG308 (Numerical Methods)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- ESE301 (Thermodynamics)  
+- ESE211 (Industrial Electronics)  
+- ENL201 (Writing and Research)  
+
+**YEAR 3 - FALL:**  
+- ENG304 (Engineering Probability & Statistics)  
+- RME304 (Instrumentation, Sensors, and Actuators)  
+- ESE312 (Electrical Machines and Drives)  
+- ESE302 (Thermo-fluid Systems)  
+- Innovation and Creativity Elective  
+- Arts and Humanities Elective  
+
+**YEAR 3 - SPRING:**  
+- ENG208 (Introduction to Energy and Sustainability)  
+- ENG309 (Engineering Project Management and Economics)  
+- ESE315 (Electrical Machines and Drives Lab)  
+- ESE314 (Power Systems Analysis)  
+- ESE305 (Thermal Systems Lab)  
+- Arts and Humanities Elective  
+
+**YEAR 4 - FALL:**  
+- ESE321 (Renewable Energy Conversion)  
+- RME352 (Digital Systems Design & Microcontrollers) + RME353 (Lab)  
+- ESE315 (Power Systems Lab)  
+- ESE402 (Energy Efficient Buildings)  
+- ESE401 (Power Plants)  
+- ESE490 (Capstone Design 1)  
+
+**YEAR 4 - SPRING:**  
+- ESE425 (Renewable Energy Conversion Lab)  
+- RME360 (Control Systems Analysis & Design)  
+- ESE491 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Environmental Engineering and Sustainability)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+**YEAR 1 - FALL:**  
+- ENL101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CEM101 (Chemistry I) + CEM103 (Lab)  
+- GEN150 (Professionalism and Ethics)  
+
+**YEAR 1 - SPRING:**  
+- ENL102 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
+
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG205 (Electrical and Electronic Circuits)  
+- ENG209 (Statics and Strength of Materials)  
+- HST101 (Islamic Culture and Values)  
+- Global Citizen Elective  
+
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ENG308 (Numerical Methods)  
+- ENG304 (Engineering Probability & Statistics)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- ENG208 (Introduction to Energy and Sustainability)  
+- ENL201 (Writing and Research)  
+
+**YEAR 3 - FALL:**  
+- BIO101 (Biology)  
+- EES301 (Environmental Chemistry)  
+- ESE301 (Thermodynamics)  
+- EES303 (Environmental Management Systems)  
+- Innovation and Creativity Elective  
+- Arts and Humanities Elective  
+
+**YEAR 3 - SPRING:**  
+- EES303 (Sustainability Fundamentals)  
+- EES306 (Air Water Pollution Control Waste)  
+- ESE302 (Thermo-fluid Systems)  
+- EES308 (Soil, Solids, Hazardous Waste Control)  
+- ENG309 (Engineering Project Management and Economics)  
+- Arts and Humanities Elective  
+
+**YEAR 4 - FALL:**  
+- EES508 (Waste Management Conversion Technology)  
+- EES504 (Water Supply and Sewerage Engineering)  
+- EES505 (Water Supply and Sewerage Engineering Lab)  
+- ESE305 (Thermal Systems Lab)  
+- EES507 (Environmental Impact Assessment Practices)  
+- EES490 (Capstone Design 1)  
+
+**YEAR 4 - SPRING:**  
+- EES402 (Sustainable Building Design)  
+- EES491 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Materials Science and Engineering)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+**YEAR 1 - FALL:**  
+- EN1101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CID4101 (Chemistry I) + CIB4106 (Lab)  
+- GEN150 (Professionalism and Ethics)  
+
+**YEAR 1 - SPRING:**  
+- EN1202 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
+
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG208 (Electrical and Electronic Circuits)  
+- ENG209 (Statics and Strength of Materials)  
+- HST101 (Islamic Culture and Values)  
+- Global Citizen Elective  
+
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ENG308 (Numerical Methods)  
+- ENG304 (Engineering Probability & Statistics)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- ENG208 (Introduction to Energy and Sustainability)  
+- EN201 (Writing and Research)  
+
+**YEAR 3 - FALL:**  
+- MSE301 (Thermodynamics of Materials)  
+- MSE302 (Materials Characterization)  
+- MSE308 (Materials Characterization Laboratory I)  
+- MSE211 (Introduction to Materials Science & Engineering)  
+- Innovation and Creativity Elective  
+- Arts and Humanities Elective  
+
+**YEAR 3 - SPRING:**  
+- MSE305 (Electronic Properties of Materials)  
+- MSE319 (Electronic Device Fabrication Lab)  
+- MSE303 (Structure & Bonding of Solids)  
+- MSE403 (Materials Characterization Laboratory II)  
+- MSE306 (Mechanical and Thermal Properties of Materials)  
+- MSE304 (Physical Chemistry)  
+- Arts and Humanities Elective  
+
+**YEAR 4 - FALL:**  
+- MSE307 (Nanomaterials)  
+- MSE401 (Phase Diagrams & Phase Transformations)  
+- MSE309 (Materials Synthesis Laboratory)  
+- MSE400 (Diffusion and Kinetics in Materials)  
+- MSE311 (Material Properties Measurement Laboratory)  
+- MSE490 (Capstone Design 1)  
+
+**YEAR 4 - SPRING:**  
+- MSE402 (Materials for Renewable Energy & Storage Tech.)  
+- ENG309 (Engineering Project Management and Economics)  
+- MSE491 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)  
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+ENGINEERING PROGRAMS (132 Credits - Sample: Robotics and Mechatronics Engineering)  
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━  
+
+**YEAR 1 - FALL:**  
+- EN101 (English for Academic Studies)  
+- MAT101 (Calculus I)  
+- PHY101 (Physics I) + PHY105 (Lab)  
+- CHM101 (Chemistry I) + CHM105 (Lab)  
+- GEN150 (Professionalism and Ethics)  
+
+**YEAR 1 - SPRING:**  
+- EN102 (English Composition)  
+- MAT102 (Calculus II)  
+- PHY102 (Physics II) + PHY107 (Lab)  
+- MAT202 (Linear Algebra)  
+- Global Citizen Elective  
+
+**YEAR 2 - FALL:**  
+- MAT201 (Calculus III)  
+- MAT240 (Differential Equations)  
+- ENG205 (Electrical and Electronic Circuits)  
+- ENG209 (Statics and Strength of Materials)  
+- HST101 (Islamic Culture and Values)  
+- Global Citizen Elective  
+
+**YEAR 2 - SPRING:**  
+- ENG207 (Programming)  
+- ESE211 (Industrial Electronics)  
+- ENG206 (Electrical and Electronic Circuits Lab)  
+- ENG208 (Introduction to Energy and Sustainability)  
+- Innovation and Creativity Elective  
+- EN201 (Writing and Research)  
+
+**YEAR 3 - FALL:**  
+- ENG308 (Numerical Methods)  
+- RME352 (Digital Systems Design & Microcontrollers) + RME353 (Lab)  
+- ENG304 (Engineering Probability & Statistics)  
+- MSE211 (Introduction to Materials Science & Engineering)  
+- Arts and Humanities Elective  
+
+**YEAR 3 - SPRING:**  
+- ENG309 (Engineering Project Management and Economics)  
+- RME360 (Control Systems Analysis & Design) + RME361 (Lab)  
+- RME301 (Introduction to Mechatronics and Robotics) + RME302 (Lab)  
+- RME304 (Instrumentation, Sensors, and Actuators)  
+- Arts and Humanities Elective  
+
+**YEAR 4 - FALL:**  
+- RME430 (Digital Signal Processing) + RME431 (Lab)  
+- RME460 (Design of Machine Elements)  
+- RME403 (Computer-Integrated Manufacturing Systems)  
+- RME363 (Engineering Mechanisms for Automation)  
+- RME490 (Capstone Design 1)  
+
+**YEAR 4 - SPRING:**  
+- RME401 (Robotics, Dynamics & Controls) + RME402 (Lab)  
+- RME491 (Capstone Design 2)  
+- Program Elective 1 (Table 13)  
+- Program Elective 2 (Table 13)  
+- Program Elective 3 (Table 13)
+
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 SUMMER COURSE RECOMMENDATIONS
