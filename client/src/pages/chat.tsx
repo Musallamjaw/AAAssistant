@@ -197,7 +197,7 @@ export default function Chat() {
 
   const suggestions = [
     { icon: Calendar, text: "Academic Calender", color: "text-yellow-500" },
-    { icon: FileText, text: "Transfer Regulation", color: "text-blue-500" },
+    { icon: FileText, text: "Internal Transfer Regulation", color: "text-blue-500" },
     { icon: AlertTriangle, text: "Warning Policy", color: "text-purple-500" },
   ];
 
