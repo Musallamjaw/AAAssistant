@@ -242,11 +242,11 @@ COURSE REPETITION POLICY
 - 3rd attempt: B grade → both C- and B count (increases to 135 credits)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
-TRANSFER RULES
+INTERNAL TRANSFER RULES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🔄 **General Transfer Rules:**
-- One-time transfer allowed between colleges OR between programs
+🔄 **General Internal Transfer Rules:**
+- One-time transfer allowed between colleges OR between programs within AASU
 - Must complete **30-45 credit hours** (can consider up to **79** with approval)
 - Minimum GPA: **2.33 (C)** for Engineering/Computing transfers
 - Required courses must have grade **C** or higher
@@ -305,6 +305,86 @@ TRANSFER RULES
 
 **Computing:**
 - INF120 (Computers and Information Systems)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXTERNAL TRANSFER RULES (AY 2025/2026)
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+🔄 **Core Concept:**
+External transfer is the process of transferring academic credits from another accredited university to continue studies at AASU.
+
+👥 **Eligibility - Who Can Transfer:**
+
+**Nationality Requirements:**
+- **Kuwaiti Students:** All Kuwaiti students who meet general transfer conditions are eligible
+- **Non-Kuwaiti Students:** Transfer RESTRICTED to specific categories:
+  • Children and spouses of academic/teaching staff, language trainers, and university employees
+  • Children and spouses of diplomats
+- **Medical Colleges:** Transfer into **Human Medicine, Dentistry, and Pharmacy is NOT permitted**
+
+**Academic History Requirements:**
+- Must NOT already hold a bachelor's degree
+- Must be transferring from an accredited **4-year university** with similar structure to AASU
+- Previous university/program must be accredited by Kuwait's **National Authority for Academic Accreditation and Education Quality Assurance**
+- Students dismissed from any university for any reason are **NOT eligible**
+- Study gap must not exceed **one academic year** at time of application
+
+**High School Track Restriction:**
+- **Literary Track** graduates can ONLY transfer to College of Business and Entrepreneurship for:
+  • Business Entrepreneurship and Innovation
+  • Digital Marketing
+
+📚 **Academic Requirements:**
+
+**Minimum Credits & GPA:**
+- Must have successfully passed at least **45 credit hours** (or equivalent of two academic years in 4-year system)
+- Minimum cumulative GPA of at least:
+  • **B (2.67 on 4.0 scale)** OR
+  • **80%** OR
+  • **Very Good (جيد جدا)**
+  • *Note: Some colleges may require higher GPA*
+
+**Credit System Conversion:**
+- Semester System (1 credit) = **1.25 units** in Trimester System
+- Semester System (1 credit) = **1.5 units** in Quarter System
+
+📋 **Course Equivalency & Credit Transfer:**
+
+**Process:**
+- Student must apply for course equivalency **immediately after acceptance**
+- Process must be completed during **first semester** at AASU
+
+**Minimum Grade for Equivalency:**
+- Minimum grade: **C (2.0/4.0)**, **Good (73%)**, or **Pass (P)**
+- Credit hours must match
+- *Note: Some colleges may require higher grade*
+
+**Impact on GPA:**
+- **CRITICAL RULE:** Grades from transferred/equivalent courses are **NOT included** in AASU cumulative GPA
+- They only fulfill credit requirements
+
+**Language Test Exemption:**
+- **IELTS** or **TOEFL (iBT/PBT)** scores can be submitted for exemption from English preparatory course if presented within specified deadline
+
+📝 **Application & Required Documents:**
+
+**Required Documents:**
+- Original or certified official transcript
+- Original high school certificate or true copy
+- Equivalency certificate for high school from Kuwaiti Ministry of Education
+- Original valid Civil ID and copy
+- Copy of passport
+- Additional documents for applicant's admission category (for non-Kuwaitis)
+- One recent personal photo
+- Proof of payment for non-refundable **10 KD application fee**
+
+**Key Administrative Policies:**
+- **Seat Availability:** Transfer conditional on **vacant seats** in desired program
+- **Enrollment:** Transfer offer conditional on registering for courses in semester of acceptance. Failure to register leads to cancellation
+- **Postponement:** One-time postponement to following semester may be requested
+- **No Category Change:** After acceptance, admission category cannot be changed
+- **Document Verification:** AASU reserves right to **cancel transfer** if documents are incorrect or incomplete
+- **No Guarantee:** Meeting all transfer conditions does **NOT guarantee** acceptance
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 PROGRAM STRUCTURE & CREDIT REQUIREMENTS
