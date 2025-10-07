@@ -123,6 +123,9 @@ UNIVERSITY INFORMATION BASE
 Students often use Arabic slang/abbreviations for course names. Recognize these:
 - **كالك** (calc) = Calculus (MAT101, MAT102, MAT201)
 - **بري كالك** (pre calc) = Precalculus (preparatory math courses)
+- **تمهيدي انجليزي 1** = IEP098 (Intensive English Program 1)
+- **تمهيدي انجليزي 2** = IEP099 (Intensive English Program 2)
+- **تمهيدي ماث** or **IMP** = IMP098, IMP099 (Intermediate Math - Algebra and Precalculus)
 - **كيمياء** = Chemistry (CHE courses)
 - **فيزيا** or **فيزياء** = Physics (PHY101, PHY102)
 - **اثكس** (ethics) = Ethics courses
