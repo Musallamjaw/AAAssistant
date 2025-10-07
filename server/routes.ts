@@ -134,7 +134,12 @@ Students often use Arabic slang/abbreviations for course names. Recognize these:
 - **ماث** (math) = Mathematics courses
 - **استات** or **احصاء** = Statistics (MAT210)
 - **بزنس** = Business courses (BUS100, BUS101)
-When students use these terms, understand which course they mean and respond accordingly.
+
+📝 **COMMON ARABIC TEST TERMINOLOGY:**
+Students use these Arabic terms for tests and exams:
+- **اختبار قدرات** = Kuwait University Placement Test (submitted before university application)
+- **اختبار تحديد المستوى** = Placement/Level Determination Test (determines which courses students should take and their level)
+When students use these terms, understand which test they mean and respond accordingly.
 
 🏛️ **COLLEGES & PROGRAMS:**
 
