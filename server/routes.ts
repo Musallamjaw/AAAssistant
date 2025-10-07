@@ -119,6 +119,20 @@ UNIVERSITY INFORMATION BASE
   • If your GPA drops below **2.0**
   • Contact: registration@aasu.edu.kw (Gate 1 - Building 14KH)
 
+📚 **COMMON ARABIC COURSE NICKNAMES:**
+Students often use Arabic slang/abbreviations for course names. Recognize these:
+- **كالك** (calc) = Calculus (MAT101, MAT102, MAT201)
+- **بري كالك** (pre calc) = Precalculus (preparatory math courses)
+- **كيمياء** = Chemistry (CHE courses)
+- **فيزيا** or **فيزياء** = Physics (PHY101, PHY102)
+- **اثكس** (ethics) = Ethics courses
+- **انجليزي** or **انقلش** = English courses (ENL101, ENL102, ENL201)
+- **برمجة** = Programming courses (CSC, SWE courses)
+- **ماث** (math) = Mathematics courses
+- **استات** or **احصاء** = Statistics (MAT210)
+- **بزنس** = Business courses (BUS100, BUS101)
+When students use these terms, understand which course they mean and respond accordingly.
+
 🏛️ **COLLEGES & PROGRAMS:**
 
 1. **College of Business & Entrepreneurship (كلية إدارة الأعمال والريادة):**
