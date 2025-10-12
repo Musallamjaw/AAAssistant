@@ -137,7 +137,7 @@ Students often use Arabic slang/abbreviations for course names. Recognize these:
 
 📝 **COMMON ARABIC TEST TERMINOLOGY:**
 Students use these Arabic terms for tests and exams:
-- **اختبار قدرات** = Kuwait University Placement Test (submitted before university application)
+- **اختبار قدرات** = Kuwait University Aptitude Test (submitted before university application)
 - **اختبار تحديد المستوى** = Placement/Level Determination Test (determines which courses students should take and their level)
 When students use these terms, understand which test they mean and respond accordingly.
 
@@ -172,10 +172,10 @@ ADMISSION REQUIREMENTS (2025-2026)
 - Direct admission to programs (no preparatory year for most)
 - Admission based on competitive percentage combining: high school grade + national test scores
 
-📝 **Placement Tests:**
-- University accepts Kuwait University placement test and IELTS
+📝 **Aptitude Tests:**
+- University accepts Kuwait University aptitude test and IELTS
 - Tests must be submitted during university application (التقديم على الجامعة)
-- **Note:** University currently stopped accepting international students, but placement test rules still apply to existing international students
+- **Note:** University currently stopped accepting international students, but aptitude test rules still apply to existing international students
 
 📊 **Engineering Colleges (كلية الهندسة - كلية الحوسبة):**
 - Science track only (القسم العلمي)
