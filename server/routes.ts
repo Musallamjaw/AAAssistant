@@ -165,11 +165,12 @@ When students use these terms, understand which test they mean and respond accor
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 ADMISSION REQUIREMENTS (2025-2026)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Reference:** Admission Regulations AY 2025-2026 (https://aasu.edu.kw/media/dmmjn2h5/admission-regulations-ay-2025-2026.pdf)
 
-✅ **General Rules:**
-- Only graduates from 2023/2024 and 2024/2025 academic years
-- Application fee: **10 KD** (non-refundable)
-- Direct admission to programs (no preparatory year for most)
+✅ **General Rules:** (Section: أولا - الشروط والقواعد العامة)
+- Only graduates from 2023/2024 and 2024/2025 academic years (Rule 1)
+- Application fee: **10 KD** (non-refundable) (Rule 18)
+- Direct admission to programs (no preparatory year for most) (Rule 3)
 - Admission based on competitive percentage combining: high school grade + national test scores
 
 📝 **Aptitude Tests:**
@@ -177,27 +178,27 @@ ADMISSION REQUIREMENTS (2025-2026)
 - Tests must be submitted during university application (التقديم على الجامعة)
 - **Note:** University currently stopped accepting international students, but aptitude test rules still apply to existing international students
 
-📊 **Engineering Colleges (كلية الهندسة - كلية الحوسبة):**
-- Science track only (القسم العلمي)
-- Minimum **80%** in secondary school
-- Competitive percentage: **65%** high school + **15%** English test + **20%** Math test
+📊 **Engineering Colleges (كلية الهندسة - كلية الحوسبة):** (Section: ثانيا - شروط إضافية)
+- Science track only (القسم العلمي) (Rule 5 from General Rules)
+- Minimum **80%** in secondary school (Engineering-specific Rule 1)
+- Competitive percentage: **65%** high school + **15%** English test + **20%** Math test (Engineering-specific Rule 2)
 
-📊 **Business College (كلية إدارة الأعمال):**
+📊 **Business College (كلية إدارة الأعمال):** (Section: ثانيا - شروط إضافية)
 - Science track: all programs
-- Arts track: only Digital Marketing and Entrepreneurship programs (not Supply Chain)
-- Minimum varies by program
+- Arts track: only Digital Marketing and Entrepreneurship programs (not Supply Chain) (Rule 6 from General Rules)
+- Minimum **80%** science track, **85%** arts track (Business-specific Rule 1)
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 COMPETITIVE PERCENTAGE BREAKDOWN
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 
-🎯 **College of Engineering & Computer Science:**
+🎯 **College of Engineering & Computer Science:** (Section: ثانيا - كلية الهندسة والطاقة وكلية هندسة الحاسوب والنظم)
 - High School Grade: **65%**
 - English Test: **15%**
 - Mathematics Test: **20%**
 - **Total: 100%**
 
-🎯 **College of Entrepreneurship:**
+🎯 **College of Entrepreneurship:** (Section: ثانيا - كلية إدارة الأعمال والريادة)
 - High School Grade: **70%**
 - English Test: **15%**
 - Mathematics Test: **15%**
@@ -240,6 +241,7 @@ DISCOUNT POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 CREDIT LOAD POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Note:** This policy is not found in the Admission Regulations document. Reference from university internal academic policies.
 
 📚 **Credit Load Limits:**
 - Academic warning students: Maximum **12 credits**
@@ -255,6 +257,7 @@ CREDIT LOAD POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 COURSE REPETITION POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Note:** This policy is not found in the Admission Regulations document. Reference from university internal academic policies.
 
 🔄 **Repetition Rules:**
 - Maximum **8** course repetitions allowed during entire study period
@@ -272,6 +275,7 @@ COURSE REPETITION POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EXAM ABSENCE & EXCUSE POLICY
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Note:** This policy is not found in the Admission Regulations document. Reference from university internal policies.
 
 📋 **Missing Midterm or Final Exams:**
 - Students **CANNOT** retake or makeup midterm/final exams
@@ -289,6 +293,7 @@ If your excuse is accepted by Student Affairs:
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INTERNAL TRANSFER RULES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Note:** This policy is not found in the Admission Regulations document. Reference from university internal policies.
 
 🔄 **General Internal Transfer Rules:**
 - One-time transfer allowed between colleges OR between programs within AASU
@@ -354,6 +359,7 @@ INTERNAL TRANSFER RULES
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 EXTERNAL TRANSFER RULES (AY 2025/2026)
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+📄 **Note:** This information is from external transfer regulations document, not the Admission Regulations for new students.
 
 🔄 **Core Concept:**
 External transfer is the process of transferring academic credits from another accredited university to continue studies at AASU.
