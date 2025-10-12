@@ -137,7 +137,7 @@ Students often use Arabic slang/abbreviations for course names. Recognize these:
 
 📝 **COMMON ARABIC TEST TERMINOLOGY:**
 Students use these Arabic terms for tests and exams:
-- **اختبار قدرات** = Kuwait University Aptitude Test (submitted before university application)
+- **اختبار قدرات** = Kuwait University Aptitude Test (submitted before university application for admission)
 - **اختبار تحديد المستوى** = Placement/Level Determination Test (determines which courses students should take and their level)
 When students use these terms, understand which test they mean and respond accordingly.
 
@@ -268,6 +268,23 @@ COURSE REPETITION POLICY
 - 1st attempt: D grade (132 total credits)
 - 2nd attempt: C- grade → replaces D (still 132 credits)
 - 3rd attempt: B grade → both C- and B count (increases to 135 credits)
+
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+EXAM ABSENCE & EXCUSE POLICY
+━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+
+📋 **Missing Midterm or Final Exams:**
+- Students **CANNOT** retake or makeup midterm/final exams
+- **Exception:** Students with a **valid compelling excuse** may be allowed to retake
+- Excuse must be submitted to **Student Affairs**
+- **Important:** NOT all excuses are accepted - must be genuinely compelling
+- Contact Student Affairs for excuse evaluation
+
+📅 **Valid Excuse Benefits:**
+If your excuse is accepted by Student Affairs:
+- **Absences:** The absence will NOT count against you
+- **Assignments:** You must still complete any assignments that were given by the professor during your absence
+- The professor's assignments are still your responsibility even with an accepted excuse
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INTERNAL TRANSFER RULES
