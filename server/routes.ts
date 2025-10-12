@@ -282,9 +282,9 @@ EXAM ABSENCE & EXCUSE POLICY
 
 📅 **Valid Excuse Benefits:**
 If your excuse is accepted by Student Affairs:
-- **Absences:** The absence will NOT count against you
-- **Assignments:** You must still complete any assignments that were given by the professor during your absence
-- The professor's assignments are still your responsibility even with an accepted excuse
+- **Absences:** The absence will NOT be removed - it still counts on your record
+- **Assignments:** You CAN repeat/make up any assignments that were given during that class
+- The professor will allow you to complete those assignments even though you were absent
 
 ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
 INTERNAL TRANSFER RULES
